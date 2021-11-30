@@ -4,7 +4,7 @@ description: AGSM CO를 선택해 주셔서 감사합니다. 고객님이 시작
 
 # AGSM CO
 
-![AGSM CO](../../.gitbook/assets/list\_02s.jpg)
+[![[AGSM CO](../../.gitbook/assets/list\_02s.jpg)](https://www.allsensing.com/product/detail.html?product_no=1089&cate_no=74&display_group=1)
 
 ## 1.Overview
 
