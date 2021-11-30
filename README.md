@@ -1,6 +1,6 @@
 # Introduction
 
-[![allsensing](.gitbook/assets/allsensing\_logo.png)](https://www.allsensing.com/)
+![allsensing](.gitbook/assets/allsensing\_logo.png)
 
 ## Welcome!
 
