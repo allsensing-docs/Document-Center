@@ -4,8 +4,6 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 # CozIR-Blink
 
-[![CozIR-Blink](../../.gitbook/assets/CozIR-Blink.jpg)](https://www.allsensing.com/product/detail.html?product_no=1339&cate_no=62&display_group=1)
-
 ## 1.Overview
 
 ### 1)제품 설명
