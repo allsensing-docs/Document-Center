@@ -21,6 +21,8 @@ Allsensing은 설립 이래 다양한 환경센서를 고객들에게 소개해 
 
 
 
+![](.gitbook/assets/IMG\_0573.png)
+
 ### GSS [![GSS](.gitbook/assets/GSS.jpg)](https://docs.allsensing.co.kr/allsensing.docs.co.kr/product-document/gss)
 
 ### EC-Sens [![EC-Sens](.gitbook/assets/EC-Sens.png)](https://docs.allsensing.co.kr/allsensing.docs.co.kr/product-document/ec-sens)
