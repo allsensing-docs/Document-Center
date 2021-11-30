@@ -13,7 +13,7 @@
   * [포름알데히드 ES4-HCHO](product-document/ec-sens/es4-hcho.md)
 * [GSS](product-document/gss/README.md)
   * [SprintIR-W](product-document/gss/sprintir-w.md)
-  * [CozIR-LP3](product-document/gss/cozir-lp3.md)
+  * [CozIR-Blink](product-document/gss/cozir-lp3.md)
 * [AGSM](product-document/agsm/README.md)
   * [AGSM CO](product-document/agsm/agsm-co.md)
   * [AGSM H2S](product-document/agsm/agsm-h2s.md)
