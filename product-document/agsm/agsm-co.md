@@ -4,7 +4,7 @@ description: AGSM CO를 선택해 주셔서 감사합니다. 고객님이 시작
 
 # AGSM CO
 
-[![AGSM CO](../../.gitbook/assets/list\_02s.jpg)](allsensing-docs/Product_V2.1)
+[![AGSM CO](../../.gitbook/assets/list\_02s.jpg)](https://allsensing.myshopify.com/products/kanaria-vol-03)
 
 ## 1.Overview
 
