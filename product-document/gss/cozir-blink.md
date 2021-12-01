@@ -24,7 +24,7 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 * IAQ, HVAC, 빌딩 자동화, 계측, 농업, MAP, 자동차, 항공우주 및 안전과 같은 애플리케이션에 쉽게 통합
 
 #### 3)Datasheet
-<https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink_DataSheet_Rev_4.21.pdf>
+[Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink_DataSheet_Rev_4.21.pdf)
 
 ## 2.Quickstart
 
