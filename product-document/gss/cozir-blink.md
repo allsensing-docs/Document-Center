@@ -4,14 +4,15 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 # CozIR-Blink
 
-![CozIR-Blink](../../.gitbook/assets/gss\_blink\_s.jpg)
+![CozIR-Blink](<../../.gitbook/assets/gss\_blink\_s (1).jpg>)
 
 ## 1.Overview
 
 #### 1)제품 설명 : CozIR-Blink 센서는 최첨단 Solid-State LED 광학기술을 이용한 초 저전력 NDIR CO₂ 센서입니다.
 
-#### 2)제품 특징
-*  최대 1% CO₂ 농도 측정
+#### 2)제품 특징   &#x20;
+
+* 최대 1% CO₂ 농도 측정
 * 솔리드 스테이트, 움직이는 부품 없음, 가열된 필라멘트 없음
 * 진동 및 충격에 강하고 가열되지 않음
 * 디지털(UART) 및 I2C 출력
@@ -24,7 +25,8 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 * IAQ, HVAC, 빌딩 자동화, 계측, 농업, MAP, 자동차, 항공우주 및 안전과 같은 애플리케이션에 쉽게 통합
 
 #### 3)Datasheet
-[Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink_DataSheet_Rev_4.21.pdf)
+
+[Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink\_DataSheet\_Rev\_4.21.pdf)
 
 ## 2.Quickstart
 
