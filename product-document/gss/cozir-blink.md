@@ -56,7 +56,7 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 #### 2)제품 구성
 
-![  그 1) Arduino Due+PCB circuit](<../../.gitbook/assets/CozIR-Blink\_bb (1).png>)
+![  그림 1) Arduino Due+PCB circuit](<../../.gitbook/assets/CozIR-Blink\_bb (1).png>)
 
 ![  그림 2)CozIR CO₂ Sensor+PCB](../../.gitbook/assets/cozir\_option.jpg) ![  그림 3)Rx, Tx In and Out Circuit](<../../.gitbook/assets/회로 그림.jpg>)
 
