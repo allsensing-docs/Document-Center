@@ -12,9 +12,7 @@ GSS는 광범위한 고체 NDIR CO₂ 가스 센서를 설계, 개발 및 제조
 
 | CozIR | SprintIR | ExplorIR |
 | ----- | -------- | -------- |
-|       |          |          |
-
-![](../../.gitbook/assets/GSS250x250.jpg) ![](../../.gitbook/assets/SprintIR250x250.jpg) ![](../../.gitbook/assets/ExplorIR250x250.jpg)
+|![](../../.gitbook/assets/GSS250x250.jpg)|![](../../.gitbook/assets/SprintIR250x250.jpg)|![](../../.gitbook/assets/ExplorIR250x250.jpg)|
 
 ## GSS QuickStart Guide
 
