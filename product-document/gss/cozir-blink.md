@@ -26,9 +26,9 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 #### 3)Datasheet
 
-[Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink\_DataSheet\_Rev\_4.21.pdf)
-[User Guide](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink-User-Guide-Rev-4.5.pdf)
-[치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical_Diagram_-_CozIR-Blink-CO2Meter.pdf)
+* [Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink\_DataSheet\_Rev\_4.21.pdf)
+* [User Guide](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink-User-Guide-Rev-4.5.pdf)
+* [치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical_Diagram_-_CozIR-Blink-CO2Meter.pdf)
 
 ## 2.Quickstart
 
