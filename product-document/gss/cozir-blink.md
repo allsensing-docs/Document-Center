@@ -4,7 +4,8 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 # CozIR-Blink
 
-![CozIR-Blink](../../.gitbook/assets/gss\_blink\_s.jpg){width=50%}
+![CozIR-Blink](../../.gitbook/assets/gss\_blink\_s.jpg)
+<img src = "../../.gitbook/assets/gss\_blink\_s.jpg" width="30%" height="30">
 
 ## 1.Overview
 
