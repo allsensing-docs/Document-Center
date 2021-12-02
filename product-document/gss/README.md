@@ -12,8 +12,6 @@ GSS는 광범위한 고체 NDIR CO₂ 가스센서를 설계, 개발 및 제조�
 
 ## GSS QuickStart Guide
 
-### Overview
-
 **Explain**
 
 : GSS는 디지털 출력인 UART가 공통적으로 포함되어 있고 0℃\~50℃의 온도 범위에서 측정할 수 있는 CO₂ 센서입니다. GSS는 각 단계에 대해 새로운 하드웨어 모듈을 생성할 필요 없이 Arduino, PCB, Sensor만 갖추고 있으시다면 신속한 CO₂ 측정이 가능합니다.
