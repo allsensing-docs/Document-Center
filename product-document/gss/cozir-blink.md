@@ -56,18 +56,18 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 #### 2)제품 구성
 
-![1) Arduino Due+PCB circuit](<../../.gitbook/assets/CozIR-Blink\_bb (1).png>)
+![  그 1) Arduino Due+PCB circuit](<../../.gitbook/assets/CozIR-Blink\_bb (1).png>)
 
-![2)CozIR CO₂ Sensor+PCB](../../.gitbook/assets/cozir\_option.jpg) ![3)Rx, Tx In and Out Circuit](<../../.gitbook/assets/회로 그림.jpg>)
+![  그림 2)CozIR CO₂ Sensor+PCB](../../.gitbook/assets/cozir\_option.jpg) ![  그림 3)Rx, Tx In and Out Circuit](<../../.gitbook/assets/회로 그림.jpg>)
 
-1. 위 1)그림과 같이 Arduino Due와 PCB를 연결합니다.(1번:Vcc 2번:GND 24번:Rx 25번:Tx)
+1. 위 그림 1)과 같이 Arduino Due와 PCB를 연결합니다.(1번:Vcc 2번:GND 24번:Rx 25번:Tx)
 2. PCB와 CozIR CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
 3. Arduino Due 뒷면에서 Programming Port와 Native USB Port 중에 Native USB Port에 Micro-B USB Cable을 연결하세요.
-4. 사용자님의 Board, Port를 알맞게 설정합니다.
+4. 사용자 님의 Board, Port를 알맞게 설정합니다.
 
 ![](../../.gitbook/assets/Board.jpg) ![](../../.gitbook/assets/Port.jpg)
 
-5\.  예제 Code를 넣은 후 컴파일 및 시리얼 모니터 확인.
+5\. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터 확인.
 
 ## 3. 예제 Code(Arduino Base)
 
@@ -116,5 +116,4 @@ CAYENNE_IN_DEFAULT()
 	CAYENNE_LOG("Channel %u, value %s", request.channel, getValue.asString());
 	//Process message here. If there is an error set an error message using getValue.setError(), e.g getValue.setError("Error message");
 }
-
 ```
