@@ -63,5 +63,6 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 3. Arduino Due 뒷면에서 Programming Port와 Native USB Port 중에 Native USB Port에 Micro-B USB Cable을 연결하세요.
 
 ![](<../../.gitbook/assets/화면 캡처 2021-12-02 150550.jpg>) ![](<../../.gitbook/assets/화면 캡처 2021-12-02 150620.jpg>)
+4. 사용자님의 Board, Port를 알맞게 설정합니다.
 
 ## 3. 예제 Code(Arduino Base)
