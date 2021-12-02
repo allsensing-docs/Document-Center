@@ -26,12 +26,14 @@ GSS는 광범위한 고체 NDIR CO₂ 가스센서를 설계, 개발 및 제조�
 
 : GSS 제품을 시작하는 것은 간단합니다. 가장 먼저 필요한 것은 Arduino 보드, Allsensing 자체 제작 PCB, GSS Sensor, Jumper cable(wire)만 갖추고 있으면 됩니다.
 
+![Arduino Due](../../.gitbook/assets/arduino\_due\_main.jpg) ![PCB](../../.gitbook/assets/PCB.jpg)
+
 **소프트웨어**
 
 * [Arduino IDE 설치](https://www.arduino.cc/en/software)
 * [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue) (Allsensing은 Arduino Due로 하드웨어 및 소프트웨어를 구성했습니다.)
 * Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력 후 설치
 
-![Arduino Due 설치   ](<../../.gitbook/assets/화면 캡처 2021-12-02 145808.jpg>)
+![Arduino Due 설치](<../../.gitbook/assets/화면 캡처 2021-12-02 145808.jpg>)
 
-![Arduino Due 시작   ](<../../.gitbook/assets/Arduino due.jpg>)
+![Arduino Due 시작](<../../.gitbook/assets/Arduino due.jpg>)
