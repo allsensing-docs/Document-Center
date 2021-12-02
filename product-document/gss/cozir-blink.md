@@ -50,7 +50,7 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 * [Arduino IDE 설치](https://www.arduino.cc/en/software)
 * [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
-* Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력한 후 설치
+* Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력한 후 설치합니다.
 
 ![](<../../.gitbook/assets/화면 캡처 2021-12-02 145945.jpg>) ![](<../../.gitbook/assets/화면 캡처 2021-12-02 145808.jpg>)
 
@@ -60,8 +60,8 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 ![2)CozIR CO₂ Sensor+PCB](../../.gitbook/assets/cozir\_option.jpg) ![3)Rx, Tx In and Out Circuit](<../../.gitbook/assets/회로 그림.jpg>)
 
-1. 위 1)그림과 같이 Arduino Due와 PCB 연결(1번:Vcc 2번:GND 24번:Rx 25번:Tx)&#x20;
-2. PCB와 CozIR CO₂ Sensor 연결(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
+1. 위 1)그림과 같이 Arduino Due와 PCB를 연결합니다.(1번:Vcc 2번:GND 24번:Rx 25번:Tx);
+2. PCB와 CozIR CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
 3. Arduino Due 뒷면에서 Programming Port와 Native USB Port 중에 Native USB Port에 Micro-B USB Cable을 연결하세요.
 4. 사용자님의 Board, Port를 알맞게 설정합니다.
 
