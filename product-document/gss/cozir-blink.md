@@ -8,10 +8,12 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 ## 1.Overview
 
-#### 1)제품 설명 
+#### 1)제품 설명
+
 : CozIR-Blink 센서는 최첨단 Solid-State LED 광학기술을 이용한 초 저전력 NDIR CO₂ 센서입니다.
 
-#### 2)제품 특징   
+#### 2)제품 특징
+
 * 최대 1% CO₂ 농도 측정
 * 솔리드 스테이트, 움직이는 부품 없음, 가열된 필라멘트 없음
 * 진동 및 충격에 강하고 비가열성
@@ -28,23 +30,29 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 * [Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink\_DataSheet\_Rev\_4.21.pdf)
 * [User Guide](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink-User-Guide-Rev-4.5.pdf)
-* [치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical_Diagram_-_CozIR-Blink-CO2Meter.pdf)
+* [치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-Blink-CO2Meter.pdf)
 
 ## 2.Quickstart
 
 #### 1)전제 조건
+
 : CozIR-Blink를 사용하는 각 단계를 진행하기 전에 아래 나열된 필수 항목을 준비해야 합니다.
 
-##### 하드웨어
+**하드웨어**
+
 * CozIR-Blink CO₂ Sensor.
 * CozIR용 PCB(Connector 포함 / Allsensing 자체제작)
 * Arduino Due.
 * Arduino Jumper Cable Female-male 20cm 4pcs.
 * Micro-B USB Cable
-##### 소프트웨어(Arduino IDE를 통한 프로그래밍)
+
+**소프트웨어(Arduino IDE를 통한 프로그래밍)**
+
 * [Arduino IDE 설치](https://www.arduino.cc/en/software)
 * [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
+
 #### 2)제품 구성
 
+![](../../.gitbook/assets/CozIR-Blink\_bb.png)
 
 ## 3. 예제 Code(Arduino Base)
