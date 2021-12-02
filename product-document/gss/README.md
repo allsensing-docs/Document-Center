@@ -29,6 +29,6 @@ GSS는 광범위한 고체 NDIR CO₂ 가스센서를 설계, 개발 및 제조�
 #### 소프트웨어
 * [Arduino IDE 설치](https://www.arduino.cc/en/software)
 * [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
-Allsensing은 Arduino Due로 하드웨어 및 소프트웨어를 구성했습니다.
+(Allsensing은 Arduino Due로 하드웨어 및 소프트웨어를 구성했습니다.)
 * Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력한 후 설치
 ![](<../../.gitbook/assets/화면 캡처 2021-12-02 145945.jpg>) ![](<../../.gitbook/assets/화면 캡처 2021-12-02 145808.jpg>)
