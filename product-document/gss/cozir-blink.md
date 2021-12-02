@@ -65,4 +65,6 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 ![](../../.gitbook/assets/Board.jpg) ![](../../.gitbook/assets/Port.jpg)
 
+5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터 확인.
+
 ## 3. 예제 Code(Arduino Base)
