@@ -4,7 +4,7 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 # CozIR-Blink
 
-![CozIR-Blink](../../.gitbook/assets/gss\_blink\_s.jpg) {: width="100" height="100"}
+![CozIR-Blink](../../.gitbook/assets/gss\_blink\_s.jpg=100px)
 
 ## 1.Overview
 
