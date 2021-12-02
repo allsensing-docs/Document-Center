@@ -41,10 +41,9 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 * Arduino Due.
 * Arduino Jumper Cable Female-male 20cm 4pcs.
 * Micro-B USB Cable
-##### 소프트웨어
-* Arduino IDE를 통한 프로그래밍
-[Arduino IDE 설치](https://www.arduino.cc/en/software)
-[Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
+##### 소프트웨어(Arduino IDE를 통한 프로그래밍)
+* [Arduino IDE 설치](https://www.arduino.cc/en/software)
+* [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
 #### 2)제품 구성
 
 
