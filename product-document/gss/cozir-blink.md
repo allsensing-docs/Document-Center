@@ -54,7 +54,9 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 #### 2)제품 구성
 
-1. 위 그림 1)과 같이 Arduino Due와 PCB를 연결합니다.(1번:Vcc 2번:GND 24번:Rx 25번:Tx)
+![](<../../.gitbook/assets/CozIR CO2 Sensor connecting with arduino.jpg>)
+
+1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.(1번:Vcc 2번:GND 24번:Rx 25번:Tx)
 2. PCB와 CozIR CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
 3. Arduino Due 뒷면에서 Programming Port와 Native USB Port 중에 Native USB Port에 Micro-B USB Cable을 연결하세요.
 4. 사용자 님의 Board, Port를 알맞게 설정합니다.
@@ -87,4 +89,4 @@ void loop(){
 }
 ```
 
-![](<../../.gitbook/assets/CozIR serial monitor ex.jpg>)
+![Ex) CozIR-Blink Serial Monitor ](<../../.gitbook/assets/CozIR serial monitor ex.jpg>)
