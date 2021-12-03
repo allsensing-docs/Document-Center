@@ -54,7 +54,7 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 #### 2)제품 구성
 
-<img src="../../.gitbook/assets/CozIR CO2 Sensor connecting with arduino.jpg" width="100%" height="100%"></img>
+![](<../../.gitbook/assets/CozIR CO2 Sensor connecting with arduino.jpg>)
 
 1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.(1번:Vcc 2번:GND 24번:Rx 25번:Tx)
 2. PCB와 CozIR CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
@@ -89,4 +89,4 @@ void loop(){
 }
 ```
 
-![Ex) CozIR-Blink Serial Monitor ](<../../.gitbook/assets/CozIR serial monitor ex.jpg>)
+![](<../../.gitbook/assets/serial monitor ex) (1).jpg>)
