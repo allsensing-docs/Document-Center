@@ -56,9 +56,9 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 #### 2)제품 구성
 
-![  그림 1) Arduino Due+PCB circuit](<../../.gitbook/assets/CozIR-Blink\_bb (1).png>)
+![그림 1) Arduino Due+PCB circuit](<../../.gitbook/assets/CozIR-Blink\_bb (1).png>)
 
-![  그림 2)CozIR CO₂ Sensor+PCB](../../.gitbook/assets/cozir\_option.jpg) ![  그림 3)Rx, Tx In and Out Circuit](<../../.gitbook/assets/회로 그림.jpg>)
+![그림 2)CozIR CO₂ Sensor+PCB](../../.gitbook/assets/cozir\_option.jpg) ![그림 3)Rx, Tx In and Out Circuit](<../../.gitbook/assets/회로 그림.jpg>)
 
 1. 위 그림 1)과 같이 Arduino Due와 PCB를 연결합니다.(1번:Vcc 2번:GND 24번:Rx 25번:Tx)
 2. PCB와 CozIR CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
@@ -70,5 +70,31 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 5\. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터 확인.
 
 ## 3. 예제 Code(Arduino Base)
+
+```
+void setup(){
+  SerialUSB.begin(115200);
+  while(!SerialUSB){} //USB native-serial 초기화 시간 필요
+
+
+  Serial.begin(9600);//Serial:0(Rx),1(Tx), Serial1:19(Rx),18(Tx)
+  delay(500); //센서에서 High 구간 인식할 시간 필요
+  while(!Serial){}
+  Serial.println("K 2\r\n");//센서를 Polling mode로 변경
+  delay(500);
+   Serial.println("Z"); CO2값 읽기 명령
+}
+
+void loop(){
+  if(Serial.available()>0)//데이터가 들어오기 시작
+  {
+    String str = Serial.readStringUntil('\n');//LF가 들어올 때까지 읽고
+    SerialUSB.println(str);//모든 내용을 시리얼 모니터로 보냄
+    delay(1000);//1초간 대기
+     Serial.println("Z");//CO2값 읽기 명령
+  }
+}
+
+```
 
 {% file src="../../.gitbook/assets/Cozir_CO2_Sensor.ino" %}
