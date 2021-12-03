@@ -10,9 +10,9 @@ description: GSS를 선택해 주셔서 감사합니다. 고객님이 시작하�
 
 GSS는 광범위한 고체 NDIR CO₂ 가스 센서를 설계, 개발 및 제조하여 저전력, 고 정확도 및 고속 측정이 필요한 세계 최고의 고객들에게 혁신적인 제품을 제공합니다. GSS는 실내 공기 질 모니터 시스템, 헬스 케어, 우주 항공, 식품 모니터링 및 개인 안전 장비를 포함한 광범위한 시장에 제품을 공급 중입니다.
 
-| CozIR | SprintIR | ExplorIR |
-| ----- | -------- | -------- |
-|![](../../.gitbook/assets/GSS250x250.jpg)|![](../../.gitbook/assets/SprintIR250x250.jpg)|![](../../.gitbook/assets/ExplorIR250x250.jpg)|
+| CozIR                                     | SprintIR                                       | ExplorIR                                       |
+| ----------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| ![](../../.gitbook/assets/GSS250x250.jpg) | ![](../../.gitbook/assets/SprintIR250x250.jpg) | ![](../../.gitbook/assets/ExplorIR250x250.jpg) |
 
 ## GSS QuickStart Guide
 
@@ -37,7 +37,3 @@ GSS는 광범위한 고체 NDIR CO₂ 가스 센서를 설계, 개발 및 제조
 * [Arduino IDE 설치](https://www.arduino.cc/en/software)
 * [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue) (Allsensing은 Arduino Due로 하드웨어 및 소프트웨어를 구성했습니다.)
 * Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력 후 설치
-
-![Arduino Due 설치](<../../.gitbook/assets/화면 캡처 2021-12-02 145808.jpg>)
-
-![Arduino Due 시작](<../../.gitbook/assets/Arduino due.jpg>)
