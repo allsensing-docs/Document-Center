@@ -62,7 +62,7 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 ## 3. 예제 Code(Arduino Base)
 
-```
+```markdown
 void setup(){
   SerialUSB.begin(115200);
   while(!SerialUSB){} //USB native-serial 초기화 시간 필요
