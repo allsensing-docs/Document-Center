@@ -1,5 +1,5 @@
 ---
-description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 시작하는 데 도움이 되는 모든 문서를 제공하였습니다📜
+description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시작하는 데 도움이 되는 모든 문서를 제공하였습니다📜
 ---
 
 # CozIR-LP2
@@ -27,9 +27,9 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 #### 3)Datasheet
 
-* [Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2_Data_Sheet_Rev_4.10.pdf)
+* [Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
 * [User Guide](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-COZIR-LP2-User-Guide-Rev-4.0.pdf)
-* [치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical_Diagram_-_CozIR-LP2-CO2Meter.pdf)
+* [치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-LP2-CO2Meter.pdf)
 
 ## 2.Quickstart
 
@@ -53,7 +53,7 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 #### 2)제품 구성
 
-
+![](<../../.gitbook/assets/CozIR LP2 Sensor with arduino.jpg>)
 
 1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.(1번:Vcc 2번:GND 24번:Rx 25번:Tx)
 2. PCB와 CozIR CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
