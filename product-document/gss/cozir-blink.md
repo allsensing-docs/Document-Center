@@ -4,7 +4,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시�
 
 # CozIR-LP2
 
-![CozIR-LP2](../../.gitbook/assets/CozIR-LP2.jpg)
+<img src="/.gitbook/assets/CozIR-LP2.jpg" width="150px" height="150px" alt="CozIR-LP2"></img>
 
 ## 1.Overview
 
