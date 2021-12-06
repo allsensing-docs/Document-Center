@@ -2,15 +2,15 @@
 description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 시작하는 데 도움이 되는 모든 문서를 제공하였습니다📜
 ---
 
-# CozIR-Blink
+# CozIR-LP2
 
-![CozIR-Blink](<../../.gitbook/assets/gss\_blink\_s (1).jpg>)
+![CozIR-LP2](../../.gitbook/assets/CozIR-LP2.jpg)
 
 ## 1.Overview
 
 #### 1)제품 설명
 
-: CozIR-Blink 센서는 최첨단 Solid-State LED 광학기술을 이용한 초 저전력 NDIR CO₂ 센서입니다.
+: CozIR-LP2 센서는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 NDIR CO₂ 센서입니다.
 
 #### 2)제품 특징
 

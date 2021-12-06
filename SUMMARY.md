@@ -11,7 +11,7 @@
   * [AGSM SO2](product-document/agsm/agsm-so2.md)
   * [AGSM O3](product-document/agsm/agsm-o3.md)
 * [GSS](product-document/gss/README.md)
-  * [CozIR-Blink](product-document/gss/cozir-blink.md)
+  * [CozIR-LP2](product-document/gss/cozir-blink.md)
   * [SprintIR-W](product-document/gss/sprintir-w.md)
 * [EC-Sens](product-document/ec-sens/README.md)
   * [수소 ES4-H2](product-document/ec-sens/es4-h2.md)
