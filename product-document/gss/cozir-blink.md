@@ -27,7 +27,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시�
 
 #### 3)Datasheet
 
-[![](../../.gitbook/assets/Datasheet download.jpg)](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
+[![](/.gitbook/assets/Datasheet download.jpg)](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
 
 * [Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
 * [User Guide](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-COZIR-LP2-User-Guide-Rev-4.0.pdf)
