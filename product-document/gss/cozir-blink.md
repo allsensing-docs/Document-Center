@@ -4,7 +4,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시�
 
 # CozIR-LP2
 
-<img src="/.gitbook/assets/CozIR-LP2.jpg" width="100px" height="100px" alt="CozIR-LP2"></img>
+![CozIR-LP2](../../.gitbook/assets/CozIR-LP2ex.jpg)
 
 ## 1.Overview
 
@@ -88,8 +88,8 @@ void loop(){
 }
 ```
 
-![](<../../.gitbook/assets/serial monitor ex) (1).jpg>)&#x20;
+![](<../../.gitbook/assets/serial monitor ex) (1).jpg>)
 
-Z:디지털 필터링 후 CO₂ 농도&#x20;
+Z:디지털 필터링 후 CO₂ 농도
 
 z:디지털 필터링이 없는 즉각적인 CO₂ 농도
