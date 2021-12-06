@@ -15,32 +15,31 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 #### 2)제품 특징
 
 * 최대 1% CO₂ 농도 측정
-* 솔리드 스테이트, 움직이는 부품 없음, 가열된 필라멘트 없음
+* Solid state, 움직이는 부품 없음, 가열된 필라멘트 없음
 * 진동 및 충격에 강하고 비가열성
 * 디지털(UART) 및 I2C 출력
-* 매우 낮은 전력 및 에너지 소비
+* 일반 NDIR CO₂ 센서보다 최대 50배 낮은 전력
 * 간편한 계측 통합을 위한 작은 크기
 * 긴 수명, 낮은 유지 보수
-* RoHS 준수
 * 무선, 휴대용, 웨어러블 및 배터리에 이상적
 * 에너지 효율적인 스마트 홈 환경 지원
 * IAQ, HVAC, 빌딩 자동화, 계측, 농업, MAP, 자동차, 항공우주 및 안전과 같은 애플리케이션에 쉽게 통합
 
 #### 3)Datasheet
 
-* [Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink\_DataSheet\_Rev\_4.21.pdf)
-* [User Guide](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-Blink-User-Guide-Rev-4.5.pdf)
-* [치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-Blink-CO2Meter.pdf)
+* [Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2_Data_Sheet_Rev_4.10.pdf)
+* [User Guide](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-COZIR-LP2-User-Guide-Rev-4.0.pdf)
+* [치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical_Diagram_-_CozIR-LP2-CO2Meter.pdf)
 
 ## 2.Quickstart
 
 #### 1)전제 조건
 
-: CozIR-Blink를 사용하는 각 단계를 진행하기 전에 아래 나열된 필수 항목을 준비해야 합니다. (CozIR-Blink CO₂ Sensor 중에 Pin이 부착되어 있는 센서는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월합니다.)
+: CozIR-LP2를 사용하는 각 단계를 진행하기 전에 아래 나열된 필수 항목을 준비해야 합니다. (CozIR-LP2 CO₂ Sensor 중에 Pin이 부착되어 있는 센서는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월합니다.)
 
 **하드웨어**
 
-* CozIR-Blink CO₂ Sensor.
+* CozIR-LP2 CO₂ Sensor.
 * CozIR용 PCB(Connector 포함 / Allsensing 자체 제작)
 * Arduino Due.
 * Arduino Jumper Cable Female-male 20cm 4pcs.
@@ -54,7 +53,7 @@ description: CozIR-Blink를 선택해 주셔서 감사합니다. 고객님이 �
 
 #### 2)제품 구성
 
-![](<../../.gitbook/assets/CozIR CO2 Sensor connecting with arduino.jpg>)
+
 
 1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.(1번:Vcc 2번:GND 24번:Rx 25번:Tx)
 2. PCB와 CozIR CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
