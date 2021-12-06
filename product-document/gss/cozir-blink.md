@@ -42,7 +42,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시�
 * CozIR-LP2 CO₂ Sensor.
 * CozIR용 PCB(Connector 포함 / Allsensing 자체 제작)
 * Arduino Due.
-* Arduino Jumper Cable Female-male 20cm 4pcs.
+* Arduino Jumper wires Female-male 20cm 4pcs.
 * Micro-B USB Cable
 
 **소프트웨어(Arduino IDE를 통한 프로그래밍)**
