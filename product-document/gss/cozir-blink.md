@@ -14,8 +14,8 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시�
 
 #### 2)제품 특징
 
-* 최대 1% CO₂ 농도 측정
-* Solid state, 움직이는 부품 없음, 가열된 필라멘트 없음
+* 최대 1%(10,000ppm) CO₂ 농도 측정
+* 고체 상태, 움직이는 부품 없음, 가열된 필라멘트 없음
 * 진동 및 충격에 강하고 비가열성
 * 디지털(UART) 및 I2C 출력
 * 일반 NDIR CO₂ 센서보다 최대 50배 낮은 전력
@@ -29,7 +29,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시�
 
 * [Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
 
-![](<../../.gitbook/assets/Datasheet download.jpg>)
+[![](<../../.gitbook/assets/Datasheet download.jpg>)]((https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
 
 * [User Guide](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-COZIR-LP2-User-Guide-Rev-4.0.pdf)
 * [치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-LP2-CO2Meter.pdf)
