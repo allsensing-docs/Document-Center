@@ -65,7 +65,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시�
 
 ```arduino
 void setup(){
-  Serial.begin(9600);//3.3V, GND, Serial:0(Rx),1(Tx), 
+  Serial.begin(9600); 
   delay(500); //센서에서 High 구간 인식할 시간 필요
   while(!Serial){}
   Serial.println("K 2\r\n"); //센서를 Polling mode로 변경
