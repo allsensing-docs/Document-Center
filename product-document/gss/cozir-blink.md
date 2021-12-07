@@ -1,5 +1,5 @@
 ---
-description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시작하는 데 도움이 되는 모든 문서를 제공하였습니다📜
+description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시작하는 데 도움이 되는 모든 문서를 제공하였습니다.
 ---
 
 # CozIR-LP2
@@ -15,7 +15,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시�
 #### 2)제품 특징
 
 * 최대 1%(10,000ppm) CO₂ 농도 측정
-* 고체 상태, 움직이는 부품 없음, 가열된 필라멘트 없음
+* Solid-State, 움직이는 부품 없음, 가열된 필라멘트 없음
 * 진동 및 충격에 강하고 비가열성
 * 디지털(UART) 및 I2C 출력
 * 일반 NDIR CO₂ 센서보다 최대 50배 낮은 전력
@@ -25,11 +25,11 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시�
 * 에너지 효율적인 스마트 홈 환경 지원
 * IAQ, HVAC, 빌딩 자동화, 계측, 농업, MAP, 자동차, 항공우주 및 안전과 같은 애플리케이션에 쉽게 통합
 
-#### 3)Datasheet
+#### 3)Documents
 
-* [Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
-* [User Guide](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-COZIR-LP2-User-Guide-Rev-4.0.pdf)
-* [치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-LP2-CO2Meter.pdf)
+* [Datasheet](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)(PDF 링크)
+* [User Guide](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-COZIR-LP2-User-Guide-Rev-4.0.pdf)(PDF 링크)
+* [치수 도면](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-LP2-CO2Meter.pdf)(PDF 링크)
 
 ## 2.Quickstart
 
@@ -40,7 +40,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 고객님이 시�
 **하드웨어**
 
 * CozIR-LP2 CO₂ Sensor.
-* CozIR용 PCB(Connector 포함 / Allsensing 자체 제작)
+* [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product_no=1171&cate_no=65&display_group=1)(Connector 포함 / Allsensing 자체 제작)
 * Arduino Due.
 * Arduino Jumper wires Female-male 20cm 4pcs.
 * Micro-B USB Cable
@@ -95,3 +95,7 @@ Z:디지털 필터링 후 CO₂ 농도
 z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 
 ## 4.Currently CozIR-LP2 Monitoring
+
+## 5.참조
+[Documents](https://www.co2meter.com/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
+[Arduino code](https://blog.naver.com/allsensing/220941755298)
