@@ -11,7 +11,6 @@
   * [AGSM SO2](product-document/agsm/agsm-so2.md)
   * [AGSM O3](product-document/agsm/agsm-o3.md)
 * [GSS](product-document/gss/README.md)
-  * [CozIR-bl](product-document/gss/cozir-blink.md)
   * [CozIR-LP2](product-document/gss/cozir-lp2.md)
   * [SprintIR-6S](product-document/gss/sprintir-6s.md)
   * [SprintIR-R](product-document/gss/sprintir-r.md)
