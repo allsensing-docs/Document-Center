@@ -97,5 +97,5 @@ z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 ## 4.Currently CozIR-LP2 Monitoring
 
 ## 5.참조
-[Documents](https://www.co2meter.com/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
-[Arduino code](https://blog.naver.com/allsensing/220941755298)
+* [Documents](https://www.co2meter.com/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
+* [Arduino code](https://blog.naver.com/allsensing/220941755298)
