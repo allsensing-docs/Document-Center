@@ -1,7 +1,7 @@
 ---
-description: LuminOx-O2를 선택해 주셔서 감사합니다. 고객님이 시작하는 데 도움이 되는 모든 문서를 제공하였습니다📜
+description: SST를 선택해 주셔서 감사합니다. 제품 활용 방법에 도움이 되는 모든 문서를 제공하였습니다.
 ---
 
-# LuminOx-O2
+# SST
 
 LuminOx-O2
