@@ -10,7 +10,15 @@ description: LOX-02를 선택해 주셔서 감사합니다. 고객님이 시작�
 
 #### 2)제품 특징
 
+* 저전력 센서
+* 내부의 센서를 통한 온도, 압력 및 고도 보정
+* 다른 가스에 대한 Cross Sensitivity 거의 없음(산소에 대한 선택적 감지)
+* RoHs 및 REACH 준수
+* 3.3V UART(디지털 출력)
+* 명령어를 통한 제어 가능
+
 #### 3)Datasheet
+
 
 ## 2.Quickstart
 
@@ -19,3 +27,7 @@ description: LOX-02를 선택해 주셔서 감사합니다. 고객님이 시작�
 #### 2)제품 구성
 
 ## 3. 예제 Code(Arduino Base)
+
+## 4.Currently CozIR-LP2 Monitoring
+
+## 5.참조
