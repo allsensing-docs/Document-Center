@@ -17,7 +17,10 @@ description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법
 * 3.3V UART(디지털 출력)
 * 명령어를 통한 제어 가능
 
-#### 3)Datasheet
+#### 3)Documents
+
+* [Datasheet](https://14core.com/wp-content/uploads/2017/10/LuminOx2-Datasheet.pdf)(PDF 링크)
+* [User Guide](https://14core.com/wp-content/uploads/2017/10/LuminOx-UserGuide_rev1.pdf)(PDF 링크)
 
 ## 2.Quickstart
 
@@ -30,3 +33,4 @@ description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법
 ## 4.Currently CozIR-LP2 Monitoring
 
 ## 5.참조
+* [Documents](https://www.14core.com/wiring-luminox-o2-oxygen-uart-optical-sensor/)
