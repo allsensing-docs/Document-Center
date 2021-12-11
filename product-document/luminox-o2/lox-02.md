@@ -4,6 +4,8 @@ description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법
 
 # LOX-02
 
+![LOX-O2](../../.gitbook/assets/lox-o2.jpg)
+
 ## 1.Overview
 
 #### 1)제품 설명
@@ -20,7 +22,7 @@ description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법
 #### 3)Documents
 
 * [Datasheet](https://14core.com/wp-content/uploads/2017/10/LuminOx2-Datasheet.pdf)(PDF 링크)
-* [User Guide](https://14core.com/wp-content/uploads/2017/10/LuminOx-UserGuide_rev1.pdf)(PDF 링크)
+* [User Guide](https://14core.com/wp-content/uploads/2017/10/LuminOx-UserGuide\_rev1.pdf)(PDF 링크)
 
 ## 2.Quickstart
 
@@ -33,4 +35,5 @@ description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법
 ## 4.Currently CozIR-LP2 Monitoring
 
 ## 5.참조
+
 * [Documents](https://www.14core.com/wiring-luminox-o2-oxygen-uart-optical-sensor/)
