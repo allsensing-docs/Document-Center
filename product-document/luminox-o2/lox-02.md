@@ -4,7 +4,7 @@ description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법
 
 # LOX-02
 
-![ㅣLO](<../../.gitbook/assets/lox-o2 250250.jpg>)
+![LOX-O2](<../../.gitbook/assets/lox-o2 250250.jpg>)
 
 ## 1.Overview
 
