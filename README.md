@@ -21,10 +21,9 @@ Allsensing은 설립 이래 다양한 환경센서를 고객들에게 소개해 
 
 | AGSM                                    | GSS                                      |
 | --------------------------------------- | ---------------------------------------- |
-| ![](<.gitbook/assets/AGSM profile.png>) | ![](<.gitbook/assets/CozIR profile.jpg>) |
+| ![](.gitbook/assets/profile.png) | ![](<.gitbook/assets/CozIR profile.jpg>) |
 
 | EC-Sense                                   | SST                                          |
 | ------------------------------------------ | -------------------------------------------- |
 | ![](<.gitbook/assets/EC-Sens profile.png>) | ![](<.gitbook/assets/lox-o2 250250 (1).jpg>) |
 
-![](.gitbook/assets/profile.png)
