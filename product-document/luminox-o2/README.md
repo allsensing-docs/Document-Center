@@ -10,8 +10,22 @@ description: SST를 선택해 주셔서 감사합니다. 제품 활용 방법에
 
 
 
-| LuminOx |   |
+| LuminOx-O2 | LuminOx-O2-F |
 | ------- | - |
-|         |   |
+| ![](<../../.gitbook/assets/lox-o2 250250 (2).jpg>)|![](../../.gitbook/assets/LumiOx-o2-F250x250.jpg)|
 
-![](<../../.gitbook/assets/lox-o2 250250 (2).jpg>) ![](../../.gitbook/assets/LumiOx-o2-F250x250.jpg)
+## SST QuickStart Guide
+
+**Explain**
+
+:
+
+**Main Features**
+
+**하드웨어**
+
+**소프트웨어**
+
+* [Arduino IDE 설치](https://www.arduino.cc/en/software)
+* [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue) (Allsensing은 Arduino Due로 하드웨어 및 소프트웨어를 구성했습니다.)
+* Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력 후 설치
