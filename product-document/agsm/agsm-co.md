@@ -4,7 +4,7 @@ description: AGSM CO를 선택해 주셔서 감사합니다. 제품 활용 방�
 
 # AGSM CO
 
-![AGSM CO](../../.gitbook/assets/list\_02s.jpg)
+![AGSM CO](<../../.gitbook/assets/list\_02s 250x250.jpg>)
 
 ## 1.Overview
 
