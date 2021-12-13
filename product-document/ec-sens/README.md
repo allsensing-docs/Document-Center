@@ -29,5 +29,5 @@ EC-Sense의 전략은 차세대 새로운 센서 및 모듈을 제공하여 고�
 **소프트웨어**
 
 * [Arduino IDE 설치](https://www.arduino.cc/en/software)
-* * [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue) (Allsensing은 Arduino Due로 하드웨어 및 소프트웨어를 구성했습니다.)
+* [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue) (Allsensing은 Arduino Due로 하드웨어 및 소프트웨어를 구성했습니다.)
 * Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력 후 설치
