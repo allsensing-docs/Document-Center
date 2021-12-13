@@ -40,7 +40,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 **하드웨어**
 
 * CozIR-LP2 CO₂ Sensor.
-* [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product_no=1171&cate_no=65&display_group=1)(Connector 포함 / Allsensing 자체 제작)
+* [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작)
 * Arduino Due.
 * Arduino Jumper wires Female-male 20cm 4pcs.
 * Micro-B USB Cable
@@ -69,7 +69,7 @@ void setup(){
    Serial1.begin(9600); //DUE Tx Rx (18 19) = Serial1
   delay(500); //센서에서 High 구간 인식할 시간 필요
   while(!Serial1){}
-  Serial1.println("K 2"); //센서를 Polling mode로 변경
+  Serial1.println("K 2"); //제어 인터페이스 모드로 변 
   delay(500);
    Serial1.println("Z"); //CO2값 읽기 명령
 }
@@ -94,5 +94,6 @@ z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 ## 4.Currently CozIR-LP2 Monitoring
 
 ## 5.참조
+
 * [Documents](https://www.co2meter.com/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
 * [Arduino code](https://blog.naver.com/allsensing/220941755298)
