@@ -19,9 +19,7 @@ description: ES1-O2-25%를 선택해 주셔서 감사합니다. 제품 활용 �
 
 #### 3)Documents
 
-[Datasheet](https://datasheet.lcsc.com/lcsc/2006122120_EC-Sense-ES1-O2-25-01_C528678.pdf)
-[User Guide](
-
+* [Datasheet](https://ecsense.com/wp-content/uploads/2021/03/TB200B-O2-25-01Technical-Specification_V1.0_20200416.pdf)
 
 ## 2.Quickstart
 
