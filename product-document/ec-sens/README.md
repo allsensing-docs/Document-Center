@@ -10,6 +10,6 @@ EC-Sense는 독일 뮌헨에 위치하고 대기 질 변화에서 가스 경고 
 
 | ES1-O2-25% | ES4-O2-25% |
 | ---------- | ---------- |
-|            |            |
+|![](<../../.gitbook/assets/TB200B\_250x250png (1).png>)|![](<../../.gitbook/assets/EC-Sens profile.png>)|
 
-![](<../../.gitbook/assets/TB200B\_250x250png (1).png>) ![](<../../.gitbook/assets/EC-Sens profile.png>)
+
