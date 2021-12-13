@@ -69,7 +69,7 @@ void setup(){
    Serial1.begin(9600); //DUE Tx Rx (18 19) = Serial1
   delay(500); //센서에서 High 구간 인식할 시간 필요
   while(!Serial1){}
-  Serial1.println("K 2"); //제어 인터페이스 모드로 변 
+  Serial1.println("K 2"); //Polling 모드로 변경     
   delay(500);
    Serial1.println("Z"); //CO2값 읽기 명령
 }
