@@ -10,6 +10,6 @@
   * [CozIR-LP2](product-document/gss/cozir-lp2.md)
   * [SprintIR-R](product-document/gss/sprintir-r.md)
 * [EC-Sense](product-document/ec-sens/README.md)
-  * [ES4-O2-25%](product-document/ec-sens/ec-o2.md)
+  * [TB200B-ES1-O2-25%](product-document/ec-sens/ec-o2.md)
 * [SST](product-document/luminox-o2/README.md)
   * [LOX-02](product-document/luminox-o2/lox-02.md)
