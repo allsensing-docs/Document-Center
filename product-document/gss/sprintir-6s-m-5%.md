@@ -34,7 +34,10 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 **하드웨어**
 
 * SprintIR-6S CO₂ Sensor.
-* \[SprintIR용 PCB]
+* [SprintIR용 PCB]
+* Arduino Due.
+* Arduino Jumper wires Female-male 20cm 4pcs.
+* USB 2.0 Micro B Cable
 
 **소프트웨어(Arduino IDE를 통한 프로그래밍)**
 
