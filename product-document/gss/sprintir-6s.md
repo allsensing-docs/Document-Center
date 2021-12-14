@@ -20,10 +20,33 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 
 #### 3)Documents
 
+* Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/SprintIR-6S_Data_Sheet_Rev_4.11.pdf)
+* User Guide[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-SprintIR-6S-User-Guide-Rev-4.1.pdf)
+
 ## 2.Quickstart
 
 #### 1)전제 조건
 
+: SprintIR-6S를 사용하는 각 단계를 진행하기 전에 아래 나열된 필수 항목을 준비해야 합니다. (SprintIR-6S는 Flow through adaptor가 있는 센서가 있고 막으로만 구성을 갖추고 있는 센서가 있습니다.)
+
+**하드웨어**
+
+* SprintIR-6S CO₂ Sensor.
+* [SprintIR용 PCB]
+
+**소프트웨어(Arduino IDE를 통한 프로그래밍)**
+
+* [Arduino IDE 설치](https://www.arduino.cc/en/software)
+* [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
+* Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력한 후 설치합니다.
+
 #### 2)제품 구성
 
 ## 3. 예제 Code(Arduino Base)
+
+## 4.Currently SprintIR-6S Monitoring
+
+## 5.참조
+
+* [Datasheet](https://www.co2meter.com/products/sprintir6s-5-co2-smart-sensor)
+
