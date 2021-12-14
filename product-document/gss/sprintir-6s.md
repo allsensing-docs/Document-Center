@@ -4,7 +4,7 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 
 # SprintIR-6S
 
-![SprintIR-6S](</.product-document/gss/SprintIR6S250x250.png>)
+![SprintIR-6S](<product-document/gss/SprintIR6S250x250.png>)
 
 ## 1.Overview
 
