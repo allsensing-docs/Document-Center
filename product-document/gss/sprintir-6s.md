@@ -4,6 +4,8 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 
 # SprintIR-6S
 
+![SprintIR-6S](https://github.com/allsensing-docs/Document-Center/blob/32b4e870751665132b1448e6fa3393b319ba2968/product-document/gss/SprintIR6S250x250.png)
+
 ## 1.Overview
 
 #### 1)제품 설명
