@@ -80,7 +80,7 @@ void loop(){
   {
     String str = Serial1.readStringUntil('\n');// 들어오는 문자열 읽기
     Serial.println(str);//CO2값 읽기 명령
-    delay(1000);//1초간 대기
+    delay(1000);//1초 delay
     Serial1.println("Z");//CO2값 읽기 명령
   }
 }
