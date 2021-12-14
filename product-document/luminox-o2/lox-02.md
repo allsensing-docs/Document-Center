@@ -21,8 +21,8 @@ description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법
 
 #### 3)Documents
 
-* [Datasheet](https://14core.com/wp-content/uploads/2017/10/LuminOx2-Datasheet.pdf)(PDF 링크)
-* [User Guide](https://14core.com/wp-content/uploads/2017/10/LuminOx-UserGuide\_rev1.pdf)(PDF 링크)
+* Datasheet[(PDF링크)](https://14core.com/wp-content/uploads/2017/10/LuminOx2-Datasheet.pdf)
+* User Guide[(PDF링크)](https://14core.com/wp-content/uploads/2017/10/LuminOx-UserGuide\_rev1.pdf)
 
 ## 2.Quickstart
 
