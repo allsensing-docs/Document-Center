@@ -65,9 +65,9 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 ```arduino
 void setup(){
-  Serial.begin(9600); 
+  Serial.begin(9600); //시리얼 통신 초기화
    Serial1.begin(9600); //DUE Tx Rx (18 19) = Serial1
-  delay(500); //센서에서 High 구간 인식할 시간 필요
+  delay(500); //0.5초 delay
   while(!Serial1){}
   Serial1.println("K 2"); //Polling 모드로 변경     
   delay(500);
@@ -75,7 +75,8 @@ void setup(){
 }
 
 void loop(){
-  if(Serial1.available()>0) //데이터가 들어오기 시작
+  //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면
+  if(Serial1.available()>0) //코드수행
   {
     String str = Serial1.readStringUntil('\n');// 들어오는 문자열 읽기
     Serial.println(str);//CO2값 읽기 명령
