@@ -4,8 +4,6 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 
 # SprintIR-6S
 
-![SprintIR-6S](https://github.com/allsensing-docs/Document-Center/blob/32b4e870751665132b1448e6fa3393b319ba2968/product-document/gss/SprintIR6S250x250.png)
-
 ## 1.Overview
 
 #### 1)제품 설명
@@ -22,7 +20,7 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 
 #### 3)Documents
 
-* Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/SprintIR-6S_Data_Sheet_Rev_4.11.pdf)
+* Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/SprintIR-6S\_Data\_Sheet\_Rev\_4.11.pdf)
 * User Guide[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-SprintIR-6S-User-Guide-Rev-4.1.pdf)
 
 ## 2.Quickstart
@@ -34,7 +32,7 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 **하드웨어**
 
 * SprintIR-6S CO₂ Sensor.
-* [SprintIR용 PCB]
+* \[SprintIR용 PCB]
 
 **소프트웨어(Arduino IDE를 통한 프로그래밍)**
 
@@ -51,4 +49,3 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 ## 5.참조
 
 * [Datasheet](https://www.co2meter.com/products/sprintir6s-5-co2-smart-sensor)
-
