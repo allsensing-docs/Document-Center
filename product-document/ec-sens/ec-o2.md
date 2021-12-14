@@ -23,7 +23,7 @@ description: ES1-O2-25%를 선택해 주셔서 감사합니다. 제품 활용 �
 
 #### 3)Documents
 
-* Datasheet[(PDF 파일)](https://ecsense.com/wp-content/uploads/2021/03/TB200B-O2-25-01Technical-Specification\_V1.0\_20200416.pdf)
+* Datasheet[(PDF)](https://ecsense.com/wp-content/uploads/2021/03/TB200B-O2-25-01Technical-Specification\_V1.0\_20200416.pdf)
 
 ## 2.Quickstart
 
