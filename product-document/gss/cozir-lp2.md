@@ -86,7 +86,7 @@ void loop(){
 }
 ```
 
-![](<../../.gitbook/assets/serial monitor ex) (1).jpg>)
+![](<../../.gitbook/assets/CozIR serial monitor ex.jpg>)
 
 Z:디지털 필터링 후 CO₂ 농도
 
