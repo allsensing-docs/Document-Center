@@ -10,6 +10,7 @@
   * [SprintIR-6S](product-document/gss/sprintir-6s.md)
   * [CozIR-LP2](product-document/gss/cozir-lp2.md)
 * [EC-Sense](product-document/ec-sens/README.md)
+  * [TB600C-CO-100](product-document/ec-sens/tb600c-co-100.md)
   * [TB200B-ES1-O2-25%](product-document/ec-sens/ec-o2.md)
 * [SST](product-document/luminox-o2/README.md)
   * [LOX-02](product-document/luminox-o2/lox-02.md)
