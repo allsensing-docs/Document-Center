@@ -49,8 +49,35 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 
 ## 3. 예제 Code(Arduino Base)
 
+```arduino
+void setup(){
+  Serial.begin(9600); //시리얼 통신 초기화
+   Serial1.begin(9600); //DUE Tx Rx (18 19) = Serial1
+  delay(500); //0.5초 delay
+  while(!Serial1){}
+  Serial1.println("K 2"); //Polling 모드로 변경     
+  delay(500);
+   Serial1.println("Z"); //CO2값 읽기 명령
+}
+
+void loop(){
+  //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면
+  if(Serial1.available()>0) //코드수행
+  {
+    String str = Serial1.readStringUntil('\n');// 들어오는 문자열 읽기
+    Serial.println(str);//CO2값 읽기 명령
+    delay(1000);//1초 delay
+    Serial1.println("Z");//CO2값 읽기 명령
+  }
+}
+```
+Z:디지털 필터링 후 CO₂ 농도
+
+z:디지털 필터링이 없는 즉각적인 CO₂ 농도
+
 ## 4.Currently SprintIR-6S Monitoring
 
 ## 5.참조
 
 * [Datasheet](https://www.co2meter.com/products/sprintir6s-5-co2-smart-sensor)
+* [Arduino code](https://blog.naver.com/allsensing/220941755298)
