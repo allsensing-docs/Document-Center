@@ -53,7 +53,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 #### 2)제품 구성
 
-![](<../../.gitbook/assets/CozIR LP2 Sensor with arduino.jpg>)
+![](<../../.gitbook/assets/cozir lp2 connecting with arduino due.jpg>)
 
 1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.
 2. PCB와 CozIR CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
