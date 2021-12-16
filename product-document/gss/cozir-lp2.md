@@ -67,7 +67,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 void setup(){
   Serial.begin(9600); //시리얼 통신 초기화
    Serial1.begin(9600); //DUE Tx Rx (18 19) = Serial1
-  delay(500); //0.5초 delay
+  delay(500); //0.5초 지연
   while(!Serial1){}
   Serial1.println("K 2"); //Polling 모드로 변경     
   delay(500);
@@ -80,7 +80,7 @@ void loop(){
   {
     String str = Serial1.readStringUntil('\n');// 들어오는 문자열 읽기
     Serial.println(str);//CO2값 읽기 명령
-    delay(1000);//1초 delay
+    delay(1000);//1초 지연
     Serial1.println("Z");//CO2값 읽기 명령
   }
 }
@@ -96,5 +96,4 @@ z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 
 ## 5.참조
 
-* [Documents](https://www.co2meter.com/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
-* [Arduino code](https://blog.naver.com/allsensing/220941755298)
+* [Sensor Datasheet](https://www.co2meter.com/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
