@@ -52,7 +52,7 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.
 2. PCB와 SprintIR-6S CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
 3. Arduino Due 뒷면에서 Programming Port와 Native USB Port 중에서는 원하시는 Port에 Micro-B USB Cable을 연결하세요.(Allsensing은 Programming Port에 연결)
-4. 사용자 님의 Board, Port를 알맞게 설정합니다.
+4. 사용자의 Board, Port를 알맞게 설정합니다.
 5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인합니다.
 
 ## 3. 예제 Code(Arduino Base)
@@ -61,7 +61,7 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 void setup(){
   Serial.begin(9600); //시리얼 통신 초기화
    Serial1.begin(9600); //DUE Tx Rx (18 19) = Serial1
-  delay(500); //0.5초 delay
+  delay(500); //0.5초 지연
   while(!Serial1){}
   Serial1.println("K 2"); //Polling 모드로 변경     
   delay(500);
@@ -74,7 +74,7 @@ void loop(){
   {
     String str = Serial1.readStringUntil('\n');// 들어오는 문자열 읽기
     Serial.println(str);//CO2값 읽기 명령
-    delay(1000);//1초 delay
+    delay(1000);//1초 지연
     Serial1.println("Z");//CO2값 읽기 명령
   }
 }
@@ -90,5 +90,4 @@ z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 
 ## 5.참조
 
-* [Datasheet](https://www.co2meter.com/products/sprintir6s-5-co2-smart-sensor)
-* [Arduino code](https://blog.naver.com/allsensing/220941755298)
+* [Sensor Datasheet](https://www.co2meter.com/products/sprintir6s-5-co2-smart-sensor)
