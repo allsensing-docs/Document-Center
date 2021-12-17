@@ -58,7 +58,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.
 2. PCB와 CozIR-LP2 CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
 3. Arduino Due 뒷면에서 Programming Port와 Native USB Port 중에서는 원하시는 Port에 Micro-B USB Cable을 연결하세요.(Allsensing은 Programming Port에 연결)
-4. 사용자 님의 Board, Port를 알맞게 설정합니다.
+4. 사용자 Board, Port를 알맞게 설정합니다.
 5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인합니다.
 
 ## 3. 예제 Code(Arduino Due Base)
