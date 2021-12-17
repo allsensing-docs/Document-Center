@@ -12,4 +12,5 @@
 * [EC-Sense](product-document/ec-sens/README.md)
   * [TB600C-CO-100](product-document/ec-sens/tb600c-co-100.md)
 * [SST](product-document/luminox-o2/README.md)
+  * [LuminOx(LOX-O₂-S)](product-document/luminox-o2/luminox-lox-o-s.md)
   * [LOX-02](product-document/luminox-o2/lox-02.md)
