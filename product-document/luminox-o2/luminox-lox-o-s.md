@@ -21,6 +21,9 @@ description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법
 
 #### 3)Documents
 
+* Datasheet[(PDF링크)](https://sstsensing.com/wp-content/uploads/2018/01/DS0144rev2_LOX-02-S.pdf)
+* User Guide[(PDF링크)](https://14core.com/wp-content/uploads/2017/10/LuminOx-UserGuide\_rev1.pdf)
+
 ## 2.Quickstart
 
 #### 1)전제 조건
@@ -29,6 +32,8 @@ description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법
 
 ## 3. 예제 Code(Arduino Base)
 
-## 4.Currently CozIR-LP2 Monitoring
+## 4.Currently LOX-O₂-S Monitoring
 
 ## 5.참조
+
+* [Sensor Datasheet](https://sstsensing.com/product/luminox-sealed-optical-oxygen-sensor/)
