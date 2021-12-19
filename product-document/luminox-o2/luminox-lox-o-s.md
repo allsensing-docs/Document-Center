@@ -4,8 +4,6 @@ description: LuminOx(LOX-O₂-S)를 선택해 주셔서 감사합니다. 제품 
 
 # LuminOx(LOX-O₂-S)
 
-
-
 ## 1.Overview
 
 #### 1)제품 설명
@@ -21,7 +19,7 @@ description: LuminOx(LOX-O₂-S)를 선택해 주셔서 감사합니다. 제품 
 
 #### 3)Documents
 
-* Datasheet[(PDF링크)](https://sstsensing.com/wp-content/uploads/2018/01/DS0144rev2_LOX-02-S.pdf)
+* Datasheet[(PDF링크)](https://sstsensing.com/wp-content/uploads/2018/01/DS0144rev2\_LOX-02-S.pdf)
 * User Guide[(PDF링크)](https://14core.com/wp-content/uploads/2017/10/LuminOx-UserGuide\_rev1.pdf)
 
 ## 2.Quickstart
@@ -33,12 +31,14 @@ description: LuminOx(LOX-O₂-S)를 선택해 주셔서 감사합니다. 제품 
 **하드웨어**
 
 * LuminOx(LOX-O₂-S) Sensor.
-* [산소센서용 PCB](https://allsensing.com/product/detail.html?product_no=1171&cate_no=65&display_group=1)(필수 옵션에서 산소센서용 선택 후 주문 Allsensing 자체 제작)
+* [산소센서용 PCB](https://allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(필수 옵션에서 산소센서용 선택 후 주문 Allsensing 자체 제작)
 * Arduino Uno.
 * Arduino Jumper wires Female-male 20cm 4pcs.
 * USB 2.0 Cable Type A/B.
 
 #### 2)제품 구성
+
+![](<../../.gitbook/assets/LuminOx(lox-o2-s)Sensor with connecting arduino uno.jpg>)
 
 1. 위 그림과 같이 Arduino Uno와 PCB를 연결합니다.
 2. PCB와 LuminOx(LOX-O₂-S)를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
