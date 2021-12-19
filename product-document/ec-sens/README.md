@@ -24,7 +24,7 @@ EC-Sense의 전략은 차세대 새로운 센서 및 모듈을 제공하여 고�
 
 **하드웨어**
 
-![](../../.gitbook/assets/arduino\_due\_main.jpg)
+![Arduino Due](../../.gitbook/assets/arduino\_due\_main.jpg)
 
 **소프트웨어**
 
