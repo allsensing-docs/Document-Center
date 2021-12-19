@@ -22,7 +22,7 @@ SST의 주요 목표는 고객의 기술 및 사용 센서 요구 사항을 정�
 
 **하드웨어**
 
-&#x20;:SST 제품을 시작하는 것은 간단합니다. 가장 먼저 필요한 것은 Arduino 보드, Allsensing 자체 제작 PCB, SST sensor, Jumper cable(wires)만 갖추고 있으면 됩니다.
+&#x20;:SST 제품을 시작하는 것은 간단합니다. 가장 먼저 필요한 것은 Arduino 보드, Allsensing 자체 제작 PCB, SST sensor, Jumper cable(wire)만 갖추고 있으면 됩니다.
 
 ![Arduino Uno](<../../.gitbook/assets/arduino uno.png>) ![PCB](../../.gitbook/assets/PCB.jpg)
 
