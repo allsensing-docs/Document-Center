@@ -49,8 +49,6 @@ description: SprintIR-6S를 선택해 주셔서 감사합니다. 제품 활용 �
 
 ![](<../../.gitbook/assets/SprintIR-6S with connecting arduino due.jpg>)
 
-![](<../../.gitbook/assets/SprintIR-6S with connecting arduino due (1).jpg>)
-
 1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.
 2. PCB와 SprintIR-6S CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
 3. Arduino Due 뒷면에서 Programming Port와 Native USB Port 중에서는 원하시는 Port에 Micro-B USB Cable을 연결하세요.(Allsensing은 Programming Port에 연결)
