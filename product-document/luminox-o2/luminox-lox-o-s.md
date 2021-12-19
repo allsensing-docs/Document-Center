@@ -1,5 +1,5 @@
 ---
-description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법에 도움이 되는 모든 문서를 제공하였습니다.
+description: LuminOx(LOX-O₂-S)를 선택해 주셔서 감사합니다. 제품 활용 방법에 도움이 되는 모든 문서를 제공하였습니다.
 ---
 
 # LuminOx(LOX-O₂-S)
@@ -28,11 +28,21 @@ description: LOX-02를 선택해 주셔서 감사합니다. 제품 활용 방법
 
 #### 1)전제 조건
 
+:LuminOx(LOX-O₂-S)를 사용하는 각 단계를 진행하기 전에 아래 나열된 필수 항목을 준비해야 합니다.
+
+**하드웨어**
+
+* LuminOx(LOX-O₂-S) Sensor.
+* [산소센서용 PCB](https://allsensing.com/product/detail.html?product_no=1171&cate_no=65&display_group=1)(필수 옵션에서 산소센서용 선택 후 주문 Allsensing 자체 제작)
+* Arduino Uno.
+* Arduino Jumper wires Female-male 20cm 4pcs.
+* USB 2.0 Cable Type A/B.
+
 #### 2)제품 구성
 
 ## 3. 예제 Code(Arduino Base)
 
-## 4.Currently LOX-O₂-S Monitoring
+## 4.Currently LuminOx(LOX-O₂-S) Monitoring
 
 ## 5.참조
 
