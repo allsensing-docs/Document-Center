@@ -10,6 +10,8 @@ description: AGSM CO를 선택해 주셔서 감사합니다. 제품 활용 방�
 
 #### 1)제품 설명
 
+: AGSM CO는
+
 #### 2)제품 특징
 
 #### 3)Datasheet
@@ -20,4 +22,8 @@ description: AGSM CO를 선택해 주셔서 감사합니다. 제품 활용 방�
 
 #### 2)제품 구성
 
-## 3. 예제 Code(Arduino Base)
+## 3.예제 Code(Arduino Base)
+
+## 4.Currently AGSM CO Monitoring
+
+## 5.참조
