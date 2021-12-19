@@ -46,7 +46,7 @@ description: LuminOx(LOX-O₂-S)를 선택해 주셔서 감사합니다. 제품 
 4. 사용자의 Board, Port를 알맞게 설정합니다.
 5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인합니다.
 
-## 3. 예제 Code(Arduino Base)
+## 3.예제 Code(Arduino Base)
 
 ## 4.Currently LuminOx(LOX-O₂-S) Monitoring
 
