@@ -40,7 +40,7 @@ description: LuminOx(LOX-O₂-S)를 선택해 주셔서 감사합니다. 제품 
 
 #### 2)제품 구성
 
-![](<../../.gitbook/assets/LuminOx(lox-o2-s)Sensor with connecting arduino uno.jpg>)
+![](<../../.gitbook/assets/LuminOx(lox-o2-s) Sensor with connecting arduino due.jpg>)
 
 1. 위 그림과 같이 Arduino Uno와 PCB를 연결합니다.
 2. PCB와 LuminOx(LOX-O₂-S)를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
@@ -48,7 +48,21 @@ description: LuminOx(LOX-O₂-S)를 선택해 주셔서 감사합니다. 제품 
 4. 사용자의 Board, Port를 알맞게 설정합니다.
 5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인합니다.
 
-## 3.예제 Code(Arduino Base)
+## 3.예제 Code(Arduino Due Base)
+
+```
+void setup() {
+  Serial.begin(9600);
+  Serial1.begin(9600); //Arduino Due Rx Tx
+}
+
+void loop() {
+//수신받은 데이터가 0 초과, 즉 데이터가 존재한다면           
+ if (Serial1.available())  {  //코드수행   
+    Serial.write(Serial1.read());
+    }
+}
+```
 
 ## 4.Currently LuminOx(LOX-O₂-S) Monitoring
 
