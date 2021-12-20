@@ -64,6 +64,8 @@ void loop() {
 }
 ```
 
+![](<../../.gitbook/assets/LuminOx(lox-o2-s) 시리얼 모니터.jpg>)
+
 ## 4.Currently LuminOx(LOX-O₂-S) Monitoring
 
 ## 5.참조
