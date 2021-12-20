@@ -4,6 +4,8 @@ description: LuminOx(LOX-O₂-S)를 선택해 주셔서 감사합니다. 제품 
 
 # LuminOx(LOX-O₂-S)
 
+![LuminOx(LOX-O₂-S)](../../.gitbook/assets/lox-o2-s250x250.png)
+
 ## 1.Overview
 
 #### 1)제품 설명
@@ -71,11 +73,12 @@ void loop() {
 ```
 
 ![](<../../.gitbook/assets/LuminOx(lox-o2-s) 시리얼 모니터.jpg>)
+
 * O = 현재 산소분압(PPO₂) 요청값
 * T = 현재 온도 요청값
 * P = 현재 기압 요청값
 * % = 현재 O₂ 퍼센트 값
-* e = 센서 상태("e 0000" = 센서상태 좋음, "e xxxx" = [SST sensing](https://sstsensing.com/)에 문의)
+* e = 센서 상태("e 0000" = 센서상태 좋음, "e xxxx" = [SST sensing](https://sstsensing.com)에 문의)
 
 ## 4.Currently LuminOx(LOX-O₂-S) Monitoring
 
