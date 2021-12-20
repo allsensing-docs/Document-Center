@@ -50,7 +50,7 @@ description: LuminOx(LOX-O₂-S)를 선택해 주셔서 감사합니다. 제품 
 
 ## 3.예제 Code(Arduino Due Base)
 
-```
+```arduino
 void setup() {
   Serial.begin(9600);
   Serial1.begin(9600); //Arduino Due Rx Tx
