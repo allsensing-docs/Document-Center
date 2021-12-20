@@ -34,9 +34,15 @@ description: LuminOx(LOX-O₂-S)를 선택해 주셔서 감사합니다. 제품 
 
 * LuminOx(LOX-O₂-S) Sensor.
 * [산소센서용 PCB](https://allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(필수 옵션에서 산소센서용 선택 후 주문 Allsensing 자체 제작)
-* Arduino Uno.
+* Arduino Due.
 * Arduino Jumper wires Female-male 20cm 4pcs.
-* USB 2.0 Cable Type A/B.
+* USB 2.0 Micro B Cable.
+
+**소프트웨어(Arduino IDE를 통한 프로그래밍)**
+
+* [Arduino IDE 설치](https://www.arduino.cc/en/software)
+* [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
+* Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력한 후 설치합니다.
 
 #### 2)제품 구성
 
