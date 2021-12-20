@@ -25,9 +25,8 @@ Allsensing은 설립 이래 다양한 환경센서를 고객들에게 소개해 
 
 |   |   |
 | - | - |
-|   |   |
+| ![](<.gitbook/assets/CO 250x250.png>)  | ![](<.gitbook/assets/GSS (1).jpg>)  |
 
-![](<.gitbook/assets/CO 250x250.png>) ![](<.gitbook/assets/GSS (1).jpg>)
 
 | EC-Sense                                   | SST                                          |
 | ------------------------------------------ | -------------------------------------------- |
