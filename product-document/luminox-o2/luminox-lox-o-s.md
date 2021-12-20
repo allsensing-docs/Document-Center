@@ -65,6 +65,11 @@ void loop() {
 ```
 
 ![](<../../.gitbook/assets/LuminOx(lox-o2-s) 시리얼 모니터.jpg>)
+* O = 현재 산소분압(PPO₂) 요청값
+* T = 현재 온도 요청값
+* P = 현재 기압 요청값
+* % = 현재 O₂ 퍼센트 값
+* e = 센서 상태("e 0000" = 센서상태 좋음, "e xxxx" = [SST sensing](https://sstsensing.com/)에 문의)
 
 ## 4.Currently LuminOx(LOX-O₂-S) Monitoring
 
