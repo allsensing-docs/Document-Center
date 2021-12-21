@@ -86,7 +86,7 @@ Z:디지털 필터링 후 CO₂ 농도
 
 z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 
-## 4.Currently SprintIR-6S Monitoring
+## 4.SprintIR-6S Monitoring
 
 ## 5.참조
 
