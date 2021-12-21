@@ -91,4 +91,3 @@ z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 ## 5.참조
 
 * [Datasheet](https://www.co2meter.com/products/sprintir6s-5-co2-smart-sensor)
-* [Arduino code](https://blog.naver.com/allsensing/220941755298)
