@@ -92,7 +92,7 @@ Z:디지털 필터링 후 CO₂ 농도
 
 z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 
-## 5.예제 CozIR-LP2 Monitoring
+## 4.예제 CozIR-LP2 Monitoring
 
 ![](<../../.gitbook/assets/CozIR LP2 그래프 (3).jpg>)
 
