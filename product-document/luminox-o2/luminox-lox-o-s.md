@@ -82,8 +82,6 @@ void loop() {
 
 ## 4.LuminOx(LOX-O₂-S) Monitoring
 
-![](broken-reference)
-
 ## 5.참조
 
 * [Sensor Datasheet](https://sstsensing.com/product/luminox-sealed-optical-oxygen-sensor/)
