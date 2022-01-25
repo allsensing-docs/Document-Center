@@ -40,6 +40,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 * CozIR-LP2 CO₂ Sensor.
 * [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작)
 * Arduino Uno Rev3(5V).(Arduino Due(3.3V)도 가능, CozIR LP2 Supply Voltages Min:3.25V Max:5.5V) -> Arduino Due 3.3V 권장
+Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음 
 * Arduino Jumper wires Female-male 20cm 4pcs.
 * USB 2.0 Cable Type A/B(Arduino Uno Rev3용).
 * USB 2.0 Micro B Cable(Arduino Due용).
