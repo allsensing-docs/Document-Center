@@ -74,12 +74,29 @@ description: LuminOx(LOX-02-S)를 선택해 주셔서 감사합니다. 제품 �
 
 * Arduino Uno Rev3
 
+```arduino
+#include <SoftwareSerial.h>
+SoftwareSerial mySerial(12, 13);
+
+void setup() {
+  Serial.begin(9600);
+  mySerial.begin(9600); //Uno Rx Tx (12, 13) = mySerial
+}
+
+void loop() {
+//수신받은 데이터가 0 초과, 즉 데이터가 존재한다면           
+ if (mySerial.available())  {  //코드수행   
+    Serial.write(mySerial.read());
+    }
+}
+```
+
 * Arduino Due
 
 ```arduino
 void setup() {
   Serial.begin(9600);
-  Serial1.begin(9600); //Arduino Due Rx Tx
+  Serial1.begin(9600); //Due Rx Tx (19 18) = Serial1
 }
 
 void loop() {
