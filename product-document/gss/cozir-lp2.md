@@ -43,6 +43,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 * Arduino Jumper wires Female-male 20cm 4pcs.
 * USB 2.0 Cable Type A/B(Arduino Uno Rev3용).
 * USB 2.0 Micro B Cable(Arduino Due용).
+*(Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음)
 
 **소프트웨어(Arduino IDE를 통한 프로그래밍)**
 
@@ -67,7 +68,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 ![](<../../.gitbook/assets/cozir lp2 connecting with arduino due.jpg>)
 
-1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.(Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음)
+1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.
 2. PCB와 CozIR-LP2 CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
 3. Arduino Due 뒷면에서 Programming Port와 Native USB Port 중에서는 원하시는 Port에 Micro-B USB Cable을 연결하세요.(Allsensing은 Programming Port에 연결)
 4. 사용자 Board, Port를 알맞게 설정합니다.
