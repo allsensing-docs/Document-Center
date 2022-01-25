@@ -79,11 +79,11 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 ```arduino
 #include <SoftwareSerial.h>
-SoftwareSerial mySerial(12, 13);
+SoftwareSerial mySerial(12, 13); //Uno Rx Tx (12 13) = mySerial
 
 void setup() {
   Serial.begin(9600); //시리얼 통신 초기화
-  mySerial.begin(9600); //Uno Rx Tx (12 13) = mySerial
+  mySerial.begin(9600); 
   delay(500); //0.5초 지연
   while(!mySerial){} //시리얼 통신 포트가 연결되기 전까지 대기
   mySerial.println("K 2\r\n"); //Polling 모드로 변경
@@ -110,7 +110,7 @@ void loop() {
 ```arduino
 void setup(){
   Serial.begin(9600); //시리얼 통신 초기화
-   Serial1.begin(9600); //DUE Tx Rx (18 19) = Serial1
+   Serial1.begin(9600); //DUE Rx Tx (19 18) = Serial1
   delay(500); //0.5초 지연
   while(!Serial1){} //시리얼 통신 포트가 연결되기 전까지 대기
   Serial1.println("K 2"); //Polling 모드로 변경     
