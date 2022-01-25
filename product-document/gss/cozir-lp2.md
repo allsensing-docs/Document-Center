@@ -1,5 +1,5 @@
 ---
-description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방법에 도움이 되는 모든 문서를 제공니다.
+description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방법에 도움이 되는 모든 문서를 제공합니다.
 ---
 
 # CozIR-LP2
@@ -14,16 +14,14 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 #### 2)제품 특징
 
-* 최대 1%(10,000ppm) CO₂ 농도 측정
+* 최대 1%(10,000ppm) CO₂ 농도 측정(0~2000ppm, 0~5000ppm, 0~10,000ppm으로 원하시는 측정 범위를 확인 후 상품 구매)
 * Solid-State, 움직이는 부품 없음, 가열된 필라멘트 없음
 * 진동 및 충격에 강하고 비가열성
 * 디지털(UART) 및 I2C 출력
-* 일반 NDIR CO₂ 센서보다 최대 50배 낮은 전력
-* 간편한 계측 통합을 위한 작은 크기
-* 긴 수명, 낮은 유지 보수
-* 무선, 휴대용, 웨어러블 및 배터리에 이상적
+* 간편한 계측을 위한 작은 크기
+* 무선, 휴대용, 웨어러블에 이상적
 * 에너지 효율적인 스마트 홈 환경 지원
-* IAQ, HVAC, 빌딩 자동화, 계측, 농업, MAP, 자동차, 항공우주 및 안전과 같은 애플리케이션에 쉽게 통합
+* IAQ(실내공기질), HVAC(공기조화기술), BMS(건물 관리 시스템), 계측, 농업, 자동차, 항공우주 및 안전과 같은 애플리케이션에 쉽게 통합
 
 #### 3)Documents
 
@@ -41,13 +39,16 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 * CozIR-LP2 CO₂ Sensor.
 * [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작)
-* Arduino Due.
+* Arduino Uno Rev3(5V).(Arduino Due(3.3V)도 가능, CozIR LP2 Supply Voltages Min:-0.3V Max:+6.0V)
 * Arduino Jumper wires Female-male 20cm 4pcs.
-* USB 2.0 Micro B Cable
+* USB 2.0 Cable Type A/B(Arduino Uno Rev3용)
+* USB 2.0 Micro B Cable(Arduino Due용)
+
 
 **소프트웨어(Arduino IDE를 통한 프로그래밍)**
 
 * [Arduino IDE 설치](https://www.arduino.cc/en/software)
+* [Arduino Uno Rev3 시작하기](https://docs.arduino.cc/hardware/uno-rev3)
 * [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
 * Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력한 후 설치합니다.
 
@@ -55,7 +56,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 ![](<../../.gitbook/assets/cozir lp2 connecting with arduino due.jpg>)
 
-1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.
+1. 위 그림과 같이 Arduino Uno Rev3 또는 Arduino Due와 PCB를 연결합니다.
 2. PCB와 CozIR-LP2 CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
 3. Arduino Due 뒷면에서 Programming Port와 Native USB Port 중에서는 원하시는 Port에 Micro-B USB Cable을 연결하세요.(Allsensing은 Programming Port에 연결)
 4. 사용자 Board, Port를 알맞게 설정합니다.
@@ -94,7 +95,6 @@ z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 
 ## 4.예제 CozIR-LP2 Monitoring
 
-![](<../../.gitbook/assets/CozIR LP2 그래프 (3).jpg>)
 
 ## 5.참조
 
