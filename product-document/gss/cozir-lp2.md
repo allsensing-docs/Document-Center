@@ -54,6 +54,9 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 #### 2)제품 구성
 
 * Arduino Uno Rev3
+
+![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino R3.jpg>)
+
 * Arduino Due
 
 ![](<../../.gitbook/assets/cozir lp2 connecting with arduino due.jpg>)
@@ -64,7 +67,39 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 4. 사용자 Board, Port를 알맞게 설정합니다.
 5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인합니다.
 
-## 3.예제 Code(Arduino Due Base)
+## 3.예제 Code
+
+* Arduino Uno Rev3
+
+```
+#include <SoftwareSerial.h>
+SoftwareSerial mySerial(12, 13);
+
+void setup() {
+  Serial.begin(9600); //시리얼 통신 초기화
+  mySerial.begin(9600); //Due Rx 12, Tx 13번 핀으로 사용
+  delay(500); //0.5초 지연
+  while(!mySerial){} //uno 같은 직렬 포트에는 해당 되지 않음, 시리얼 통신 포트가 연결되기 전까지 대기
+  mySerial.println("K 2\r\n");
+  delay(1000);
+  mySerial.println("Z");
+}                              
+
+void loop() {
+ //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면
+ if(mySerial.available()) //코드수행
+ {
+  String str = mySerial.readStringUntil('\n'); //버퍼에서 읽어드린 char의 데이터를 String 형태로 반환
+  Serial.println(str); 
+  mySerial.println("Z");
+  delay(1000);  
+ }
+}
+```
+
+![](<../../.gitbook/assets/uno serial monitor.jpg>)
+
+* Arduino Due
 
 ```arduino
 void setup(){
