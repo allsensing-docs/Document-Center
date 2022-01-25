@@ -57,6 +57,12 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino R3.jpg>)
 
+1. 위 그림과 같이 Arduino Uno Rev3와 PCB를 연결합니다.
+2. PCB와 CozIR-LP2 CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
+3. Arduino Uno Port와 USB 2.0 Cable Type A/B를 연결합니다.
+4. 사용자 Board, Port를 알맞게 설정합니다.
+5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인합니다.
+
 * Arduino Due
 
 ![](<../../.gitbook/assets/cozir lp2 connecting with arduino due.jpg>)
@@ -71,7 +77,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 * Arduino Uno Rev3
 
-```
+```arduino
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(12, 13);
 
