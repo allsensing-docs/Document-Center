@@ -43,7 +43,6 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 * Arduino Jumper wires Female-male 20cm 4pcs.
 * USB 2.0 Cable Type A/B(Arduino Uno Rev3용).
 * USB 2.0 Micro B Cable(Arduino Due용).
-*(Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음)
 
 **소프트웨어(Arduino IDE를 통한 프로그래밍)**
 
@@ -65,6 +64,8 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인합니다.
 
 * Arduino Due
+
+(Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음)
 
 ![](<../../.gitbook/assets/cozir lp2 connecting with arduino due.jpg>)
 
