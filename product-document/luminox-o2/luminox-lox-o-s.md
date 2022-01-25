@@ -2,7 +2,7 @@
 description: LuminOx(LOX-02-S)를 선택해 주셔서 감사합니다. 제품 활용 방법에 도움이 되는 모든 문서를 제공합니다.
 ---
 
-# LuminOx(LOX-02-S)
+# LuminOx(LOX-O₂-S)
 
 ![LuminOx(LOX-02-S)](../../.gitbook/assets/lox-o2-s250x250.png)
 
@@ -52,6 +52,8 @@ description: LuminOx(LOX-02-S)를 선택해 주셔서 감사합니다. 제품 �
 
 * Arduino Uno Rev3
 
+![](<../../.gitbook/assets/LOX-02-S Sensor with connecting arduino uno rev3.jpg>)
+
 1. 위 그림과 같이 Arduino Uno와 PCB를 연결합니다.
 2. PCB와 LuminOx(LOX-O₂-S)를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
 3. Arduino Uno와 USB 2.0 Cable Type A/B를 연결하세요.
@@ -91,6 +93,8 @@ void loop() {
 }
 ```
 
+![](<../../.gitbook/assets/uno serial monitor (1).jpg>)
+
 * Arduino Due
 
 ```arduino
@@ -107,7 +111,7 @@ void loop() {
 }
 ```
 
-![](<../../.gitbook/assets/LuminOx(lox-o2-s) 시리얼 모니터.jpg>)
+![](<../../.gitbook/assets/due serial monitor.jpg>)
 
 * O = 현재 산소분압(PPO₂)값
 * T = 현재 온도값
