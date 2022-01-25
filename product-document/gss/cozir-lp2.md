@@ -41,8 +41,8 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 * [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작)
 * Arduino Uno Rev3(5V).(Arduino Due(3.3V)도 가능, CozIR LP2 Supply Voltages Min:3.25V Max:5.5V) -> Arduino Due 3.3V 권장
 * Arduino Jumper wires Female-male 20cm 4pcs.
-* USB 2.0 Cable Type A/B(Arduino Uno Rev3용)
-* USB 2.0 Micro B Cable(Arduino Due용)
+* USB 2.0 Cable Type A/B(Arduino Uno Rev3용).
+* USB 2.0 Micro B Cable(Arduino Due용).
 
 **소프트웨어(Arduino IDE를 통한 프로그래밍)**
 
