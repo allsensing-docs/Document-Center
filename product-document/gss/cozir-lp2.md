@@ -20,13 +20,13 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 * 디지털(UART) 및 I2C 출력
 * Auto-Calibration 내장
 * 간편한 계측을 위한 작은 크기
+* 긴 센서수명(15년)
 * 무선, 휴대용, 웨어러블에 이상적
 * IAQ(실내공기질), HVAC(공기조화기술), BMS(건물 관리 시스템), 계측, 농업, 자동차, 항공우주 및 안전과 같은 애플리케이션에 쉽게 통합
 
 #### 3)Documents
 
 * Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
-* User Guide[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-COZIR-LP2-User-Guide-Rev-4.0.pdf)
 * 치수 도면[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-LP2-CO2Meter.pdf)
 
 ## 2.Quickstart
@@ -39,7 +39,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 * CozIR-LP2 CO₂ Sensor.
 * [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작)
-* Arduino Uno Rev3(5V).(Arduino Due(3.3V)도 가능, CozIR LP2 Supply Voltages Min:-0.3V Max:+6.0V)
+* Arduino Uno Rev3(5V).(Arduino Due(3.3V)도 가능, CozIR LP2 Supply Voltages Min:3.25V Max:5.5V) -> Arduino Due 3.3V 권장
 * Arduino Jumper wires Female-male 20cm 4pcs.
 * USB 2.0 Cable Type A/B(Arduino Uno Rev3용)
 * USB 2.0 Micro B Cable(Arduino Due용)
@@ -49,7 +49,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 * [Arduino IDE 설치](https://www.arduino.cc/en/software)
 * [Arduino Uno Rev3 시작하기](https://docs.arduino.cc/hardware/uno-rev3)
 * [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
-* Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력한 후 설치합니다.
+* Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력한 후 설치합니다.(Uno는 Arduino IDE 설치시 세팅되어있음)
 
 #### 2)제품 구성
 
