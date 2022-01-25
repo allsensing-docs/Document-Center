@@ -14,13 +14,13 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 #### 2)제품 특징
 
-* 최대 1%(10,000ppm) CO₂ 농도 측정(0~~2000ppm, 0~~5000ppm, 0\~10,000ppm으로 원하시는 측정 범위를 확인 후 상품 구매)
+* 최대 1%(10,000ppm) CO₂ 농도 측정(0~2000ppm, 0~5000ppm, 0~10,000ppm으로 원하시는 측정 범위를 확인 후 상품 구매)
 * Solid-State, 움직이는 부품 없음, 가열된 필라멘트 없음
 * 진동 및 충격에 강하고 비가열성
 * 디지털(UART) 및 I2C 출력
+* Auto-Calibration 내장
 * 간편한 계측을 위한 작은 크기
 * 무선, 휴대용, 웨어러블에 이상적
-* 에너지 효율적인 스마트 홈 환경 지원
 * IAQ(실내공기질), HVAC(공기조화기술), BMS(건물 관리 시스템), 계측, 농업, 자동차, 항공우주 및 안전과 같은 애플리케이션에 쉽게 통합
 
 #### 3)Documents
@@ -83,17 +83,17 @@ SoftwareSerial mySerial(12, 13);
 
 void setup() {
   Serial.begin(9600); //시리얼 통신 초기화
-  mySerial.begin(9600); //Due Rx 12, Tx 13번 핀으로 사용
+  mySerial.begin(9600); //Uno Rx Tx (12 13) = mySerial
   delay(500); //0.5초 지연
-  while(!mySerial){} //uno 같은 직렬 포트에는 해당 되지 않음, 시리얼 통신 포트가 연결되기 전까지 대기
-  mySerial.println("K 2\r\n");
+  while(!mySerial){} //시리얼 통신 포트가 연결되기 전까지 대기
+  mySerial.println("K 2\r\n"); //Polling 모드로 변경
   delay(1000);
   mySerial.println("Z");
 }                              
 
 void loop() {
  //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면
- if(mySerial.available()) //코드수행
+ if(mySerial.available()>0) //코드수행
  {
   String str = mySerial.readStringUntil('\n'); //버퍼에서 읽어드린 char의 데이터를 String 형태로 반환
   Serial.println(str); 
@@ -112,10 +112,10 @@ void setup(){
   Serial.begin(9600); //시리얼 통신 초기화
    Serial1.begin(9600); //DUE Tx Rx (18 19) = Serial1
   delay(500); //0.5초 지연
-  while(!Serial1){}
+  while(!Serial1){} //시리얼 통신 포트가 연결되기 전까지 대기
   Serial1.println("K 2"); //Polling 모드로 변경     
-  delay(500);
-   Serial1.println("Z"); //CO2값 읽기 명령
+  delay(1000);
+   Serial1.println("Z"); 
 }
 
 void loop(){
