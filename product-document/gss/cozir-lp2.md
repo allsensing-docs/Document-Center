@@ -35,7 +35,8 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 #### 1)전제 조건
 
-* CozIR-LP2를 사용하는 각 단계를 진행하기 전에 아래 나열된 항목을 준비(CozIR-LP2 CO₂ Sensor 중에 Pin이 부착되어 있는 센서는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월)
+* CozIR-LP2를 사용하는 각 단계를 진행하기 전에 아래 나열된 항목을 준비
+(CozIR-LP2 CO₂ Sensor 중에 Pin이 부착되어 있는 센서는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월)
 * 자체 제작 PCB가 필요없고 직접 Soldering을 하시겠다면 가능합니다만, 열을 가하게 된다면 Sensor에 영향을 줄 수 있으니 하루정도 전원을 넣어주면 자동으로 교정
 * 소프트웨어는 Arduino IDE를 사용
 
