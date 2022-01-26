@@ -54,11 +54,11 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
 
-1. Arduino Due(or Arduino Uno Rev3)와 PCB를 연결
-2. PCB와 CozIR-LP2 CO₂ 센서를 연결(단, 센서의 Vcc, GND, Rx, Tx는 확인하고 부착)
-3. Arduino Due Port(or Arduino Uno Rev3 Port)와 Micro-B USB Cable(or USB 2.0 Cable Type A/B)를 연결(Allsensing은 Arduino Due Programming Port에 연결)
-4. 사용자 Board, Port, Baud-rate(9600)를 알맞게 설정
-5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인
+1. Arduino Due(or Arduino Uno Rev3)와 PCB 연결
+2. PCB와 CozIR-LP2 CO₂ 센서 연결(단, 센서의 VCC, GND, Rx, Tx는 확인하고 부착)
+3. Arduino Due Port(or Arduino Uno Rev3 Port)와 Micro-B USB Cable(or USB 2.0 Cable Type A/B) 연결(Allsensing은 Arduino Due Programming Port에 연결)
+4. 사용자 Board, Port, Baud-rate(9600) 알맞게 설정
+5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터 확인
 
 ## 3.예제 Code
 
