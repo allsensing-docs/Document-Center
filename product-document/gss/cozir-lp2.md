@@ -20,9 +20,10 @@ CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 
 | 센서 수명      | 15년                                                                        |
 | 센서 활용      | IAQ(실내공기질), HVAC(공기조화기술), BMS(건물 관리 시스템), 계측, 농업, 자동차, 항공우주                |
 
-#### 3)제품 크기기   4&#x20;
+#### 3)제품 크기
 
-#### 3)센서 관련 문서
+
+#### 4)센서 관련 문서
 
 * Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
 * 치수 도면[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-LP2-CO2Meter.pdf)
