@@ -1,68 +1,63 @@
----
-description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방법에 도움이 되는 모든 문서를 제공합니다.
----
+
 
 # CozIR-LP2
 
 ![CozIR LP2](../../.gitbook/assets/main23.jpg)
 
-## 1.Overview
+## 1.개요
 
 #### 1)제품 설명
 
-: CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 NDIR CO₂ 센서
+CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 NDIR CO₂ 센서
 
-#### 2)제품 특징
+#### 2)제품 사양
 
 | 항목         | 내용                                                          |
 | ---------- | ----------------------------------------------------------- |
-| 측정 범위      | (0-2000ppm), (0-5000ppm), (0-10,000ppm) 최대 10,000ppm 측정 가능  |
-| 센서 내부      | Solid-State, 가열된 필라멘트 없음, 움직이는 부품 없음                        |
-| 통신 방식      | UART 또는 I²C                                                 |
+| 측정 범위      | Type 1) 0-2000ppm
+                  Type 2) 0-5000ppm 
+                  Type 3) 0-10,000ppm 
+                  최대 10,000ppm 측정 가능  |
+| 센서 내부      | Solid-State, 가열된 필라멘트 없음                        |
+| 통신 방식      | UART 또는 I²C                                             |
 | 전원 전압      | 3.25-5.5V                                                   |
-| 센서 치수 및 무게 | 31mm x 19.5mm x 8.7mm, 2.5g                                 |
-| 센서 내구성     | 진동 및 충격에 강하고 비가열성                                           |
-| 센서 교정      | 자동 교정 내장                                                    |
+| 센서 치수 및 무게 | L x W x H(31mm x 19.5mm x 8.7mm), 
+                     2.5g                                 |
+| 센서 내구성    | 진동 및 충격에 강하고 비가열성                                           |
+| 센서 교정      | 자동 교정 기능 내장                                                    |
 | 센서 수명      | 15년                                                         |
 | 센서 활용      | IAQ(실내공기질), HVAC(공기조화기술), BMS(건물 관리 시스템), 계측, 농업, 자동차, 항공우주 |
 
-#### 3)Documents
+#### 3)센서 관련 문서
 
 * Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
 * 치수 도면[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-LP2-CO2Meter.pdf)
 
-## 2.Quickstart
+## 2.
 
-#### 1)전제 조건
+#### 1)필요 사항
 
 * CozIR-LP2 사용 환경 구성을 진행하기 전 아래 하드웨어 항목 준비 (CozIR-LP2는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월)
 * 자체 제작 PCB가 필요 없고 센서에 Soldering을 한다면 사용 가능은 하지만, 열을 가하게 되면 센서측정에 영향을 줄 수 있어 하루 정도 전원을 넣어주면 자동으로 교정
-* 소프트웨어는 Arduino IDE를 사용
+
 
 | **하드웨어**                                                                                                                                                                |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | CozIR-LP2 CO₂ 센서                                                                                                                                                    |
 | [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작) -> Soldering보다는 PCB 사용 권장 |
 | Arduino Due(3.3V)(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장                                                                                                    |
-| Arduino Jumper wires Female-male 20cm 4pcs                                                                                                                              |
-| USB 2.0 Cable Type A/B(Arduino Uno Rev3용)                                                                                                                               |
-| USB 2.0 Micro B Cable(Arduino Due용)                                                                                                                                     |
 
 #### 2)환경 구성
 
-(Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음)
-
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
 
-1. Arduino Due(or Arduino Uno Rev3)와 PCB 연결
-2. PCB와 CozIR-LP2 CO₂ 센서 연결(단, 센서의 VCC, GND, Rx, Tx는 확인하고 부착)
-3. Arduino Due Port(or Arduino Uno Rev3 Port)와 Micro-B USB Cable(or USB 2.0 Cable Type A/B) 연결(Allsensing은 Arduino Due Programming Port에 연결)
-4. 사용자 Board, Port, Baud-rate(9600) 알맞게 설정
-5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터 확인
+주의 
+-센서의 VCC, GND, Rx, Tx는 확인하고 부착
 
 ## 3.예제 Code
 
 ```arduino
+-----------------------------Software -> Arduino IDE----------------------------
 -----------------------------Arduino Uno Rev3 Code------------------------------
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(12, 13); //Uno Rx Tx (12 13) = mySerial
@@ -80,8 +75,8 @@ void setup() {
 void loop() {
  //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면
  if(mySerial.available()>0) //코드수행
- {
-  String str = mySerial.readStringUntil('\n'); //버퍼에서 읽어드린 char의 데이터를 String 형태로 반환
+ { //버퍼에서 읽어드린 char의 데이터를 String 형태로 반환
+  String str = mySerial.readStringUntil('\n'); 
   Serial.println(str); //CO2값 읽기 명령
   delay(1000);  
   mySerial.println("Z"); //CO2값 읽기 명령
@@ -102,8 +97,8 @@ void setup(){
 void loop(){
   //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면
   if(Serial1.available()>0) //코드수행
-  {
-    String str = Serial1.readStringUntil('\n'); //버퍼에서 읽어드린 char의 데이터를 String 형태로 반환
+  { //버퍼에서 읽어드린 char의 데이터를 String 형태로 반환
+    String str = Serial1.readStringUntil('\n');
     Serial.println(str); //CO2값 읽기 명령
     delay(1000); 
     Serial1.println("Z"); //CO2값 읽기 명령
@@ -111,7 +106,7 @@ void loop(){
 }
 ```
 
-![Arduino Uno Rev3](<../../.gitbook/assets/due ex.jpg>) ![Arduino Due](<../../.gitbook/assets/uno serial monitor.jpg>)
+![Arduino Due](<../../.gitbook/assets/uno serial monitor.jpg>)
 
 Z:디지털 필터링 후 CO₂ 농도
 
