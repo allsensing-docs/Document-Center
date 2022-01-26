@@ -20,7 +20,7 @@ CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 
 | 센서 수명      | 15년                                                                                        |
 | 센서 활용      | <p>IAQ(실내공기질)<br>HVAC(공기조화기술)<br>BMS(건물 관리 시스템)<br>계측, 농업, 자동차, 항공우주</p>                   |
 
-#### 3)제품 크기
+#### 3)제품 이미지
 
 ![](<../../.gitbook/assets/센서 그림 (2).jpg>)
 
@@ -29,7 +29,7 @@ CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 
 * Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
 * 치수 도면[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-LP2-CO2Meter.pdf)
 
-## 2.시작 가이드
+## 2.
 
 #### 1)필요 사항
 
@@ -40,17 +40,12 @@ CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **하드웨어** | <p>*CozIR-LP2 CO₂ 센서<br>*<a href="https://www.allsensing.com/product/detail.html?product_no=1171&#x26;cate_no=65&#x26;display_group=1">CozIR용 PCB</a>(Connector 포함 / Allsensing 자체 제작) -> Soldering보다는 PCB 사용 권장<br>*Arduino Due(3.3V)(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장</p> |
 
-| **하드웨어**                                                                                                                                                                |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| CozIR-LP2 CO₂ 센서                                                                                                                                                        |
-| [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작) -> Soldering보다는 PCB 사용 권장 |
-| Arduino Due(3.3V)(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장                                                                                                      |
-
 #### 2)환경 구성
 
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
 
-주의 -센서의 VCC, GND, Rx, Tx는 확인하고 부착
+주의사항 
+-센서의 VCC, GND, Rx, Tx는 확인하고 부착
 
 ## 3.예제 Code
 
