@@ -41,17 +41,19 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 <details>
 
-<summary>하</summary>
+<summary>*하드웨어*</summary>
 
-1\.
+1\.CozIR-LP2 CO₂ Sensor 
 
-2\.
+2\.[CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작) -> Soldering보다는 PCB 사용 권장 
 
-3\.
+3\.Arduino Due(3.3V)(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장
 
-4\.
+4\.Arduino Jumper wires Female-male 20cm 4pcs   
 
-5\.
+5\.USB 2.0 Cable Type A/B(Arduino Uno Rev3용)  
+
+6\.USB 2.0 Micro B Cable(Arduino Due용)     
 
 </details>
 
