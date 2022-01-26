@@ -10,7 +10,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 #### 1)제품 설명
 
-: CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 NDIR CO₂ 센서입니다.
+: CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 NDIR CO₂ 센서
 
 #### 2)제품 특징
 
@@ -35,28 +35,28 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 #### 1)전제 조건
 
-* CozIR-LP2를 사용하는 각 단계를 진행하기 전에 아래 나열된 항목을 준비해야 합니다. (CozIR-LP2 CO₂ Sensor 중에 Pin이 부착되어 있는 센서는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월합니다.)
-* 자체 제작 PCB가 필요없고 직접 Soldering을 하시겠다면 가능합니다. 다만 열을 가하게 된다면 Sensor에 영향을 줄 수 있으니 하루정도 전원을 넣어주면 자동으로 교정이 됩니다.
-* 소프트웨어는 Arduino IDE를 사용합니다.  &#x20;
+* CozIR-LP2를 사용하는 각 단계를 진행하기 전에 아래 나열된 항목을 준비해야 합니다(CozIR-LP2 CO₂ Sensor 중에 Pin이 부착되어 있는 센서는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월합니다)
+* 자체 제작 PCB가 필요없고 직접 Soldering을 하시겠다면 가능합니다. 다만 열을 가하게 된다면 Sensor에 영향을 줄 수 있으니 하루정도 전원을 넣어주면 자동으로 교정이 됩니다
+* 소프트웨어는 Arduino IDE를 사용합니다
 
 **하드웨어**
 
-* CozIR-LP2 CO₂ Sensor.
+* CozIR-LP2 CO₂ Sensor
 * [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작) -> Soldering보다는 PCB 사용 권장
-* Arduino Due(3.3V).(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장
-* Arduino Jumper wires Female-male 20cm 4pcs.
-* USB 2.0 Cable Type A/B(Arduino Uno Rev3용).
-* USB 2.0 Micro B Cable(Arduino Due용).
+* Arduino Due(3.3V)(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장
+* Arduino Jumper wires Female-male 20cm 4pcs
+* USB 2.0 Cable Type A/B(Arduino Uno Rev3용)
+* USB 2.0 Micro B Cable(Arduino Due용)
 
 #### 2)제품 구성
 
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
 
-1. Arduino Due(or Arduino Uno Rev3)와 PCB를 연결.
-2. PCB와 CozIR-LP2 CO₂ Sensor를 연결.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
-3. Arduino Due Port(or Arduino Uno Rev3 Port)와 Micro-B USB Cable(or USB 2.0 Cable Type A/B)를 연결.(Allsensing은 Arduino Due Programming Port에 연결)
-4. 사용자 Board, Port, Baud-rate(9600)를 알맞게 설정.
-5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인.
+1. Arduino Due(or Arduino Uno Rev3)와 PCB를 연결
+2. PCB와 CozIR-LP2 CO₂ Sensor를 연결(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
+3. Arduino Due Port(or Arduino Uno Rev3 Port)와 Micro-B USB Cable(or USB 2.0 Cable Type A/B)를 연결(Allsensing은 Arduino Due Programming Port에 연결)
+4. 사용자 Board, Port, Baud-rate(9600)를 알맞게 설정
+5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인
 
 (Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음)
 
