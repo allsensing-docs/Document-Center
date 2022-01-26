@@ -57,6 +57,12 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 </details>
 
+| \*\*하드웨어\*\* |
+| ------------ |
+|              |
+|              |
+|              |
+
 #### 2)제품 구성
 
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
