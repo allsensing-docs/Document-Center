@@ -38,7 +38,7 @@ CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 
 
 |          |                  |
 | -------- | ---------------- |
-| **하드웨어** | CozIR-LP2 CO₂ 센서 |
+| **하드웨어** | * <p>CozIR-LP2 CO₂ 센서<br>*[CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작) -> Soldering보다는 PCB 사용 권장<br>*Arduino Due(3.3V)(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장</p>    |
 
 | **하드웨어**                                                                                                                                                                |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
