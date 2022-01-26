@@ -4,7 +4,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 # CozIR-LP2
 
-![CozIR-LP2](../../.gitbook/assets/CozIR-LP2ex.jpg)
+![](../../.gitbook/assets/main2.jpg)
 
 ## 1.Overview
 
