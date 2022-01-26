@@ -49,7 +49,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 | USB 2.0 Cable Type A/B(Arduino Uno Rev3용) |
 | USB 2.0 Micro B Cable(Arduino Due용) |
 
-#### 2)제품 구성
+#### 2) 구성
 
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
 
