@@ -14,15 +14,11 @@ CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 
 
 | 항목         | 내용                                                          |
 | ---------- | ----------------------------------------------------------- |
-| 측정 범위      | Type 1) 0-2000ppm
-                  Type 2) 0-5000ppm 
-                  Type 3) 0-10,000ppm 
-                  최대 10,000ppm 측정 가능  |
+| 측정 범위      | Type 1) 0-2000ppm Type 2) 0-5000ppm Type 3) 0-10,000ppm 최대 10,000ppm 측정 가능  |
 | 센서 내부      | Solid-State, 가열된 필라멘트 없음                        |
 | 통신 방식      | UART 또는 I²C                                             |
 | 전원 전압      | 3.25-5.5V                                                   |
-| 센서 치수 및 무게 | L x W x H(31mm x 19.5mm x 8.7mm), 
-                     2.5g                                 |
+| 센서 치수 및 무게 | L x W x H(31mm x 19.5mm x 8.7mm), 2.5g                                 |
 | 센서 내구성    | 진동 및 충격에 강하고 비가열성                                           |
 | 센서 교정      | 자동 교정 기능 내장                                                    |
 | 센서 수명      | 15년                                                         |
@@ -33,7 +29,7 @@ CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 
 * Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
 * 치수 도면[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-LP2-CO2Meter.pdf)
 
-## 2.
+## 2.시작 가이드
 
 #### 1)필요 사항
 
