@@ -39,29 +39,14 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 * 자체 제작 PCB가 필요없고 직접 Soldering을 하시겠다면 가능합니다만, 열을 가하게 된다면 Sensor에 영향을 줄 수 있으니 하루정도 전원을 넣어주면 자동으로 교정
 * 소프트웨어는 Arduino IDE를 사용
 
-<details>
-
-<summary>하드웨어   </summary>
-
-1.CozIR-LP2 CO₂ Sensor
-
-2.[CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작) -> Soldering보다는 PCB 사용 권장
-
-3.Arduino Due(3.3V)(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장
-
-4.Arduino Jumper wires Female-male 20cm 4pcs
-
-5.USB 2.0 Cable Type A/B(Arduino Uno Rev3용)
-
-6.USB 2.0 Micro B Cable(Arduino Due용)
-
-</details>
-
-| \*\*하드웨어\*\* |
+| **하드웨어** |
 | ------------ |
-|              |
-|              |
-|              |
+| CozIR-LP2 CO₂ Sensor |
+| [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작) -> Soldering보다는 PCB 사용 권장 |
+| Arduino Due(3.3V)(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장 |
+| Arduino Jumper wires Female-male 20cm 4pcs |
+| USB 2.0 Cable Type A/B(Arduino Uno Rev3용) |
+| USB 2.0 Micro B Cable(Arduino Due용) |
 
 #### 2)제품 구성
 
