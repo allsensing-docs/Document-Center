@@ -17,22 +17,14 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 | 항목       | 내용     |
 | -------- | ------ |
 | 측정 범위 | (0-2000ppm),(0-5000ppm),(0-10,000ppm) |
-| 통신 방식 | UART 또는 I2C 출력 |
 | 센서 내부 | Solid-State, 가열된 필라멘트 없음, 움직이는 부품 없음 |
+| 통신 방식 | UART 또는 I2C |
+| 전원 전압 | 3.25-5.5V |
 | 센서 치수 및 무게 | 31mm x 19.5mm x 8.7mm, 2.5g |
+| 센서 내구성 | 진동 및 충격에 강하고 비가열성 |
 | 센서 교정 | 자동 교정 내장 |
 | 센서 수명 | 15년 |
 | 센서 활용 | IAQ(실내공기질), HVAC(공기조화기술), BMS(건물 관리 시스템), 계측, 농업, 자동차, 항공우주 |
-
-* 최대 1%(10,000ppm) CO₂ 농도 측정(0-2000ppm, 0-5000ppm, 0-10,000ppm으로 원하시는 측정 범위를 확인 후 상품 구매)
-* Solid-State, 움직이는 부품 없음, 가열된 필라멘트 없음
-* 진동 및 충격에 강하고 비가열성
-* 디지털(UART) 및 I2C 출력
-* Auto-Calibration 내장
-* 간편한 계측을 위한 작은 크기
-* 긴 센서수명(15년)
-* 무선, 휴대용, 웨어러블에 이상적
-* IAQ(실내공기질), HVAC(공기조화기술), BMS(건물 관리 시스템), 계측, 농업, 자동차, 항공우주 및 안전과 같은 애플리케이션에 쉽게 통합
 
 #### 3)Documents
 
@@ -43,41 +35,30 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 #### 1)전제 조건
 
-: CozIR-LP2를 사용하는 각 단계를 진행하기 전에 아래 나열된 필수 항목을 준비해야 합니다. (CozIR-LP2 CO₂ Sensor 중에 Pin이 부착되어 있는 센서는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월합니다.)
+* CozIR-LP2를 사용하는 각 단계를 진행하기 전에 아래 나열된 필수 항목을 준비해야 합니다. (CozIR-LP2 CO₂ Sensor 중에 Pin이 부착되어 있는 센서는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월합니다.)
+* 소프트웨어는 Arduino IDE를 사용
 
 **하드웨어**
 
 * CozIR-LP2 CO₂ Sensor.
 * [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작)
-* Arduino Uno Rev3(5V).(Arduino Due(3.3V)도 가능, CozIR LP2 Supply Voltages Min:3.25V Max:5.5V) -> Arduino Due 3.3V 권장
+* Arduino Due(3.3V).(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장
 * Arduino Jumper wires Female-male 20cm 4pcs.
 * USB 2.0 Cable Type A/B(Arduino Uno Rev3용).
 * USB 2.0 Micro B Cable(Arduino Due용).
 
-**소프트웨어(Arduino IDE를 통한 프로그래밍)**
-
-* [Arduino IDE 설치](https://www.arduino.cc/en/software)
-* [Arduino Uno Rev3 시작하기](https://docs.arduino.cc/hardware/uno-rev3)
-* [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
-* Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력한 후 설치합니다.(Uno는 Arduino IDE 설치시 세팅되어있음)
-
 #### 2)제품 구성
-
-* Arduino Uno Rev3
 
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino R3.jpg>)
 
 1. 위 그림과 같이 Arduino Uno Rev3와 PCB를 연결합니다.
 2. PCB와 CozIR-LP2 CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
-3. Arduino Uno Port와 USB 2.0 Cable Type A/B를 연결합니다.
-4. 사용자 Board, Port를 알맞게 설정합니다.
+3. Arduino Uno Port와 USB 2.0 Cable Type A/B를 연결합니다.(Allsensing은 Arduino Due Programming Port에 연결)
+4. 사용자 Board, Port, Baud-rate(9600)를 알맞게 설정합니다.
 5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인합니다.
-
-* Arduino Due
 
 (Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음)
 
-![](<../../.gitbook/assets/cozir lp2 connecting with arduino due.jpg>)
 
 1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.
 2. PCB와 CozIR-LP2 CO₂ Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
@@ -153,3 +134,4 @@ z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 ## 5.참조
 
 * [Sensor Datasheet](https://www.co2meter.com/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
+* [Arduino IDE 설치링크](https://www.arduino.cc/en/software)
