@@ -63,7 +63,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 ## 3.예제 Code
 
 ```arduino
----------------------------Arduino Uno Rev3 Code------------------------------
+-----------------------------Arduino Uno Rev3 Code------------------------------
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(12, 13); //Uno Rx Tx (12 13) = mySerial
 
