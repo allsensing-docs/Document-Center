@@ -2,7 +2,7 @@
 description: LuminOx(LOX-02-S)를 선택해 주셔서 감사합니다. 제품 활용 방법에 도움이 되는 모든 문서를 제공합니다.
 ---
 
-# LuminOx(LOX-02-S)
+# LuminOx(LOX-O₂-S)
 
 ![LuminOx(LOX-02-S)](../../.gitbook/assets/lox-o2-s250x250.png)
 
@@ -93,7 +93,7 @@ void loop() {
 }
 ```
 
-![](<../../.gitbook/assets/uno serial monitor (1).jpg>)
+![](<../../.gitbook/assets/uno serial monitor (1) (1).jpg>)
 
 * Arduino Due
 
