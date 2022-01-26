@@ -50,6 +50,8 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 #### 2)환경 구성
 
+(Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음)
+
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
 
 1. Arduino Due(or Arduino Uno Rev3)와 PCB를 연결
@@ -57,8 +59,6 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 3. Arduino Due Port(or Arduino Uno Rev3 Port)와 Micro-B USB Cable(or USB 2.0 Cable Type A/B)를 연결(Allsensing은 Arduino Due Programming Port에 연결)
 4. 사용자 Board, Port, Baud-rate(9600)를 알맞게 설정
 5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인
-
-(Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음)
 
 ## 3.예제 Code
 
