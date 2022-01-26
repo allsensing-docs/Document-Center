@@ -36,12 +36,12 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 #### 1)전제 조건
 
 * CozIR-LP2 사용 환경 구성을 진행하기 전 아래 하드웨어 항목 준비 (CozIR-LP2는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월)
-* 자체 제작 PCB가 필요없고 직접 Soldering을 하시겠다면 가능합니다만, 열을 가하게 된다면 Sensor에 영향을 줄 수 있으니 하루정도 전원을 넣어주면 자동으로 교정
+* 자체 제작 PCB가 필요 없고 센서에 Soldering을 한다면 사용 가능은 하지만, 열을 가하게 되면 센서에 영향을 줄 수 있어 하루 정도 전원을 넣어주면 자동으로 교정
 * 소프트웨어는 Arduino IDE를 사용
 
 | **하드웨어**                                                                                                                                                                |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| CozIR-LP2 CO₂ Sensor                                                                                                                                                    |
+| CozIR-LP2 CO₂ 센서                                                                                                                                                    |
 | [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Connector 포함 / Allsensing 자체 제작) -> Soldering보다는 PCB 사용 권장 |
 | Arduino Due(3.3V)(Arduino Uno Rev3(5V)도 가능) -> Arduino Due 3.3V 권장                                                                                                    |
 | Arduino Jumper wires Female-male 20cm 4pcs                                                                                                                              |
@@ -53,7 +53,7 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
 
 1. Arduino Due(or Arduino Uno Rev3)와 PCB를 연결
-2. PCB와 CozIR-LP2 CO₂ Sensor를 연결(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
+2. PCB와 CozIR-LP2 CO₂ 센서를 연결(단, 센서의 Vcc, GND, Rx, Tx는 확인하고 부착)
 3. Arduino Due Port(or Arduino Uno Rev3 Port)와 Micro-B USB Cable(or USB 2.0 Cable Type A/B)를 연결(Allsensing은 Arduino Due Programming Port에 연결)
 4. 사용자 Board, Port, Baud-rate(9600)를 알맞게 설정
 5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인
@@ -121,4 +121,4 @@ z:디지털 필터링이 없는 즉각적인 CO₂ 농도
 
 ## 5.참조
 
-* [Sensor Datasheet](https://www.co2meter.com/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
+* [센서 Datasheet](https://www.co2meter.com/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
