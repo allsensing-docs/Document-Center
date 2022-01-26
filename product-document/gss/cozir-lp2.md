@@ -22,6 +22,7 @@ CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 
 
 #### 3)제품 크기
 
+![](<../../.gitbook/assets/센서 그림 (2).jpg>)
 
 #### 4)센서 관련 문서
 
