@@ -4,8 +4,9 @@
 
 #### 1)제품 설명
 
-<p>CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 NDIR CO₂ 센서입니다.<br>CozIR-LP2를 사용하면 높은 CO₂ 측정 정확도를 유지하면서
-전력 소비를 줄일 수 있습니다.<br>CozIR-LP2의 낮은 전력 소비는 배터리 전원 작동과 호환되므로 무선으로 연결된 장비를 포함한 다양한 응용 분야에서 센서를 사용할 수 있습니다. </p>
+CozIR-LP2는 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 NDIR CO₂ 센서입니다.\
+CozIR-LP2를 사용하면 높은 CO₂ 측정 정확도를 유지하면서 전력 소비를 줄일 수 있습니다.\
+CozIR-LP2의 낮은 전력 소비는 배터리 전원 작동과 호환되므로 무선으로 연결된 장비를 포함한 다양한 응용 분야에서 센서를 사용할 수 있습니다.
 
 #### 2)제품 사양
 
@@ -38,14 +39,14 @@
 * 자체 제작 PCB가 필요 없고 센서에 Soldering을 한다면 사용 가능은 하지만, 열을 가하게 되면 센서측정에 영향을 줄 수 있어 하루 정도 전원을 넣어주면 자동으로 교정
 
 |          |                                                                                                                                                                                                                                                                                               |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **하드웨어** | <p>CozIR-LP2 CO₂ 센서<br><a href="https://www.allsensing.com/product/detail.html?product_no=1171&#x26;cate_no=65&#x26;display_group=1">CozIR용 PCB</a>(Connector 포함 / Allsensing </p><p>자체 제작) -> Soldering보다는 PCB 사용 권장<br>*Arduino Due(3.3V)(Arduino Uno Rev3(5V)가능) -> Arduino Due 3.3V 권장</p> |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **하드웨어** | <p>CozIR-LP2 CO₂ 센서<br><a href="https://www.allsensing.com/product/detail.html?product_no=1171&#x26;cate_no=65&#x26;display_group=1">CozIR용 PCB</a>(Connector 포함 / Allsensing</p><p>자체 제작) -> Soldering보다는 PCB 사용 권장<br>*Arduino Due(3.3V)(Arduino Uno Rev3(5V)가능) -> Arduino Due 3.3V 권장</p> |
 
 #### 2)환경 구축
 
-![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
+![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due (1).jpg>)
 
-주의사항 * 센서의 VCC, GND, Rx, Tx는 확인하고 부착
+주의사항 \* 센서의 VCC, GND, Rx, Tx는 확인하고 부착
 
 ## 3.예제 Code
 
