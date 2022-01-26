@@ -14,6 +14,8 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 #### 2)제품 특징
 
+<table><thead><tr><th data-type="number">항목</th><th data-type="number">내용</th></tr></thead><tbody><tr><td>null</td><td>null</td></tr><tr><td>null</td><td>null</td></tr><tr><td>null</td><td>null</td></tr><tr><td>null</td><td>null</td></tr><tr><td>null</td><td>null</td></tr><tr><td>null</td><td>null</td></tr></tbody></table>
+
 * 최대 1%(10,000ppm) CO₂ 농도 측정(0-2000ppm, 0-5000ppm, 0-10,000ppm으로 원하시는 측정 범위를 확인 후 상품 구매)
 * Solid-State, 움직이는 부품 없음, 가열된 필라멘트 없음
 * 진동 및 충격에 강하고 비가열성
