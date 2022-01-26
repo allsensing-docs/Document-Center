@@ -41,9 +41,17 @@ description: CozIR-LP2를 선택해 주셔서 감사합니다. 제품 활용 방
 
 <details>
 
-<summary></summary>
+<summary>하</summary>
 
+1\.
 
+2\.
+
+3\.
+
+4\.
+
+5\.
 
 </details>
 
