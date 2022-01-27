@@ -97,13 +97,10 @@ void loop(){
 }
 ```
 
-![](<../../.gitbook/assets/uno serial monitor.jpg>)
+![](<../../.gitbook/assets/CozIR serial monitor ex (1).jpg>)
 
 Z:디지털 필터링 후 CO₂ 농도
 
 ## 4.CozIR-LP2 Monitoring
 
-<a href = "https://cayenne.mydevices.com/shared/61f0f1f73916a44bc3a05ab2">
-<img src = "../../.gitbook/assets/live graph2.jpg" width = "1200" height = "300">
-</a>
-그림을 클릭하면 CozIR LP2 Live Graph로 이동합니다
+[![](<../../.gitbook/assets/live graph2.jpg>) ](https://cayenne.mydevices.com/shared/61f0f1f73916a44bc3a05ab2)그림을 클릭하면 CozIR LP2 Live Graph로 이동합니다
