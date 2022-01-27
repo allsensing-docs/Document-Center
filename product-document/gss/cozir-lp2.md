@@ -99,7 +99,7 @@ void loop(){
 }
 ```
 
-![Arduino Due/](broken-reference)
+![](<../../.gitbook/assets/uno serial monitor.jpg>)
 
 Z:디지털 필터링 후 CO₂ 농도
 
