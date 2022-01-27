@@ -4,84 +4,47 @@
 
 #### 1)제품 설명
 
-:LuminOx는 내장형 압력 센서, 디지털 출력이 있는 형광 기반의 소형 산소 센서입니다.
+LuminOx는 내장형 압력 센서, 디지털 출력이 있는 형광 기반의 소형 산소 센서입니다.
 
 #### 2)제품 사양
 
-| 항목     | 내용                              |
-| ------ | ------------------------------- |
-| 측정 범위  | 0-25% O₂                        |
-| 통신 방식  | 3.3V UART                       |
-| 전원 전압  | 4.5-5.5VDC                      |
-| 센서 치수  | L x W x H(20mm x 20mm x 19.7mm) |
-| 센서 수명  | 5년                              |
-| 센서 디자인 | RoHS 및 REACH 준수                 |
-
-* 저전력 센서
-* 내부의 센서를 통한 온도, 압력 및 고도 보정
-* 다른 가스에 대한 Cross Sensitivity 거의 없음(산소에 대한 선택적 감지)
-* 명령어를 통한 제어 가능
+| 항목           | 내용                                                                                         |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| 측정 범위        | 0-25% O₂ |
+| 센서 감지        | 다른 가스에 대한 Cross Sensitivity 거의 없음   |
+| 통신 방식        | 3.3V UART                                                                            |
+| 전원 전압        | 4.5-5.5VDC                                                                                  |
+| 센서 치수   | <p>L x W x H(20mm x 20mm x 19.7mm)</p>                                   |
+| 센서 수명        | 5년                                                                                        |
+| 센서 디자인        | RoHS 및 REACH 준수                                                            |
 
 #### 3)제품 크기
-
-![](<../../.gitbook/assets/제품 그림.jpg>)
 
 #### 4)센서 관련 문서
 
 * Datasheet[(PDF링크)](https://sstsensing.com/wp-content/uploads/2018/01/DS0144rev2\_LOX-02-S.pdf)
 * User Guide[(PDF링크)](https://14core.com/wp-content/uploads/2017/10/LuminOx-UserGuide\_rev1.pdf)
 
-## 2.Quickstart
+## 2.제품 구성
 
-#### 1)전제 조건
+#### 1)필요 항목
 
-:LuminOx(LOX-02-S)를 사용하는 각 단계를 진행하기 전에 아래 나열된 필수 항목을 준비해야 합니다.(LOX-02-S Sensor는 Allsensing에서 자체 제작한 PCB가 같이 있으면 작업이 더욱 수월합니다.)
+* [LuminOx(LOX-02-S) Sensor](https://allsensing.com/product/lox-02-s-%EA%B4%91%ED%95%99%EC%8B%9D-%EB%94%94%EC%A7%80%ED%83%88-%EC%82%B0%EC%86%8C%EC%84%BC%EC%84%9C/1174/)
+* [산소센서용 PCB](https://allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
+* Arduino Uno Rev3(5V)
 
-**하드웨어**
-
-* LuminOx(LOX-02-S) Sensor.
-* [산소센서용 PCB](https://allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(필수 옵션에서 산소센서용 선택 후 주문 / Allsensing 자체 제작)
-* Arduino Uno Rev3(5V).(Arduino Due(3.3V)도 가능, LOX-02-S Supply Voltages Min:4.5V Max:5.5V)
-* Arduino Jumper wires Female-male 20cm 4pcs.
-* USB 2.0 Cable Type A/B(Arduino Uno Rev3용).
-* USB 2.0 Micro B Cable(Arduino Due용).
-
-**소프트웨어(Arduino IDE를 통한 프로그래밍)**
-
-* [Arduino IDE 설치](https://www.arduino.cc/en/software)
-* [Arduino Uno Rev3 시작하기](https://docs.arduino.cc/hardware/uno-rev3)
-* [Arduino Due 시작하기](https://www.arduino.cc/en/Guide/ArduinoDue)
-* Arduino 실행 -> Tools -> Board -> Board Manager -> Filter your search 창에 Due를 입력한 후 설치합니다.(Uno는 Arduino IDE 설치시 세팅되어있음)
-
-#### 2)제품 구성
+#### 2)환경 구축
 
 * Arduino Uno Rev3
 
 ![](<../../.gitbook/assets/LOX-02-S Sensor with connecting arduino uno rev3.jpg>)
 
-1. 위 그림과 같이 Arduino Uno와 PCB를 연결합니다.
-2. PCB와 LuminOx(LOX-02-S)를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
-3. Arduino Uno와 USB 2.0 Cable Type A/B를 연결하세요.
-4. 사용자의 Board, Port를 알맞게 설정합니다.
-5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인합니다.
-
-* Arduino Due
-
-(Warning : 대부분의 Arduino 보드와 달리 Arduino Due 보드는 3.3V에서 실행, I/O핀이 견딜 수 있는 최대 전압은 3.3V이고 이보다 높은 전압을 적용하면 보드가 손상될 수 있음)
-
-![](<../../.gitbook/assets/LuminOx(lox-o2-s) Sensor with connecting arduino due.jpg>)
-
-1. 위 그림과 같이 Arduino Due와 PCB를 연결합니다.
-2. PCB와 LOX-02-S Sensor를 연결합니다.(단, Sensor의 Vcc, GND, Rx, Tx는 확인하고 부착)
-3. Arduino Due 뒷면에서 Programming Port와 Native USB Port 중에서는 원하시는 Port에 Micro-B USB Cable을 연결하세요.(Allsensing은 Programming Port에 연결)
-4. 사용자의 Board, Port를 알맞게 설정합니다.
-5. 예제 Code를 넣은 후 컴파일 및 시리얼 모니터를 확인합니다.
-
 ## 3.예제 Code
 
-* Arduino Uno Rev3
 
 ```arduino
+-----------------------------Software -> Arduino IDE----------------------------
+-----------------------------Arduino Uno Rev3 Code------------------------------
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(12, 13);
 
@@ -100,32 +63,8 @@ void loop() {
 
 ![](<../../.gitbook/assets/uno serial monitor (1) (1).jpg>)
 
-* Arduino Due
-
-```arduino
-void setup() {
-  Serial.begin(9600);
-  Serial1.begin(9600); //Due Rx Tx (19 18) = Serial1
-}
-
-void loop() {
-//수신받은 데이터가 0 초과, 즉 데이터가 존재한다면           
- if (Serial1.available())  {  //코드수행   
-    Serial.write(Serial1.read());
-    }
-}
-```
-
-![](<../../.gitbook/assets/due serial monitor.jpg>)
-
 * O = 현재 산소분압(PPO₂)값
 * T = 현재 온도값
 * P = 현재 기압값
 * % = 현재 O₂ 퍼센트 값
 * e = 센서 상태("e 0000" = 센서상태 좋음, "e xxxx" = [SST sensing](https://sstsensing.com)에 문의)
-
-## 4.LuminOx(LOX-02-S) Monitoring
-
-## 5.참조
-
-* [Sensor Datasheet](https://sstsensing.com/product/luminox-sealed-optical-oxygen-sensor/)
