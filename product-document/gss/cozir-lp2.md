@@ -105,4 +105,5 @@ Z:디지털 필터링 후 CO₂ 농도
 
 <a href = "https://cayenne.mydevices.com/shared/61f0f1f73916a44bc3a05ab2">
 <img src = "../../.gitbook/assets/live graph2.jpg" width = "1200" height = "300">
+  <p>위 그림을 클릭하면 CozIR LP2 Live Graph로 이동합니다</p>
 </a>
