@@ -16,14 +16,16 @@
 | 센서 내부      | Solid-State, 가열된 필라멘트 없음                                                                   |
 | 통신 방식      | UART 또는 I²C                                                                                |
 | 전원 전압      | 3.25-5.5V                                                                                  |
-| 전력 소비량    | 3.5mW                                                                                      |
+| 전력 소비량     | 3.5mW                                                                                      |
 | 센서 치수 및 무게 | <p>L x W x H(31mm x 19.5mm x 8.7mm)<br>Weight(2.5g)</p>                                    |
 | 센서 내구성     | 진동 및 충격에 강하고 비가열성                                                                          |
 | 센서 교정      | 자동 교정 기능 내장                                                                                |
 | 센서 수명      | 15년                                                                                        |
-| 센서 활용      | <p>IAQ(실내공기질)<br>HVAC(공기조화기술)<br>BMS(건물 관리 시스템)<br>계측, 농업, 자동차, 항공우주</p>                   |
+| 센서 적ㅛ      | <p>IAQ(실내공기질)<br>HVAC(공기조화기술)<br>BMS(건물 관리 시스템)<br>계측, 농업, 자동차, 항공우주</p>                   |
 
 #### 3)제품 크기
+
+![](<../../.gitbook/assets/센서 그림 (1).jpg>)
 
 #### 4)센서 관련 문서
 
@@ -99,7 +101,7 @@ void loop(){
 }
 ```
 
-![Arduino Due](<../../.gitbook/assets/uno serial monitor.jpg>)
+![Arduino Due](broken-reference)
 
 Z:디지털 필터링 후 CO₂ 농도
 
