@@ -1,4 +1,4 @@
-# [CozIR-LP2](https://www.allsensing.com/product/search.html?banner_action=&keyword=cozir)
+# CozIR-LP2
 
 ## 1.개요
 
@@ -36,7 +36,7 @@
 
 #### 1)필요 항목
 
-* CozIR-LP2 CO₂ 센서
+* [CozIR-LP2 CO₂ 센서](https://www.allsensing.com/product/search.html?banner_action=&keyword=cozir)
 * [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
 * Arduino Due(3.3V)(Arduino Uno Rev3(5V)가능) -> Arduino Due 3.3V 권장
 * PCB가 필요 없고 센서에 Soldering을 한다면 사용 가능하지만, 열을 가하게 되면 센서 측정에 영향을 줄 수 있어 하루 정도 전원을 넣어주면 자동으로 교정 -> Soldering보다는 PCB 사용 권장
