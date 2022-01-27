@@ -1,27 +1,30 @@
----
-description: LuminOx(LOX-02-S)를 선택해 주셔서 감사합니다. 제품 활용 방법에 도움이 되는 모든 문서를 제공합니다.
----
-
 # LuminOx(LOX-O₂-S)
 
-![LuminOx(LOX-02-S)](../../.gitbook/assets/lox-o2-s250x250.png)
-
-## 1.Overview
+## 1.개요
 
 #### 1)제품 설명
 
 :LuminOx는 내장형 압력 센서, 디지털 출력이 있는 형광 기반의 소형 산소 센서입니다.
 
-#### 2)제품 특징
+#### 2)제품 사양
+
+| 항목           | 내용                                                                                         |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| 측정 범위        | 0-25% O₂ |
+| 통신 방식        | 3.3V UART                                                                            |
+| 전원 전압        | 4.5-5.5VDC                                                                                  |
+| 센서 치수   | <p>L x W x H(20mm x 20mm x 19.7mm)</p>                                   |
+| 센서 수명        | 5년                                                                                        |
+| 센서 디자인        | RoHS 및 REACH 준수                                                            |
 
 * 저전력 센서
 * 내부의 센서를 통한 온도, 압력 및 고도 보정
 * 다른 가스에 대한 Cross Sensitivity 거의 없음(산소에 대한 선택적 감지)
-* RoHs 및 REACH 준수
-* 3.3V UART(디지털 출력)
 * 명령어를 통한 제어 가능
 
-#### 3)Documents
+#### 3)제품 크기
+
+#### 4)센서 관련 문서
 
 * Datasheet[(PDF링크)](https://sstsensing.com/wp-content/uploads/2018/01/DS0144rev2\_LOX-02-S.pdf)
 * User Guide[(PDF링크)](https://14core.com/wp-content/uploads/2017/10/LuminOx-UserGuide\_rev1.pdf)
