@@ -42,7 +42,7 @@
 
 #### 2)환경 구축
 
-<img src = "../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due (2).jpg" width = "1000" height = "500">
+![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due (2).jpg>)
 
 ## 3.예제 Code
 
