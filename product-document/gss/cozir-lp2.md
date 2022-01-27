@@ -1,4 +1,4 @@
-# CozIR-LP2
+# [CozIR-LP2](https://www.allsensing.com/product/search.html?banner_action=&keyword=cozir)
 
 ## 1.개요
 
