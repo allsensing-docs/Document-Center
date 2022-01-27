@@ -25,7 +25,7 @@
 
 #### 3)제품 크기
 
-![](<../../.gitbook/assets/센서 그림 (1).jpg>)
+[![](<../../.gitbook/assets/센서 그림 (1).jpg>)](<../../.gitbook/assets/센서 그림 (1).jpg>)
 
 #### 4)센서 관련 문서
 
