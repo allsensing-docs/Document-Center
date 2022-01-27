@@ -17,3 +17,4 @@
 ***
 
 * [CozIR LP2 구매링크](https://www.allsensing.com/product/detail.html?product\_no=1252\&cate\_no=62\&display\_group=1)
+* [SprintIR-6S 구매링크](https://www.allsensing.com/product/search.html?banner\_action=\&keyword=sprintir)
