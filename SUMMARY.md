@@ -13,3 +13,7 @@
   * [TB600C-CO-100](product-document/ec-sens/tb600c-co-100.md)
 * [SST](product-document/luminox-o2/README.md)
   * [LuminOx(LOX-O₂-S)](product-document/luminox-o2/luminox-lox-o-s.md)
+
+***
+
+* [CozIR LP2 구매링크](https://www.allsensing.com/product/detail.html?product\_no=1252\&cate\_no=62\&display\_group=1)
