@@ -20,6 +20,8 @@ LuminOx는 내장형 압력 센서, 디지털 출력이 있는 형광 기반의 
 
 #### 3)제품 크기
 
+![](<../../.gitbook/assets/제품 그림.jpg>)
+
 #### 4)센서 관련 문서
 
 * Datasheet[(PDF링크)](https://sstsensing.com/wp-content/uploads/2018/01/DS0144rev2\_LOX-02-S.pdf)
@@ -58,7 +60,7 @@ void loop() {
 }
 ```
 
-![](<../../.gitbook/assets/uno serial monitor (1) (1).jpg>)
+![](<../../.gitbook/assets/uno serial monitor.jpg>)
 
 * O = 현재 산소분압(PPO₂)값
 * T = 현재 온도값
