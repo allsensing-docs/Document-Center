@@ -103,8 +103,8 @@ Z:디지털 필터링 후 CO₂ 농도
 
 ## 4.예제 CozIR-LP2 Monitoring
 
-![](<../../.gitbook/assets/live graph2.jpg>)
+![][(<../../.gitbook/assets/live graph2.jpg>)](https://cayenne.mydevices.com/shared/61f0f1f73916a44bc3a05ab2/project/7c13303b-67e6-4db9-b9cf-baab26bec03a)
 
-{% embed url="https://cayenne.mydevices.com/shared/61f0f1f73916a44bc3a05ab2" %}
+[CozIR LP2 실시간 그래프](https://cayenne.mydevices.com/shared/61f0f1f73916a44bc3a05ab2/project/7c13303b-67e6-4db9-b9cf-baab26bec03a)
 
 {% embed url="https://cayenne.mydevices.com/shared/61f0f1f73916a44bc3a05ab2" %}
