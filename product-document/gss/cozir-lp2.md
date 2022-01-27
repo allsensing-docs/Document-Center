@@ -42,7 +42,7 @@
 
 #### 2)환경 구축
 
-![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due (2).jpg>)
+![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
 
 ## 3.예제 Code
 
