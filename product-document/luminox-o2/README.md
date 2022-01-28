@@ -16,9 +16,9 @@ SST의 주요 목표는 고객의 기술 및 사용 센서 요구 사항을 정�
 
 ![Arduino Due](../../.gitbook/assets/arduino\_due\_main.jpg) ![PCB](../../.gitbook/assets/PCB.jpg)
 
-## SST QuickStart Guide
+## SST Sensor
 
-**Explain**
+**설명**
 
 :SST는 5년 이상의 수명, 디지털 센서, REACH, RoHS를 공통적으로 갖추고 준수하고 있습니다. SST는 각 단계에 대해 새로운 하드웨어 모듈을 생성할 필요없이 Arduino, PCB, Sensor만 갖추고 있으시다면 신속한 Gas 측정이 가능합니다.
 
