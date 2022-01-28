@@ -1,4 +1,4 @@
-# SprintIR-6S
+# SprintIR-6S-M-5
 
 ## 1.개요
 
