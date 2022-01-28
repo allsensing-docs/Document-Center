@@ -12,7 +12,7 @@ SprintIR-6S는 초당 최대 20회 판독을 수행하므로 높은 반복률에
 | 항목           | 내용                                                                                       |
 | ------------ | ---------------------------------------------------------------------------------------- |
 | 측정 범위        | <p>Type 1) 0-5%<br>Type 2) 0-10%<br>Type 3) 0-20%<br>Type 4) 0-60%<br>Type 5) 0-100%</p> |
-| 센서 종류        | <p>Type 1) Blank : 어댑터 커버 O <br>Type 2) M : 어댑터 커버 X</p>  |                                         
+| 센서 종류        | <p>Type 1) Blank : 어댑터 커버 O<br>Type 2) M : 어댑터 커버 X</p>                                  |
 | 센서 내부        | Solid-State                                                                              |
 | 센서 응답 속도     | 초당 20회 판독(0-5%센서)                                                                        |
 | 통신 방식        | UART                                                                                     |
@@ -34,7 +34,7 @@ SprintIR-6S는 초당 최대 20회 판독을 수행하므로 높은 반복률에
 #### 1)필요 항목
 
 * SprintIR-6S-M-5 CO₂ Sensor
-* [SprintIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1169\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
+* <mark style="color:blue;"></mark>[<mark style="color:blue;">SprintIR용 PCB</mark>](https://www.allsensing.com/product/detail.html?product\_no=1169\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
 * Arduino Due(3.3V)(Arduino Uno Rev3(5V)가능) -> Arduino Due 3.3V 권장
 
 #### 2)환경 구축
