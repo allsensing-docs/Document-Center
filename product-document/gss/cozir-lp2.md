@@ -36,8 +36,8 @@
 
 #### 1)필요 항목
 
-* [CozIR-LP2 CO₂ 센서](https://www.allsensing.com/product/search.html?banner\_action=\&keyword=cozir)
-* [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
+* <span style="color: #0000FF">[CozIR-LP2 CO₂ 센서](https://www.allsensing.com/product/search.html?banner\_action=\&keyword=cozir)</span>
+* <span style="color: #0000FF">[CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)</span>
 * Arduino Due(3.3V)(Arduino Uno Rev3(5V)가능) -> Arduino Due 3.3V 권장
 
 #### 2)환경 구축
