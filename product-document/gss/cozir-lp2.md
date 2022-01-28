@@ -36,8 +36,8 @@
 
 #### 1)필요 항목
 
-* [CozIR-LP2 CO₂ 센서](https://www.allsensing.com/product/search.html?banner\_action=\&keyword=cozir)
-* [CozIR용 PCB](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
+* [<mark style="color:blue;">CozIR-LP2 CO₂ 센서</mark>](https://www.allsensing.com/product/search.html?banner\_action=\&keyword=cozir)<mark style="color:blue;"></mark>
+* [<mark style="color:blue;">CozIR용 PCB</mark>](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
 
 #### 2)환경 구축
 
@@ -101,6 +101,6 @@ Z:디지털 필터링 후 CO₂ 농도
 
 ## 4.CozIR-LP2 Monitoring
 
-<img src="../../.gitbook/assets/화면 캡처 2022-01-28 105143 (1).jpg" width="1100" height="400">
+![](<../../.gitbook/assets/화면 캡처 2022-01-28 105143 (1).jpg>)
 
-[CozIR LP2 실시간 그래프 링크](https://cayenne.mydevices.com/shared/61f0f1f73916a44bc3a05ab2)
+<mark style="color:blue;"></mark>[<mark style="color:blue;">CozIR LP2 실시간 그래프 링크</mark>](https://cayenne.mydevices.com/shared/61f0f1f73916a44bc3a05ab2)<mark style="color:blue;"></mark>
