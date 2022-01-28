@@ -24,9 +24,7 @@ SprintIR-6S는 초당 최대 20회 판독을 수행하므로 높은 반복률에
 | 센서 수명        | 15년                                                                                      |
 | 센서 적용 어플리케이션 | <p>보건의료<br>식품 포장<br>스포츠 과학</p>                                                           |
 
-#### 3)제품 크기
-
-#### 4)센서 관련 문서
+#### 3)센서 관련 문서
 
 * Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/SprintIR-6S\_Data\_Sheet\_Rev\_4.11.pdf)
 * User Guide[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-SprintIR-6S-User-Guide-Rev-4.1.pdf)
