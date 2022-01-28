@@ -101,6 +101,6 @@ Z:디지털 필터링 후 CO₂ 농도
 
 ## 4.CozIR-LP2 Monitoring
 
-
+<img src="../../.gitbook/assets/화면 캡처 2022-01-28 105143 (1).jpg" width="1100" height="400">
 
 [CozIR LP2 실시간 그래프 링크](https://cayenne.mydevices.com/shared/61f0f1f73916a44bc3a05ab2)
