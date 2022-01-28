@@ -10,15 +10,15 @@ description: GSS를 선택해 주셔서 감사합니다. 제품 활용 방법에
 
 GSS는 광범위한 고체 NDIR CO₂ 가스 센서를 설계, 개발 및 제조하여 저전력, 고 정확도 및 고속 측정이 필요한 세계 최고의 고객들에게 혁신적인 제품을 제공합니다. GSS는 실내 공기 질 모니터 시스템, 헬스 케어, 우주 항공, 식품 모니터링 및 개인 안전 장비를 포함한 광범위한 시장에 제품을 공급 중입니다.
 
-| CozIR | SprintIR |
-| ----- | -------- |
-|![](../../.gitbook/assets/CozIR.jpg)|![](../../.gitbook/assets/SprintIR.jpg) |
+| CozIR                                | SprintIR                                |
+| ------------------------------------ | --------------------------------------- |
+| ![](../../.gitbook/assets/CozIR.jpg) | ![](../../.gitbook/assets/SprintIR.jpg) |
 
 ## GSS Sensor
 
 **설명**
 
-: GSS는 디지털 출력인 UART가 공통적으로 포함되어 있고 0℃\~50℃의 온도 범위에서 측정할 수 있는 CO₂ 센서입니다. GSS는 각 단계에 대해 새로운 하드웨어 모듈을 생성할 필요 없이 Arduino, PCB, Sensor만 갖추고 있으시다면 신속한 CO₂ 측정이 가능합니다.
+GSS는 디지털 출력인 UART가 공통적으로 포함되어 있고 0℃\~50℃의 온도 범위에서 측정할 수 있는 CO₂ 센서입니다. GSS는 각 단계에 대해 새로운 하드웨어 모듈을 생성할 필요 없이 Arduino, PCB, Sensor만 갖추고 있으시다면 신속한 CO₂ 측정이 가능합니다.
 
 **Main Features**
 
@@ -28,9 +28,9 @@ GSS는 광범위한 고체 NDIR CO₂ 가스 센서를 설계, 개발 및 제조
 
 **하드웨어**
 
-: GSS 제품을 시작하는 것은 간단합니다. 가장 먼저 필요한 것은 Arduino 보드, Allsensing 자체 제작 PCB, GSS Sensor, Jumper cable(wire)만 갖추고 있으면 됩니다.
+GSS 제품을 시작하는 것은 간단합니다. 가장 먼저 필요한 것은 Arduino 보드, Allsensing 자체 제작 PCB, GSS Sensor, Jumper cable(wire)만 갖추고 있으면 됩니다.
 
-![Arduino Due](../../.gitbook/assets/arduino\_due\_main.jpg) ![PCB](../../.gitbook/assets/PCB.jpg)
+![Arduino Due](../../.gitbook/assets/arduino\_due\_main.jpg) ![Arduino Uno Rev3](<../../.gitbook/assets/arduino\_uno r3.jpg>) ![PCB](../../.gitbook/assets/PCB.jpg)
 
 **소프트웨어**
 

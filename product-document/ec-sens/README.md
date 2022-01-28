@@ -20,13 +20,13 @@ EC-Sense의 전략은 차세대 새로운 센서 및 모듈을 제공하여 고�
 
 **설명**
 
-:EC-Sense는 높은 선택성으로 다양한 가스를 감지, 빠른 응답 시간과 안정적인 Zero 리턴 시간, -20° \~ +55°C의 넓은 작동 온도 범위, RoHS 승인 환경 디자인을 공통적으로 포함하고 있습니다. 모듈에 센서를 부착한 제품들은 새로운 하드웨어 모듈을 생성할 필요 없이 Arduino, Sensor만 갖추고 있으시다면 신속한 Gas 측정이 가능합니다.
+EC-Sense는 높은 선택성으로 다양한 가스를 감지, 빠른 응답 시간과 안정적인 Zero 리턴 시간, -20° \~ +55°C의 넓은 작동 온도 범위, RoHS 승인 환경 디자인을 공통적으로 포함하고 있습니다. 모듈에 센서를 부착한 제품들은 새로운 하드웨어 모듈을 생성할 필요 없이 Arduino, Sensor만 갖추고 있으시다면 신속한 Gas 측정이 가능합니다.
 
 **하드웨어**
 
-:EC-Sense 제품을 시작하는 것은 간단합니다. 가장 먼저 필요한 것은 Arduino 보드, EC-Sense Sensor, Jumper cable(wire)만 갖추고 있으면 됩니다.
+EC-Sense 제품을 시작하는 것은 간단합니다. 가장 먼저 필요한 것은 Arduino 보드, EC-Sense Sensor, Jumper cable(wire)만 갖추고 있으면 됩니다.
 
-![Arduino Due](../../.gitbook/assets/arduino\_due\_main500x262.jpg)
+![Arduino Due](../../.gitbook/assets/arduino\_due\_main500x262.jpg) ![Arduino Uno Rev3](<../../.gitbook/assets/arduino\_uno r3.jpg>)
 
 **소프트웨어**
 

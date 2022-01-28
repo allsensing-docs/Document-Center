@@ -14,7 +14,7 @@ SST의 주요 목표는 고객의 기술 및 사용 센서 요구 사항을 정�
 | -------------------------------------------------- | ------------------------------------------------- |
 | ![](<../../.gitbook/assets/lox-o2 250250 (2).jpg>) | ![](../../.gitbook/assets/LumiOx-o2-F250x250.jpg) |
 
-![Arduino Due](../../.gitbook/assets/arduino\_due\_main.jpg) ![PCB](../../.gitbook/assets/PCB.jpg)
+![Arduino Uno Rev3](<../../.gitbook/assets/arduino\_uno r3.jpg>) ![PCB](../../.gitbook/assets/PCB.jpg)
 
 ## SST Sensor
 
