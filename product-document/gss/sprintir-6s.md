@@ -42,9 +42,35 @@ SprintIR-6S는 초당 최대 20회 판독을 수행하므로 높은 반복률에
 
 ![](<../../.gitbook/assets/SprintIR-6S-M-5% Sensor with connecting arduino due.jpg>)
 
-## 3.예제 Code(Arduino Due Base)
+## 3.예제 Code
 
 ```arduino
+-----------------------------Software -> Arduino IDE----------------------------
+-----------------------------Arduino Uno Rev3 Code------------------------------
+#include <SoftwareSerial.h>
+SoftwareSerial mySerial(12, 13); Uno Tx Rx (12 13) = mySerial
+
+void setup() {
+  Serial.begin(9600); //시리얼 통신 초기화
+  mySerial.begin(9600); 
+  delay(1000); 
+  while(!mySerial){} //시리얼 통신 포트가 연결되기 전까지 대기
+  mySerial.println("K 2\r\n"); //Polling 모드로 변경 
+  delay(100);
+  mySerial.println("Z");
+}                              
+
+void loop() {
+ //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면
+ if(mySerial.available()>0) //코드수행
+ { //버퍼에서 읽어드린 char의 데이터를 String 형태로 반환
+  String str = mySerial.readStringUntil('\n'); 
+  Serial.println(str); //CO2값 읽기 명령
+  delay(100);
+  mySerial.println("Z"); //CO2값 읽기 명령
+ }
+}
+-------------------------------Arduino Due Code--------------------------------
 void setup(){
   Serial.begin(9600); //시리얼 통신 초기화
    Serial1.begin(9600); //DUE Tx Rx (18 19) = Serial1
@@ -58,11 +84,11 @@ void setup(){
 void loop(){
   //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면
   if(Serial1.available()>0) //코드수행
-  {
-    String str = Serial1.readStringUntil('\n');// 들어오는 문자열 읽기
-    Serial.println(str);//CO2값 읽기 명령
+  { //버퍼에서 읽어드린 char의 데이터를 String 형태로 반환
+    String str = Serial1.readStringUntil('\n');
+    Serial.println(str); //CO2값 읽기 명령
     delay(1000);//1초 delay
-    Serial1.println("Z");//CO2값 읽기 명령
+    Serial1.println("Z"); //CO2값 읽기 명령
   }
 }
 ```
