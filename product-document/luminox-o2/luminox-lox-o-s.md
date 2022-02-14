@@ -1,14 +1,14 @@
 # LuminOx(LOX-02-S)
 
-## 1.개요
+## 개요
 
-#### 1)제품 설명
+#### 제품 설명
 
 내장형 압력 센서, 디지털 출력이 있는 형광 기반의 소형 산소 센서입니다.\
 광범위한 환경 범위에서도 산소만 정확한 측정 및 작동을 합니다.\
 크기가 작아 공간이 제한된 어플리케이션에서도 이상적입니다.
 
-#### 2)제품 사양
+#### 제품 사양
 
 | 항목     | 내용                                |
 | ------ | --------------------------------- |
@@ -20,28 +20,28 @@
 | 센서 수명  | 5년                                |
 | 센서 디자인 | RoHS 및 REACH 준수                   |
 
-#### 3)제품 크기
+#### 제품 크기
 
 ![](<../../.gitbook/assets/제품 그림.jpg>)
 
-#### 4)센서 관련 문서
+#### 제조사 Document
 
 * Datasheet[(PDF링크)](https://sstsensing.com/wp-content/uploads/2018/01/DS0144rev2\_LOX-02-S.pdf)
 * User Guide[(PDF링크)](https://14core.com/wp-content/uploads/2017/10/LuminOx-UserGuide\_rev1.pdf)
 
-## 2.제품 구성
+## 제품 구성
 
-#### 1)필요 항목
+#### 필요 항목
 
 * [<mark style="color:blue;">LuminOx(LOX-02-S) Sensor</mark>](https://allsensing.com/product/lox-02-s-%EA%B4%91%ED%95%99%EC%8B%9D-%EB%94%94%EC%A7%80%ED%83%88-%EC%82%B0%EC%86%8C%EC%84%BC%EC%84%9C/1174/)<mark style="color:blue;"></mark>
 * <mark style="color:blue;"></mark>[<mark style="color:blue;">산소센서용 PCB</mark>](https://allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
 * Arduino Uno Rev3(5V)
 
-#### 2)환경 구축
+#### 환경 구축
 
 ![](<../../.gitbook/assets/LOX-02-S Sensor with connecting arduino uno rev3.jpg>)
 
-## 3.예제 Code
+## 예제 Code
 
 ```arduino
 -----------------------------Software -> Arduino IDE----------------------------
