@@ -1,13 +1,13 @@
 # SprintIR-6S-M-5
 
-## 1.개요
+## 개요
 
-#### 1)제품 설명
+#### 제품 설명
 
 특허 받은 당사 고유의 LED 기술 플랫폼 및 광학 설계가 내장 되어 있습니다.\
 SprintIR-6S는 초당 최대 20회 판독을 수행하므로 높은 반복률에서 개별 측정이 필요하거나 CO₂ 농도가 빠르게 변화하는 장소에 최적화되어있습니다.
 
-#### 2)제품 사양
+#### 제품 사양
 
 | 항목           | 내용                                                                                       |
 | ------------ | ---------------------------------------------------------------------------------------- |
@@ -24,24 +24,24 @@ SprintIR-6S는 초당 최대 20회 판독을 수행하므로 높은 반복률에
 | 센서 수명        | 15년                                                                                      |
 | 센서 적용 어플리케이션 | <p>보건의료<br>식품 포장<br>스포츠 과학</p>                                                           |
 
-#### 3)센서 관련 문서
+#### 제조사 Document
 
 * Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/SprintIR-6S\_Data\_Sheet\_Rev\_4.11.pdf)
 * User Guide[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CO2Meter-GSS-SprintIR-6S-User-Guide-Rev-4.1.pdf)
 
-## 2.제품 구성
+## 제품 구성
 
-#### 1)필요 항목
+#### 필요 항목
 
 * SprintIR-6S-M-5 CO₂ Sensor
 * <mark style="color:blue;"></mark>[<mark style="color:blue;">SprintIR용 PCB</mark>](https://www.allsensing.com/product/detail.html?product\_no=1169\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
 * Arduino Due(3.3V)(Arduino Uno Rev3(5V)가능) -> Arduino Due 3.3V 권장
 
-#### 2)환경 구축
+#### 환경 구축
 
 ![](<../../.gitbook/assets/sprintir 6s m-5 arduino due .jpg>)
 
-## 3.예제 Code
+## 예제 Code
 
 ```arduino
 -----------------------------Software -> Arduino IDE----------------------------
