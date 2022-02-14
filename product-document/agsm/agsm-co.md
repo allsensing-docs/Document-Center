@@ -6,24 +6,20 @@ description: AGSM CO를 선택해 주셔서 감사합니다. 제품 활용 방�
 
 ![AGSM CO](<../../.gitbook/assets/list\_02s 250x250.jpg>)
 
-## 1.Overview
+## 개요
 
-#### 1)제품 설명
+#### 제품 설명
 
 : AGSM CO는
 
-#### 2)제품 특징
+#### 제품 특징
 
-#### 3)Datasheet
+#### Datasheet
 
-## 2.Quickstart
+## Quickstart
 
-#### 1)전제 조건
+#### 전제 조건
 
-#### 2)제품 구성
+#### 제품 구성
 
-## 3.예제 Code(Arduino Base)
-
-## 4.Currently AGSM CO Monitoring
-
-## 5.참조
+## 예제 Code(Arduino Base)
