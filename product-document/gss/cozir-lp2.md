@@ -1,14 +1,14 @@
 # CozIR-LP2
 
-## 1.개요
+## 개요
 
-#### 1)제품 설명
+#### 제품 설명
 
 최첨단 Solid-State LED 광학 기술을 이용한 초 저전력 NDIR CO₂ 센서입니다.\
 높은 CO₂ 측정 정확도를 유지하면서 전력 소비를 줄일 수 있습니다.\
 낮은 전력 소비는 배터리 전원 작동과 호환되므로 무선으로 연결된 장비를 포함한 다양한 어플리케이션에서 센서를 사용할 수 있습니다.
 
-#### 2)제품 사양
+#### 제품 사양
 
 | 항목           | 내용                                                                                         |
 | ------------ | ------------------------------------------------------------------------------------------ |
@@ -23,28 +23,28 @@
 | 센서 수명        | 15년                                                                                        |
 | 센서 적용 어플리케이션 | <p>IAQ(실내공기질)<br>HVAC(공기조화기술)<br>BMS(건물 관리 시스템)<br>계측, 농업, 자동차, 항공우주</p>                   |
 
-#### 3)제품 크기
+#### 제품 크기
 
 ![](<../../.gitbook/assets/센서 그림 (1).jpg>)
 
-#### 4)센서 관련 문서
+#### 제조사 Document
 
 * Datasheet[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/CozIR-LP2\_Data\_Sheet\_Rev\_4.10.pdf)
 * 치수 도면[(PDF링크)](https://cdn.shopify.com/s/files/1/0019/5952/files/Mechanical\_Diagram\_-\_CozIR-LP2-CO2Meter.pdf)
 
-## 2.제품 구성
+## 제품 구성
 
-#### 1)필요 항목
+#### 필요 항목
 
 * <mark style="color:blue;"></mark>[<mark style="color:blue;">CozIR-LP2 CO₂ 센서</mark>](https://www.allsensing.com/product/search.html?banner\_action=\&keyword=cozir)<mark style="color:blue;"></mark>
 * [<mark style="color:blue;">CozIR용 PCB</mark>](https://www.allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
 * Arduino Due(3.3V)(Arduino Uno Rev3(5V) 가능, CozIR LP2 Supply Voltages Min:3.25V Max:5.5V)-> Arduino Due(3.3V) 권장
 
-#### 2)환경 구축
+#### 환경 구축
 
 ![](<../../.gitbook/assets/CozIR LP2 Sensor with connecting arduino due.jpg>)
 
-## 3.예제 Code
+## 예제 Code
 
 ```arduino
 -----------------------------Software -> Arduino IDE----------------------------
@@ -100,7 +100,7 @@ void loop(){
 
 Z:디지털 필터링 후 CO₂ 농도
 
-## 4.CozIR-LP2 Monitoring
+## CozIR-LP2 Monitoring
 
 ![](<../../.gitbook/assets/화면 캡처 2022-01-28 105143 (1).jpg>)
 
