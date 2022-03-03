@@ -22,7 +22,7 @@
 
 #### 제품 크기
 
-![](<../../.gitbook/assets/제품 그림.jpg>)
+![](<../../.gitbook/assets/제품 그림 (1).jpg>)
 
 #### 제조사 Document
 
@@ -33,8 +33,8 @@
 
 #### 필요 항목
 
-* [<mark style="color:blue;">LuminOx(LOX-02-S) Sensor</mark>](https://allsensing.com/product/lox-02-s-%EA%B4%91%ED%95%99%EC%8B%9D-%EB%94%94%EC%A7%80%ED%83%88-%EC%82%B0%EC%86%8C%EC%84%BC%EC%84%9C/1174/)<mark style="color:blue;"></mark>
-* <mark style="color:blue;"></mark>[<mark style="color:blue;">산소센서용 PCB</mark>](https://allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
+* [<mark style="color:blue;">LuminOx(LOX-02-S) Sensor</mark>](https://allsensing.com/product/lox-02-s-%EA%B4%91%ED%95%99%EC%8B%9D-%EB%94%94%EC%A7%80%ED%83%88-%EC%82%B0%EC%86%8C%EC%84%BC%EC%84%9C/1174/)
+* [<mark style="color:blue;">산소센서용 PCB</mark>](https://allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)(Allsensing 자체 제작 PCB가 있으면 작업이 더욱 수월)
 * Arduino Uno Rev3(5V)
 
 #### 환경 구축

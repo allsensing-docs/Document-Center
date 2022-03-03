@@ -14,6 +14,7 @@
 * [SST](product-document/luminox-o2/README.md)
   * [LuminOx(LOX-02-S)](product-document/luminox-o2/luminox-lox-o-s.md)
 
-***
+## FAQ
 
-* [FAQ](faq.md)
+* [Page 1](faq/page-1.md)
+* [Page 2](faq/page-2.md)
