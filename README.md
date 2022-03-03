@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![](.gitbook/assets/allsensing\_logo.jpg)
+![](.gitbook/assets/allsensing\_logo.png)
 
 ### Welcome!
 
@@ -19,9 +19,9 @@ Allsensing Documents Center는 여러분의 지식과 창의성을 발휘할 수
 
 Allsensing은 설립 이래 다양한 환경센서를 고객들에게 소개해 왔으며, 적지 않은 경험을 축적하게 되었습니다. 저희의 경험을 기반으로 센서에 대한 올바를 이해와 사용 방법을 소개하고, 더 나아가 적시에 공급할 수 있는 공급망을 구축하는 새로운 목표를 세우고 있습니다. Allsensing Documents Center에서 전문적인 센서로 일상적인 요구 사항에 여러분의 창의성을 구현하는 데 도움이 되는 필수 문서를 제공하기 위해 최선을 다하겠습니다.
 
-|                                                                                          |                                              |
-| ---------------------------------------------------------------------------------------- | -------------------------------------------- |
-| AGSM                                                                                     | ![](.gitbook/assets/IMG\_0573.png)           |
-| [GSS](https://allsensing.com/product/search.html?banner\_action=\&keyword=gss)           | ![](<.gitbook/assets/CozIR (1).jpg>)         |
-| [EC-Sense](https://allsensing.com/product/search.html?banner\_action=\&keyword=ec+sense) | ![](<.gitbook/assets/EC-Sens profile.png>)   |
-| [SST](https://allsensing.com/product/search.html?banner\_action=\&keyword=sst)           | ![](<.gitbook/assets/lox-o2 250250 (2).jpg>) |
+|                                                                                          |                                                      |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| AGSM                                                                                     | ![](<.gitbook/assets/IMG\_0573 (1).png>)             |
+| [GSS](https://allsensing.com/product/search.html?banner\_action=\&keyword=gss)           | ![](.gitbook/assets/CozIR.jpg)                       |
+| [EC-Sense](https://allsensing.com/product/search.html?banner\_action=\&keyword=ec+sense) | ![](<.gitbook/assets/EC-Sens profile.png>)           |
+| [SST](https://allsensing.com/product/search.html?banner\_action=\&keyword=sst)           | ![](<.gitbook/assets/lox-o2 250250 (1) (1) (1).jpg>) |
