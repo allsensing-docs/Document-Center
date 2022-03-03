@@ -17,4 +17,4 @@
 ## FAQ
 
 * [일반 FAQ](faq/faq.md)
-* [Page 2](faq/page-2.md)
+* [Page 1](faq/page-1.md)
