@@ -14,7 +14,7 @@ EC-Sense의 전략은 차세대 새로운 센서 및 모듈을 제공하여 고�
 
 | TB200B                                                          | ES4-O2-25%                                       |
 | --------------------------------------------------------------- | ------------------------------------------------ |
-| ![](<../../.gitbook/assets/TB200B\_250x250png (1) (1) (1).png>) | ![](<../../.gitbook/assets/EC-Sens profile.png>) |
+| ![](<../../.gitbook/assets/TB200B\_250x250png (1) (1) (2).png>) | ![](<../../.gitbook/assets/EC-Sens profile.png>) |
 
 ## EC-Sense Sensor
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![](.gitbook/assets/allsensing\_logo.png)
+![](.gitbook/assets/allsensing\_logo.jpg)
 
 ### Welcome!
 
@@ -21,7 +21,7 @@ Allsensing은 설립 이래 다양한 환경센서를 고객들에게 소개해 
 
 |                                                                                          |                                                      |
 | ---------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| AGSM                                                                                     | ![](<.gitbook/assets/IMG\_0573 (1).png>)             |
-| [GSS](https://allsensing.com/product/search.html?banner\_action=\&keyword=gss)           | ![](<.gitbook/assets/CozIR (1) (2).jpg>)             |
+| AGSM                                                                                     | ![](.gitbook/assets/IMG\_0573.png)                   |
+| [GSS](https://allsensing.com/product/search.html?banner\_action=\&keyword=gss)           | ![](<.gitbook/assets/CozIR (1) (1) (1).jpg>)         |
 | [EC-Sense](https://allsensing.com/product/search.html?banner\_action=\&keyword=ec+sense) | ![](<.gitbook/assets/EC-Sens profile.png>)           |
-| [SST](https://allsensing.com/product/search.html?banner\_action=\&keyword=sst)           | ![](<.gitbook/assets/lox-o2 250250 (1) (1) (1).jpg>) |
+| [SST](https://allsensing.com/product/search.html?banner\_action=\&keyword=sst)           | ![](<.gitbook/assets/lox-o2 250250 (1) (1) (2).jpg>) |
