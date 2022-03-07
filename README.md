@@ -1,11 +1,6 @@
 # Introduction
 
-![](.gitbook/assets/allsensing\_logo.jpg)
-
 ![](<.gitbook/assets/allsensing\_logo (1).png>)
-
-<img src="![allsensing_logo](https://user-images.githubusercontent.com/94042419/156971847-1066004e-2e59-47c3-80c7-b2ed9f05b76b.png)" width="1000" height="100">
-
 
 ### Welcome!
 
