@@ -1,7 +1,7 @@
 # Introduction
 
 ![](.gitbook/assets/allsensing\_logo.jpg)
-<img src=.gitbook/assets/allsensing\_logo.jpg width="100" height="70"/>
+<img src="http://gitbook/assets/allsensing\_logo.jpg" width="100" height="70"/>
 
 ### Welcome!
 
