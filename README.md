@@ -4,7 +4,7 @@
 
 ![](<.gitbook/assets/allsensing\_logo (1).png>)
 
-<img src="/gitbook/assets/allsensing\_logo (1).png" width="1000px" height="100px"></img>
+<img src=".gitbook/assets/allsensing\_logo (1).png" width="1000px" height="100px"  title="px(픽셀) 크기 설정"></img>
 
 ### Welcome!
 
