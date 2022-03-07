@@ -22,7 +22,7 @@
 
 #### 제품 크기
 
-![](<../../.gitbook/assets/제품 그림.jpg>)
+![](<../../.gitbook/assets/제품 그림 (1).jpg>)
 
 #### 제조사 Document
 
