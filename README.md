@@ -1,6 +1,6 @@
 # Introduction
 
-![](.gitbook/assets/allsensing\_logo.jpg){: width="100" height="70"}
+![](.gitbook/assets/allsensing\_logo.jpg{: width="100px" height="70px"})
 
 ### Welcome!
 
