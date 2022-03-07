@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/allsensing\_logo.jpg)
 
-<img src="C:\Users\bangp\Desktop\Gitbook Document Center\Image\000.회사 Logo\allsensing_logo.png" width="1000" height="70">
+<img src=".\Users\bangp\Desktop\Gitbook Document Center\Image\000.회사 Logo\allsensing_logo.png" width="1000" height="70">
 
 ### Welcome!
 
