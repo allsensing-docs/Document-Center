@@ -4,7 +4,7 @@
 
 ![](<.gitbook/assets/allsensing\_logo (1).png>)
 
-<img src="(.gitbook/assets/allsensing\_logo (1).png)" width="1000" height="100"/>
+<img src=".gitbook/assets/allsensing\_logo (1).png" width="1000px" height="100px"/></img>
 
 ### Welcome!
 
