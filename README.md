@@ -1,7 +1,8 @@
 # Introduction
 
 ![](.gitbook/assets/allsensing\_logo.jpg)
-<img src="http://.gitbook/assets/allsensing\_logo.jpg" width="100" height="70"/>
+
+<img src="C:\Users\bangp\Desktop\Gitbook Document Center\Image\000.회사 Logo" width="1000" height="70"/>
 
 ### Welcome!
 
