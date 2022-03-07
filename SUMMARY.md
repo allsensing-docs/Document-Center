@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [소개](README.md)
 
 ## 📑 Product Document
 
