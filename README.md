@@ -2,9 +2,7 @@
 
 ![](<.gitbook/assets/allsensing\_logo (1).png>)
 
-![allsensing_logo](https://user-images.githubusercontent.com/94042419/156981357-8b0d0af9-1be8-4c6b-b770-9d62fa0451f1.png)
-
-<img src="https://user-images.githubusercontent.com/94042419/156981357-8b0d0af9-1be8-4c6b-b770-9d62fa0451f1.png">
+<img src="https://user-images.githubusercontent.com/94042419/156981357-8b0d0af9-1be8-4c6b-b770-9d62fa0451f1.png" width="100" height="70">
 
 ### Welcome!
 
