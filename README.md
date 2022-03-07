@@ -4,6 +4,9 @@
 
 ![](<.gitbook/assets/allsensing\_logo (1).png>)
 
+<img src="![allsensing_logo](https://user-images.githubusercontent.com/94042419/156971847-1066004e-2e59-47c3-80c7-b2ed9f05b76b.png)" width="1000" height="100">
+
+
 ### Welcome!
 
 Allsensing Documents Center는 여러분의 지식과 창의성을 발휘할 수 있는 장소입니다. 당사의 제품을 기본 사항과 사양을 제공하는 포괄적인 문서 세트가 있습니다.
