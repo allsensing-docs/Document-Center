@@ -4,4 +4,4 @@ description: AGSM을 선택해 주셔서 감사합니다. 제품 활용 방법�
 
 # AGSM
 
-AGSM은
+AGSM은 Allsensing에서 SPEC gas sensor와 결합하여 자체 개발한 상품으로 CO, H₂S, SO₂, NO₂, O~3~
