@@ -1,4 +1,4 @@
-# AGSM NO2
+# AGSM NO<sub>2</sub>
 
 ## 개요
 
