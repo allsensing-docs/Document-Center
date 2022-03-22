@@ -1,4 +1,4 @@
-# O<sub>3</sub>
+# AGSM O<sub>3</sub>
 
 ## 개요
 
