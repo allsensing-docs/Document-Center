@@ -1,4 +1,4 @@
-# AGSM SO2
+# AGSM SO<sub>2</sub>
 
 ## 개요
 
