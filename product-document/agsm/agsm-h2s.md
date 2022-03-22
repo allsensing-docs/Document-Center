@@ -1,4 +1,4 @@
-# AGSM H2S
+# AGSM H<sub>2</sub>S
 
 ## 개요
 
