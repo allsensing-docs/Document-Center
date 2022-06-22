@@ -2,19 +2,19 @@
 
 ![](.gitbook/assets/allsensing\_logo2.jpg)
 
-### 환영합니다!
+### Welcome!
 
-Allsensing Documents Center는 여러분의 지식과 창의성을 발휘할 수 있는 장소입니다. 당사의 제품을 기본 사항과 사양을 제공하는 포괄적인 문서 세트가 있습니다.
+The Allsensing Documents Center is the place to make your space a reality. It provides specifications and features that make up Skype's products perfectly.
 
 #### Allsensing Documentation Center
 
-센서는 회사 별로 정렬되며 다음 문서가 포함됩니다.
+The sensor contains this document from the company.
 
-* **제품 구성**: 핵심 기능만 염두에 두고 장치를 설치 및 구축하는 데 필요하고 간결한 정보
-* **제품 사양**: 기술 및 특정, 특성과 함께 장치 구성 요소 및 기능에 대한 포괄적인 정보
-* **예제 코드**: 센서마다 적용되는 코드가 다르기에 알맞는 예제 코드를 사용하여 원하는 센서 데이터를 출력
-* **모니터링 데이터**: Allsensing에서는 365일, 센서 데이터를 수집하여 다른 센서들과 비교분석 해볼 수 있는 정보  
+* ** Product**: Provides only core functions and provides information necessary for service.
+* **Product Specifications**: Complete information about features and specific features, functions and functions
+* **Example Code**: Affects code that has built-in code on impact.
+* **Component analysis data**: Allsensing 365 days, sensors collecting sensor data and analysis data
 
-모바일, 자동차, 가전, 의료, 일반 산업 등 거의 모든 분야에서 그동안 인간의 오감을 통해 감각적으로 느껴왔던 많은 아날로그 신호들이 무수히 많은 센서의 의해 측정 되고, 계량화 되면서 축적된 정보들은 클라우드에 저장되고 인터넷 망으로 연결되어 점점 우리 개개인의 삶을 보다 편리하고 풍요롭게 그리고, 더욱 안전하게 만들어 나가고 있습니다.
+I think that mobile, home, medical, and general industries are being affected a lot all over the world. We are becoming more powerful and have more important functions.
 
-Allsensing은 설립 이래 다양한 환경 센서를 고객들에게 소개해 왔으며, 적지 않은 경험을 축적하게 되었습니다. 저희의 경험을 기반으로 센서에 대한 올바를 이해와 사용 방법을 소개하고, 더 나아가 적시에 공급할 수 있는 공급 망을 구축하는 새로운 목표를 세우고 있습니다. Allsensing Documents Center에서 전문적인 센서로 일상적인 요구 사항에 여러분의 창의성을 구현하는 데 도움이 되는 필수 문서를 제공하기 위해 최선을 다하겠습니다.
+Allsensing has obtained good satisfaction from customers in various environments. We are doing our best to provide improved service. Let the Allsensing Documents Center provide essential requirements to help you for your implementation of your day-to-day needs as a professional sensor.
