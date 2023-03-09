@@ -150,7 +150,11 @@ void loop()
   #else
     delay(100);
   #endif
-   while (Serial1.available()) // read from AGSM port, send to Serial port to interupt continuous output send 'c''/r' without line ending, may have to send more than once.
+  /*
+  read from AGSM port, send to Serial port to interupt 
+  continuous output send 'c''/r' without line ending, may have to send more than once.
+  */
+   while (Serial1.available()) 
   {
    int inByte = Serial1.read();
    Serial.write(inByte);   
