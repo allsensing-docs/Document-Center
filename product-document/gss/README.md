@@ -6,9 +6,9 @@
 
 GSS는 광범위한 고체 NDIR CO₂ 가스 센서를 설계, 개발 및 제조하여 저전력, 고 정확도 및 고속 측정이 필요한 세계 최고의 고객들에게 혁신적인 제품을 제공합니다. GSS는 실내 공기 질 모니터 시스템, 헬스 케어, 우주 항공, 식품 모니터링 및 개인 안전 장비를 포함한 광범위한 시장에 제품을 공급 중입니다.
 
-| CozIR                                                       | SprintIR                                                 | ExplorIR                                    |
-| ----------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------- |
-| ![](<../../.gitbook/assets/gss/cozir\_lp2 (1) (1) (1).jpg>) | ![](<../../.gitbook/assets/SprintIR\_main\_pic (1).jpg>) | ![](../../.gitbook/assets/gss/ExplorIR.jpg) |
+| CozIR                                                       | SprintIR                                                 | ExplorIR                                             |
+| ----------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------- |
+| ![](<../../.gitbook/assets/gss/cozir\_lp2 (1) (1) (1).jpg>) | ![](<../../.gitbook/assets/SprintIR\_main\_pic (1).jpg>) | ![](../../.gitbook/assets/ExplorIR-M\_Main\_pic.jpg) |
 
 ## GSS QuickStart Guide
 
@@ -21,3 +21,15 @@ GSS는 광범위한 고체 NDIR CO₂ 가스 센서를 설계, 개발 및 제조
 * CozIR는 3.3mW의 소비 전력을 갖춘 저전력 CO₂ 센서입니다.
 * SprintIR은 초 당 20회를 판독하는 고속 측정 CO₂ 센서입니다.
 * ExplorIR은 넓은 범위, 급격하게 변화하는 주변 환경에 맞는 CO₂ 센서입니다
+
+
+
+## 기타
+
+### [올센싱 PCB](https://allsensing.com/product/detail.html?product\_no=1171\&cate\_no=65\&display\_group=1)
+
+<figure><img src="../../.gitbook/assets/Allsensing_pcb.png" alt=""><figcaption></figcaption></figure>
+
+* 올센싱 PCB 사용시 GSS 제품 연결이 용이합니다.
+* 디바이스 연결 방법은 올센싱 PCB 사용 기준입니다.
+
