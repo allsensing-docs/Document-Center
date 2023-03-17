@@ -1,26 +1,24 @@
 # 모드 설정 및 CO2 값 읽기
 
-## 모드 &#x20;
+## 모드
 
-#### &#x20;  1. COMMAND 모드
+#### 1. COMMAND 모드
 
-&#x20;  \-  COMMAND를 기다리는 상태, 측정 X
+\- COMMAND를 기다리는 상태, 측정 X
 
-#### &#x20; 2. Streaming 모드(default)
+#### 2. Streaming 모드(default)
 
-&#x20;  \- 연속적으로 값을 측정함(초당 2회 측정), 측정 외 다른 Command시 100ms delay가 필요함
+\- 연속적으로 값을 측정함(초당 2회 측정), 측정 외 다른 Command시 100ms delay가 필요함
 
-#### &#x20; 3. Polling 모드&#x20;
+#### 3. Polling 모드
 
-&#x20;  \- 센서 값 요청 시에만 응답, 센서 값 요청하지 않을 때에는 백그라운드에서  계속 측정을 수행함
+\- 센서 값 요청 시에만 응답, 센서 값 요청하지 않을 때에는 백그라운드에서 계속 측정을 수행함
 
-|    Mode   | Command |   Description   |   Response  |
-| :-------: | :-----: | :-------------: | :---------: |
-|  Command  | K 0\r\n |   명령어 기다리는 상태   | K 00000\r\n |
-| Streaming | K 1\r\n |    연속적으로 값 측정   | K 00001\r\n |
-|  Polling  | K 2\r\n | 센서 값 요청 시 에만 응답 | K 00002\r\n |
-
-
+|    Mode   | Command |   Description   |  Response |
+| :-------: | :-----: | :-------------: | :-------: |
+|  Command  |  K 0\r  |   명령어 기다리는 상태   | K 00000\r |
+| Streaming |  K 1\r  |    연속적으로 값 측정   | K 00001\r |
+|  Polling  |  K 2\r  | 센서 값 요청 시 에만 응답 | K 00002\r |
 
 ## 소스 코드
 
@@ -67,11 +65,7 @@ void loop()
 }
 ```
 
-
-
 ### 시리얼 모니터
-
-
 
 <figure><img src="../../.gitbook/assets/cozirlp2_serial_streamiing.png" alt=""><figcaption></figcaption></figure>
 
@@ -109,17 +103,10 @@ void loop()
 
 ### 시리얼 모니터
 
-* 시리얼 모니터에 'R' 입력 후 엔터&#x20;
+* 시리얼 모니터에 'R' 입력 후 엔터
 
 <figure><img src="../../.gitbook/assets/cozirlp2_serial_r.png" alt=""><figcaption></figcaption></figure>
 
 * 응답
 
 <figure><img src="../../.gitbook/assets/cozirlp2_polling.png" alt=""><figcaption></figcaption></figure>
-
-
-
-
-
-
-
