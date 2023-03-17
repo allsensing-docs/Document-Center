@@ -7,7 +7,7 @@
 | 측정 가스(Detection Gas)         | SO2                                                                                                     |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------- |
 | 동작 방식(Operating Principle)   | 고체 전해질 전기화학식(3전극)                                                                                       |
-| 측정 범위(Measurement Range)     | 0\~100ppm                                                                                               |
+| 측정 범위(Measurement Range)     | 0\~5ppm                                                                                                 |
 | 측정 한계(Low Detection Limit)   | 0.1ppm(100ppb)                                                                                          |
 | 분해능 (Resolution)             | 0.001ppm(1ppb)                                                                                          |
 | 정확도(Accuracy)                | <5% @ Full Range                                                                                        |
@@ -163,8 +163,6 @@ void loop()
 <figure><img src="../../../.gitbook/assets/AGSM_SO2_serial.jpg" alt=""><figcaption></figcaption></figure>
 
 ## **ThingSpeak Live Graph Link**
-
-
 
 <figure><img src="../../../.gitbook/assets/AGSM_SO2_thingspeak.PNG" alt=""><figcaption></figcaption></figure>
 
