@@ -2,7 +2,7 @@
 
 * 필터(Filtered)된 값과 필터 되지 않은(Unfiltered) CO2 값의 차이는 아래 그림과 같음
 
-<figure><img src="../../../../.gitbook/assets/cozirlp2_filter_unfilter.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cozirlp2_filter_unfilter.png" alt=""><figcaption></figcaption></figure>
 
 * 필터된(Filtered) CO2 값은 노이즈를 제거하여 더 정확한 값을 제공함
 
@@ -11,7 +11,7 @@ Digital filter 설정
 * 필터 설정 범위: 1\~255( 1= Unfiltered)
 * 필터의 설정 값이 증가하면 측정 출력 응답 시간이 늘어남
 
-<figure><img src="../../../../.gitbook/assets/cozirlp2_filter_response_time.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cozirlp2_filter_response_time.png" alt=""><figcaption></figcaption></figure>
 
 * A=필터 설정 값
 * A = 32 가 A = 16(default) 보다 T90에 도달하는 시간이 늘어남
@@ -69,7 +69,7 @@ void loop()
 
 * 시리얼 모니터
 
-<figure><img src="../../../../.gitbook/assets/cozirlp2_filter_confirm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cozirlp2_filter_confirm.png" alt=""><figcaption></figcaption></figure>
 
 * CO2 필터 값 설정
 
@@ -115,4 +115,4 @@ void loop()
 
 * 시리얼 모니터
 
-<figure><img src="../../../../.gitbook/assets/cozirlp2_serial_filter_change.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cozirlp2_serial_filter_change.png" alt=""><figcaption></figcaption></figure>

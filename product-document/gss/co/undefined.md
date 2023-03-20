@@ -8,11 +8,7 @@
 
 <figure><img src="../../../.gitbook/assets/CozIR-Blink_connetion_diagram_i2c.PNG" alt=""><figcaption></figcaption></figure>
 
-
-
-### Arduino Uno와  Cozir-Series 연결
-
-
+### Arduino Uno와 Cozir-Series 연결
 
 * I2C
 
@@ -25,7 +21,7 @@
 
 <figure><img src="../../../.gitbook/assets/Cozir_series_i2c_connection_with_arduino.PNG" alt=""><figcaption></figcaption></figure>
 
-* &#x20;UART
+* UART
 
 |  항목 | Arduino Uno | Cozir-Series |
 | :-: | :---------: | :----------: |
@@ -38,19 +34,14 @@
 
 <figure><img src="../../../.gitbook/assets/cozir_lp3_i2c_실제사진.jpg" alt=""><figcaption></figcaption></figure>
 
-### Arduino MKR와  Cozir-Series 연결
+### Arduino MKR와 Cozir-Series 연결
 
 <figure><img src="../../../.gitbook/assets/cozir_lp2_arduino_uno_2.PNG" alt=""><figcaption></figcaption></figure>
 
-### ESP32와  Cozir-Series 연결
+### ESP32와 Cozir-Series 연결
 
 <figure><img src="../../../.gitbook/assets/CozIR-LP2_with_ESP32.PNG" alt=""><figcaption></figcaption></figure>
 
-### ESP8266와  Cozir-Series 연결
+### ESP8266와 Cozir-Series 연결
 
 <figure><img src="../../../.gitbook/assets/cozir_lp2_with_ESP8266.PNG" alt=""><figcaption></figcaption></figure>
-
-
-
-
-

@@ -4,7 +4,7 @@ description: High Speed
 
 # SprintIR 6S
 
-![](../../../.gitbook/assets/SprintIR\_main\_pic.jpg)
+![](../../.gitbook/assets/SprintIR\_main\_pic.jpg)
 
 ## 특징
 
@@ -28,7 +28,7 @@ description: High Speed
 
 ## 제품 크기 및 핀 특성
 
-<figure><img src="../../../.gitbook/assets/SprintIR-6S_pin.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SprintIR-6S_pin.PNG" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th align="center">PIN</th><th align="center">NAME</th><th>Function</th><th data-hidden></th></tr></thead><tbody><tr><td align="center">1</td><td align="center">Rx_ In</td><td>Digital Output</td><td></td></tr><tr><td align="center">2</td><td align="center">Tx_out</td><td>Digital Input</td><td></td></tr><tr><td align="center">3</td><td align="center">GND</td><td>VSS</td><td></td></tr><tr><td align="center">4</td><td align="center">VDD</td><td>Supply vlotage</td><td></td></tr></tbody></table>
 
@@ -44,12 +44,13 @@ description: High Speed
 
 ## 디바이스 연결 방법
 
-* Arduino Uno
+{% content-ref url="sprintir-w/undefined.md" %}
+[undefined.md](sprintir-w/undefined.md)
+{% endcontent-ref %}
 
-<figure><img src="../../../.gitbook/assets/sprintir_with_aruduino.PNG" alt=""><figcaption></figcaption></figure>
+## 통신 프로토콜
 
-* Arduino Due
+{% content-ref url="sprintir-w/undefined-1/" %}
+[undefined-1](sprintir-w/undefined-1/)
+{% endcontent-ref %}
 
-<figure><img src="../../../.gitbook/assets/sprintir_6s_connecting_with_arduino_due.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/sprintir_6s_실사.jpg" alt=""><figcaption></figcaption></figure>

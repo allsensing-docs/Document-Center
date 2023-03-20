@@ -14,24 +14,24 @@ GSS는 광범위한 고체 NDIR CO₂ 가스 센서를 설계, 개발 및 제조
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F8USAZVpjShlBinaURjim%2Fuploads%2Fgit-blob-e1fbbee3dd3058af5f71996ff8829e13b4c9db38%2Fcozir\_lp2%20\(1\)%20\(1\).jpg?alt=media)​ | ​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F8USAZVpjShlBinaURjim%2Fuploads%2Fgit-blob-adfb2fc9365c8d670c9d2cd74380f81cc711bd41%2Fco2\_LP3\_mainpic.PNG?alt=media)​ | ​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F8USAZVpjShlBinaURjim%2Fuploads%2Fgit-blob-521cd503cabaaa676b61742968ae178a9a245d90%2Fcozir\_blink\_main\_pic.jpg?alt=media)​ |
 
-{% content-ref url="cozir_blink/" %}
-[cozir\_blink](cozir\_blink/)
+{% content-ref url="cozir_blink.md" %}
+[cozir\_blink.md](cozir\_blink.md)
 {% endcontent-ref %}
 
-{% content-ref url="cozir-lp3/" %}
-[cozir-lp3](cozir-lp3/)
+{% content-ref url="cozir-lp3.md" %}
+[cozir-lp3.md](cozir-lp3.md)
 {% endcontent-ref %}
 
-{% content-ref url="cozir-blink/" %}
-[cozir-blink](cozir-blink/)
+{% content-ref url="cozir-blink.md" %}
+[cozir-blink.md](cozir-blink.md)
 {% endcontent-ref %}
 
 ## 넓은 범위CO₂ 센서
 
 <figure><img src="../../.gitbook/assets/ExplorIR-M_Main_pic_200_200.jpg" alt=""><figcaption><p>ExplorIR</p></figcaption></figure>
 
-{% content-ref url="co-explorir/" %}
-[co-explorir](co-explorir/)
+{% content-ref url="co-explorir.md" %}
+[co-explorir.md](co-explorir.md)
 {% endcontent-ref %}
 
 ##
@@ -42,8 +42,8 @@ GSS는 광범위한 고체 NDIR CO₂ 가스 센서를 설계, 개발 및 제조
 
 <figure><img src="../../.gitbook/assets/SprintIR_main_pic_200_200.jpg" alt=""><figcaption><p>SprintIR-6S</p></figcaption></figure>
 
-{% content-ref url="sprintir-w/" %}
-[sprintir-w](sprintir-w/)
+{% content-ref url="sprintir-w.md" %}
+[sprintir-w.md](sprintir-w.md)
 {% endcontent-ref %}
 
 ****

@@ -14,6 +14,10 @@
 [co2.md](co2.md)
 {% endcontent-ref %}
 
+{% content-ref url="uart-i2c-co2.md" %}
+[uart-i2c-co2.md](uart-i2c-co2.md)
+{% endcontent-ref %}
+
 {% content-ref url="digital-filter.md" %}
 [digital-filter.md](digital-filter.md)
 {% endcontent-ref %}
@@ -21,4 +25,3 @@
 {% content-ref url="uart-command.md" %}
 [uart-command.md](uart-command.md)
 {% endcontent-ref %}
-

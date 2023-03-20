@@ -1,4 +1,4 @@
-# Copy of 디바이스 연결 방법
+# 디바이스 연결 방법
 
 ## Connection DIAGRAM (UART)
 

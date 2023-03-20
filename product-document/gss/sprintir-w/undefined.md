@@ -13,6 +13,16 @@
 |  TX |      13     |      RX      |
 |  RX |      12     |      TX      |
 
+Arduino Uno
+
+<figure><img src="../../../.gitbook/assets/sprintir_with_aruduino.PNG" alt=""><figcaption></figcaption></figure>
+
+Arduino Due
+
+<figure><img src="../../../.gitbook/assets/sprintir_6s_connecting_with_arduino_due.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/sprintir_6s_실사.jpg" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../../../.gitbook/assets/Cozir_series_uart_connection_with_arduino_uno.PNG" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/cozir_lp3_i2c_실제사진.jpg" alt=""><figcaption></figcaption></figure>

@@ -4,6 +4,8 @@
 
 <figure><img src=".gitbook/assets/allsensing_logo.jpg" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://www.youtube.com/watch?ab_channel=%ED%95%9C%EB%A7%8C%EC%9A%B1&feature=youtu.be&v=NmmLH5Uee8w" %}
+
 ### Welcome!
 
 Allsensing Documents Center는 여러분의 지식과 창의성을 발휘할 수 있는 장소입니다. 당사의 제품을 기본사항과 사양을 제공하는 포괄적인 문서세트가 있습니다.

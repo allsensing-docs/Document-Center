@@ -1,5 +1,15 @@
 # 통신 프로토콜
 
+## UART 설정
+
+|       PARAMETER       |  TYP |  UNIT  |
+| :-------------------: | :--: | :----: |
+|       Buad Rate       | 9600 | Bits/s |
+|       Data Bits       |   8  |        |
+|         Parity        | None |        |
+|       Stop Bits       |   1  |        |
+| Hardware Flow Control | None |        |
+
 {% content-ref url="co2.md" %}
 [co2.md](co2.md)
 {% endcontent-ref %}

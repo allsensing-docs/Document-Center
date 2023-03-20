@@ -118,8 +118,8 @@ while(buffer[ind-1] != 0x0A){  // Read sensor and fill buffer up to 0XA = CR
 
 * I2C
 
-<figure><img src="../../../../.gitbook/assets/serial_monitor_cozir_lp3_i2c.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/serial_monitor_cozir_lp3_i2c.png" alt=""><figcaption></figcaption></figure>
 
 * UART
 
-<figure><img src="../../../../.gitbook/assets/serial_monitor_cozir_lp3_uart.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/serial_monitor_cozir_lp3_uart.png" alt=""><figcaption></figcaption></figure>

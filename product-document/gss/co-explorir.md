@@ -4,7 +4,7 @@ description: Wide Range
 
 # ExplorIR
 
-<figure><img src="../../../.gitbook/assets/ExplorIR-M_Main_pic.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ExplorIR-M_Main_pic.jpg" alt=""><figcaption></figcaption></figure>
 
 ## 특징
 
@@ -32,7 +32,7 @@ description: Wide Range
 
 ## 제품 크기 및 핀 특성
 
-<figure><img src="../../../.gitbook/assets/expolorir-m_pin.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/expolorir-m_pin.PNG" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th align="center">PIN</th><th align="center">NAME</th><th>Function</th><th data-hidden></th></tr></thead><tbody><tr><td align="center">1</td><td align="center">Rx_ In</td><td>Digital Output</td><td></td></tr><tr><td align="center">2</td><td align="center">Tx_out</td><td>Digital Input</td><td></td></tr><tr><td align="center">3</td><td align="center">GND</td><td>VSS</td><td></td></tr><tr><td align="center">4</td><td align="center">VDD</td><td>Supply vlotage</td><td></td></tr></tbody></table>
 
@@ -48,4 +48,12 @@ description: Wide Range
 
 ## 디바이스 연결 방법
 
-<figure><img src="../../../.gitbook/assets/explorir-m_with_arudino.PNG" alt=""><figcaption></figcaption></figure>
+{% content-ref url="co-explorir/undefined.md" %}
+[undefined.md](co-explorir/undefined.md)
+{% endcontent-ref %}
+
+## 통신 프로토콜
+
+{% content-ref url="co-explorir/undefined-1/" %}
+[undefined-1](co-explorir/undefined-1/)
+{% endcontent-ref %}

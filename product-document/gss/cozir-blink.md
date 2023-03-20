@@ -13,7 +13,7 @@ description: Ultra - LOW Power CO2 Sensor
 * 측정 주기가 늘어날수록 노이즈가 줄어들고 Resolution이 증가함
 * 측정 주기 범위: 1\~ 32 (default = 16)
 
-<figure><img src="../../../.gitbook/assets/npulse_setting_cozir_blink.PNG" alt=""><figcaption><p>&#x3C; npulse 설정에 따른 전력 소비 변화 ></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/npulse_setting_cozir_blink.PNG" alt=""><figcaption><p>&#x3C; npulse 설정에 따른 전력 소비 변화 ></p></figcaption></figure>
 
 측정 주기 Uart Command
 
@@ -55,18 +55,20 @@ description: Ultra - LOW Power CO2 Sensor
 
 ## 제품 크기 및 핀 특성
 
-<figure><img src="../../../.gitbook/assets/cozirlp2_pin.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cozirlp2_pin.png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th align="center">PIN</th><th align="center">Function</th><th data-hidden></th></tr></thead><tbody><tr><td align="center">GND</td><td align="center">VSS</td><td></td></tr><tr><td align="center">VDD</td><td align="center">Positive Supply</td><td></td></tr><tr><td align="center">Rx_ In</td><td align="center">Digital Input</td><td></td></tr><tr><td align="center">Tx_out</td><td align="center">Digital Output</td><td></td></tr><tr><td align="center">I2C_ENABLE</td><td align="center">Digital Input</td><td></td></tr><tr><td align="center">I2C_SCL</td><td align="center">I2C clock</td><td></td></tr><tr><td align="center">I2C_SDA</td><td align="center">I2C data</td><td></td></tr></tbody></table>
 
-<figure><img src="../../../.gitbook/assets/CozIR-Blink_size.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CozIR-Blink_size.PNG" alt=""><figcaption></figcaption></figure>
 
-## UART 설정
+## 디바이스 연결 방법
 
-|       PARAMETER       |  TYP  |  UNIT  |
-| :-------------------: | :---: | :----: |
-|       Buad Rate       | 38400 | Bits/s |
-|       Data Bits       |   8   |        |
-|         Parity        |  None |        |
-|       Stop Bits       |   1   |        |
-| Hardware Flow Control |  None |        |
+{% content-ref url="cozir-blink/undefined.md" %}
+[undefined.md](cozir-blink/undefined.md)
+{% endcontent-ref %}
+
+## 통신 프로토콜
+
+{% content-ref url="cozir-blink/undefined-1/" %}
+[undefined-1](cozir-blink/undefined-1/)
+{% endcontent-ref %}
