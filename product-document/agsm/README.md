@@ -4,6 +4,26 @@ AGSM은 IoT(사물인터넷)와 연동되는 디바이스에 간편 적용이 �
 
 <figure><img src="../../.gitbook/assets/agsm_main_pic (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
+{% content-ref url="agsm_co/" %}
+[agsm\_co](agsm\_co/)
+{% endcontent-ref %}
+
+{% content-ref url="agsm_h2s/" %}
+[agsm\_h2s](agsm\_h2s/)
+{% endcontent-ref %}
+
+{% content-ref url="agsm_so2/" %}
+[agsm\_so2](agsm\_so2/)
+{% endcontent-ref %}
+
+{% content-ref url="agsm_no2/" %}
+[agsm\_no2](agsm\_no2/)
+{% endcontent-ref %}
+
+{% content-ref url="agsm_o3/" %}
+[agsm\_o3](agsm\_o3/)
+{% endcontent-ref %}
+
 * 가스 교정(Gas Calibration)이 완료된 AGSM은 센서 농도 값(ppb)을 UART통신을 이용하여 데이터를 전송합니다.
 * 빠른 응답 시간(T90<30Sec)을 요구하는 환경에 적용하기에는 적합하지 않으며 장시간 환경 변화 모니터링에 적합하도록 제작되었습니다.
 * 최소 30분\~1시간 이상의 센서 안정화 시간이 필요합니다.
