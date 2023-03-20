@@ -6,19 +6,11 @@
 
 ## Arudino uno와 ExplorIR 연결
 
-|  항목 | Arduino Uno | Cozir-Series |
-| :-: | :---------: | :----------: |
-| VCC |  5V or 3.3V |      VCC     |
-| GND |     GND     |      GND     |
-|  TX |      13     |      RX      |
-|  RX |      12     |      TX      |
+|  항목 | Arduino Uno | ExplorIR |
+| :-: | :---------: | :------: |
+| VCC |  5V or 3.3V |    VCC   |
+| GND |     GND     |    GND   |
+|  TX |      13     |    RX    |
+|  RX |      12     |    TX    |
 
-<figure><img src="../../../.gitbook/assets/Cozir_series_uart_connection_with_arduino_uno.PNG" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/cozir_lp3_i2c_실제사진.jpg" alt=""><figcaption></figcaption></figure>
-
-### Arduino MKR와 Cozir-Series 연결
-
-### ESP32와 Cozir-Series 연결
-
-### ESP8266와 Cozir-Series 연결
+<figure><img src="../../../.gitbook/assets/explorir-m_with_arudino.PNG" alt=""><figcaption></figcaption></figure>

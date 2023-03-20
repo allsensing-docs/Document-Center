@@ -1,3 +1,7 @@
+---
+description: Digital Sensor
+---
+
 # ETH-01D
 
 <figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d_main_pic.jpg" alt=""><figcaption></figcaption></figure>

@@ -1,3 +1,7 @@
+---
+description: Analog sensor
+---
+
 # ETH-01DV
 
 <figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_Main_pic.jpg" alt=""><figcaption></figcaption></figure>
