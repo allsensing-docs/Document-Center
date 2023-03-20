@@ -8,6 +8,10 @@ description: Ultra - LOW Power CO2 Sensor
 
 ## CozIR-LP Series와 차이점 <a href="#1.overview" id="1.overview"></a>
 
+* CozIR-Blink는 전원을 키고 co2 값을 측정 후 전원을 꺼서 전력 소비를 크게 줄일 수 있음
+
+## 측정 주기 설정
+
 * 측정 주기( nPULSE= pulses 당 읽는 횟수) 조절 하여 전력 소비를 크게 줄일 수 있음
 * 측정 주기가 줄어들수록 전력 소비가 줄어듬
 * 측정 주기가 늘어날수록 노이즈가 줄어들고 Resolution이 증가함

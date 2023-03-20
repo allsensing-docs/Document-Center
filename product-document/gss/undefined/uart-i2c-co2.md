@@ -91,4 +91,4 @@ void loop()
 
 
 
-<figure><img src="../../../.gitbook/assets/cozirlp2_serial_streamiing.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/co2_lp2_Serial_monitor_pic_size.PNG" alt=""><figcaption></figcaption></figure>
