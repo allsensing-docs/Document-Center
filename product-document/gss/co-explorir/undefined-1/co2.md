@@ -67,7 +67,7 @@ void loop()
 
 ### 시리얼 모니터
 
-<figure><img src="../../../.gitbook/assets/cozirlp2_serial_streamiing.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/cozirlp2_serial_streamiing.png" alt=""><figcaption></figcaption></figure>
 
 * Polling mode에서 CO2값 읽기
 
@@ -105,8 +105,8 @@ void loop()
 
 * 시리얼 모니터에 'R' 입력 후 엔터
 
-<figure><img src="../../../.gitbook/assets/cozirlp2_serial_r.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/cozirlp2_serial_r.png" alt=""><figcaption></figcaption></figure>
 
 * 응답
 
-<figure><img src="../../../.gitbook/assets/cozirlp2_polling.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/cozirlp2_polling.png" alt=""><figcaption></figcaption></figure>

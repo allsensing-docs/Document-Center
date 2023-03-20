@@ -38,7 +38,7 @@ description: LOW Power CO2 Sensor
 
 \- J ###\r\n에서 ### 은 Bit \[7:0] 까지 설정한 값이 들어감
 
-<figure><img src="../../.gitbook/assets/COZIR_LP3_PWM_설정2.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/COZIR_LP3_PWM_설정2.PNG" alt=""><figcaption></figcaption></figure>
 
 * 센서 자기 진단 테스트
 
@@ -76,13 +76,13 @@ Response: ### = 170 - Sensor error
 
 ## 제품 크기 및 핀 특성
 
-<figure><img src="../../.gitbook/assets/cozir_lp3_pin_connection.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cozir_lp3_pin_connection.PNG" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th align="center">PIN</th><th align="center">NAME</th><th>Function</th><th data-hidden></th></tr></thead><tbody><tr><td align="center">1</td><td align="center">GND</td><td>VSS</td><td></td></tr><tr><td align="center">2</td><td align="center">VDD</td><td>Positive Supply</td><td></td></tr><tr><td align="center">5</td><td align="center">ALARM</td><td>ALARM Output</td><td></td></tr><tr><td align="center">7</td><td align="center">PWM_RS485</td><td>PWM or RS485 transceiver</td><td></td></tr><tr><td align="center">8</td><td align="center">I2C_ENABLE</td><td>Digital Input</td><td></td></tr><tr><td align="center">9</td><td align="center">I2C_SCL</td><td>I2C clock</td><td></td></tr><tr><td align="center">10</td><td align="center">I2C_SDA</td><td>I2C data</td><td></td></tr><tr><td align="center">11</td><td align="center">Tx_out</td><td>Digital Input</td><td></td></tr><tr><td align="center">12</td><td align="center">Rx_ In</td><td>Digital Output</td><td></td></tr></tbody></table>
 
 ***
 
-<figure><img src="../../.gitbook/assets/cozir_lp3_size.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cozir_lp3_size.PNG" alt=""><figcaption></figcaption></figure>
 
 ## UART 설정
 
