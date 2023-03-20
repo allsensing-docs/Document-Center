@@ -4,26 +4,26 @@
 
 * Device에서 Command ((i2c Address+Write bit),0xA0, 0x00, 0x00)를 ETH-01D로 전송
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_address (7).PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/address/eth_01d_i2c_address (7).PNG" alt=""><figcaption></figcaption></figure>
 
 **Step 1. Sensor Address 요청 Command**
 
 * Device에서 Command ((i2c Address+Write bit),0x1C, 0x00, 0x00)를 ETH-01D로 전송
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_address (3).PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/address/eth_01d_i2c_address (3).PNG" alt=""><figcaption></figcaption></figure>
 
 **Step 2. Address 응답**
 
 * ETH-01D에서 상태 값과 Address 값 응답(3byte)
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_address (4).PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/address/eth_01d_i2c_address (4).PNG" alt=""><figcaption></figcaption></figure>
 
 **Step 3. Sensor Address 쓰기 Command**
 
 * Device에서 Command ((i2c Address+Write bit),0x5C, Register Value\[15:8], 변경할 address\[7:0]) 를 ETH-01D로 전송
 * 변경할 address\[7:0] : Register value \[6:0] 만 변경
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_address (5).PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/address/eth_01d_i2c_address (5).PNG" alt=""><figcaption></figcaption></figure>
 
 ## 소스 코드
 
@@ -118,4 +118,4 @@ void loop()
 
 Address 읽기 및 쓰기 시리얼 모니터
 
-<figure><img src="../../../../.gitbook/assets/eth-01d_address_serial.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d_address_serial.PNG" alt=""><figcaption></figcaption></figure>

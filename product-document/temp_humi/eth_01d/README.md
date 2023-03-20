@@ -1,6 +1,6 @@
 # ETH-01D
 
-<figure><img src="../../../.gitbook/assets/eth-01d_main_pic.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d_main_pic.jpg" alt=""><figcaption></figcaption></figure>
 
 ## 특징
 
@@ -24,7 +24,7 @@
 
 | 항목             | 내용                                                        |
 | -------------- | --------------------------------------------------------- |
-| 측정 범위          | <p>온도: -40~125℃</p><p>습도:0~100%RH</p>                     |
+| 측정 범위          | <p>온도: -40<del>125℃</del></p><p>습도:0100%RH</p>            |
 | 습도 정확성(@ 25°C) | <p>±3.8%RH (20 to 80%RH), ±5.0%RH</p><p>(Other Range)</p> |
 | 온도 정확성         | ±0.3°C (0 to 70°C), ±0.5°C (Other Range)                  |
 | 전원 전압          | Min:1.8V Typ:3.3V Max:5.5V                                |
@@ -45,28 +45,40 @@
 * 온도 0\~70°C 범위에서 ETH-01D의 온도의 정확도는 일반적으로 ±0.3°C , 최대 ±0.5°C 오차 허용
 * 온도 0\~-40°C 범위를 제외한 나머지 범위에서는 정확도 허용 오차 범위가 증가합니다.(최대 2°C)
 
-<figure><img src="../../../.gitbook/assets/eth-01d_temp_graph.PNG" alt=""><figcaption><p>&#x3C; 온도 정확도 허용 오차 범위 그래프></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d_temp_graph.PNG" alt=""><figcaption><p>&#x3C; 온도 정확도 허용 오차 범위 그래프></p></figcaption></figure>
 
 * 습도 20\~80%RH 범위에서 ETH-01D의 습도의 정확도는 일반적으로 3.5% RH , 최대 RH오차 허용
 * 습도 20\~80%RH 범위를 제외한 나머지 범위에서는 정확도 허용 오차 범위가 증가함 최대 RH오차 허용
 
-<figure><img src="../../../.gitbook/assets/eth-01d_humi_graph.PNG" alt=""><figcaption><p>&#x3C; 상대 습도 허용 오차 범위 ></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d_humi_graph.PNG" alt=""><figcaption><p>&#x3C; 상대 습도 허용 오차 범위 ></p></figcaption></figure>
 
 ## 통신 프로토콜
 
-A) [온·습도 읽기](Temp\_humi\_reading/)
+### A) [온·습도 읽기](https://app.gitbook.com/o/Kf02NeqxuSI0LF2rYZKc/s/8USAZVpjShlBinaURjim/\~/changes/13/product-document/temp\_humi/eth\_01d/undefined/temp\_humi\_reading)
+
+{% content-ref url="undefined/temp_humi_reading.md" %}
+[temp\_humi\_reading.md](undefined/temp\_humi\_reading.md)
+{% endcontent-ref %}
 
 * 온·습도 데이터 요청 command
 * 온· 데이터 응답
 
-B) [온·습도 Resolution 읽기 및 쓰기](Resolution/)
+### B) [Address 읽기 및 쓰기](https://app.gitbook.com/o/Kf02NeqxuSI0LF2rYZKc/s/8USAZVpjShlBinaURjim/\~/changes/13/product-document/temp\_humi/eth\_01d/undefined/address)
+
+{% content-ref url="undefined/resolution.md" %}
+[resolution.md](undefined/resolution.md)
+{% endcontent-ref %}
 
 * ETH-01D I2C command 전송
 * 온·습도 Resolution 요청 Command
 * 온·습도 Resolution 응답
 * 온·습도 Resolution 쓰기 Command
 
-C) [Sensor ID 읽기](Sensor\_id/)
+### C) [Sensor ID 읽기](undefined/sensor\_id.md)
+
+{% content-ref url="undefined/sensor_id.md" %}
+[sensor\_id.md](undefined/sensor\_id.md)
+{% endcontent-ref %}
 
 * ETH-01D I2C command 전송
 * 상위 Sensor ID 요청 Command
@@ -74,7 +86,11 @@ C) [Sensor ID 읽기](Sensor\_id/)
 * 하위 Sensor ID 요청 Command
 * 하위 Sensor ID 응답 C) Sensor Address 읽기 및 쓰기
 
-D) [Adress 읽기 및 쓰기](Address/)
+### D) [Adress 읽기 및 쓰기](undefined/address.md)
+
+{% content-ref url="undefined/address.md" %}
+[address.md](undefined/address.md)
+{% endcontent-ref %}
 
 * ETH-01D I2C command 전송
 * Sensor Address 요청 Command

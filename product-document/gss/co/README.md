@@ -4,9 +4,8 @@
 | -------------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------------- |
 | ![](<../../../.gitbook/assets/gss/cozir\_lp2 (1) (1) (1).jpg>) | ![](../../../.gitbook/assets/co2\_LP3\_mainpic.PNG) | ![](../../../.gitbook/assets/cozir\_blink\_main\_pic.jpg) |
 
-## [Cozir-lp2](cozir\_blink.md)
+## [Cozir-lp2](../cozir\_blink.md)
 
-## [Cozir-lp3](cozir-lp3.md)
+## [Cozir-lp3](../cozir-lp3.md)
 
-## [Cozir-Blink](cozir-blink.md)
-
+## [Cozir-Blink](../cozir-blink.md)

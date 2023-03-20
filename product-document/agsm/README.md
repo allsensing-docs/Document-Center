@@ -2,7 +2,7 @@
 
 AGSM은 IoT(사물인터넷)와 연동되는 디바이스에 간편 적용이 가능하며 센서 값 및 환경 변화 상태를 모니터링 할 수 있는 쉬운 방법을 제공합니다.
 
-<figure><img src="../../.gitbook/assets/agsm_main_pic (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/agsm_main_pic (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 가스 교정(Gas Calibration)이 완료된 AGSM은 센서 농도 값(ppb)을 UART통신을 이용하여 데이터를 전송합니다.
 * 빠른 응답 시간(T90<30Sec)을 요구하는 환경에 적용하기에는 적합하지 않으며 장시간 환경 변화 모니터링에 적합하도록 제작되었습니다.

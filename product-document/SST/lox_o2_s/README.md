@@ -6,7 +6,7 @@ description: >-
 
 # LOX\_02\_S
 
-<figure><img src="../../../.gitbook/assets/LOX_O2_S_main_pic.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lox_o2/LOX-O2-S/LOX_O2_S_main_pic.jpg" alt=""><figcaption></figcaption></figure>
 
 ## 제품 특징
 
@@ -16,9 +16,9 @@ description: >-
 
 ## 아두이노 연결 방법 및 예제
 
-<figure><img src="../../../.gitbook/assets/lox_02_s_connecting_with_arduino_uno (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lox_02_s_connecting_with_arduino_uno (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/lox_02_s_실사 (1) (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lox_02_s_실사 (1).jpg" alt=""><figcaption></figcaption></figure>
 
 ## 예제 Code(Arduino Base)
 
@@ -43,7 +43,7 @@ void loop() {
 
 **Serial Monitor**
 
-<figure><img src="../../../.gitbook/assets/lox_02_s_serial_monitor.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lox_02_s_serial_monitor (1) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 \* O = 현재 산소분압(PPO₂)값\
 \* T = 현재 온도값\
@@ -53,6 +53,6 @@ void loop() {
 
 **Live Graph Link**
 
-<figure><img src="../../../.gitbook/assets/lox_02_s_live_graph.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/lox_02_s_live_graph (1) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://thingspeak.com/channels/1614699" %}

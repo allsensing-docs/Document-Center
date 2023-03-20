@@ -11,7 +11,7 @@ ETH-01D 비휘발성 메모리에 온·습도 Resolution, ID가 저장 되어있
 * 분해능(Resolution) (bits)가 증가할수록 측정시간, 응답시간이 증가함.
 * 분해능(Resolution) (bits)가 증가할수록 전력 소모량이 증가함.
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_resolution.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/resolution/eth_01d_i2c_resolution.PNG" alt=""><figcaption></figcaption></figure>
 
 **분해능(Resolution) (bits) 변경에 따른 소비 전력 변화**
 
@@ -21,28 +21,28 @@ ETH-01D 비휘발성 메모리에 온·습도 Resolution, ID가 저장 되어있
 
 ***
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_resolution (2).PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/resolution/eth_01d_i2c_resolution (2).PNG" alt=""><figcaption></figcaption></figure>
 
 **Step 1. ETH-01D I2C command 전송**
 
 * Device에서 command(i2c Address(0x44),0xa0,0x00,0x00)를 ETH-01D로 전송
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_address (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_address (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2. 온·습도 Resolution 요청 Command**
 
 * Device에서 Command ((i2c Address(0x44)), 0x06(습도), 0x00, 0x00)를 ETH-01D로 보낸 뒤 120 μs 기다림(습도 Resolution을 요청 Command)
 * 온도 Resolution을 요청 Command는 Register Address 0x06을 0x11으로 변경 해야함
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_resolution (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/resolution/eth_01d_i2c_resolution (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_resolution (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/resolution/eth_01d_i2c_resolution (5).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3. 온·습도 Resolution 응답**
 
 * 온·습도 Resolution Register bits값 \[15:0]을 읽음
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_response.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_response (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4. 온·습도 Resolution 쓰기 Command**
 
@@ -51,11 +51,11 @@ ETH-01D 비휘발성 메모리에 온·습도 Resolution, ID가 저장 되어있
 * Device에서 Command ((i2c Address(0x44)), 0x46, 0xAC, 0x5A)를 ETH-01D로 전송(습도 Resolu-tion 14)
 * 온도에 Resolution을 읽기위해서는 Register Address 0x46을 0x51으로 변경 해야함
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_resolution (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/resolution/eth_01d_i2c_resolution (7).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_resolution (11).PNG" alt=""><figcaption><p>&#x3C; 분해능(Resolution) Register bits[11:10] 설정 값></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/resolution/eth_01d_i2c_resolution (11).PNG" alt=""><figcaption><p>&#x3C; 분해능(Resolution) Register bits[11:10] 설정 값></p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_resolution (8).PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/resolution/eth_01d_i2c_resolution (8).PNG" alt=""><figcaption></figcaption></figure>
 
 ## 소스 코드
 
@@ -141,7 +141,7 @@ delay(1000);
 
 * 온·습도 Resolution 읽기 및 쓰기 시리얼 모니터
 
-<figure><img src="../../../../.gitbook/assets/eth-01d_resolution_serial.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d_resolution_serial.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../temp-and-humi/.gitbook/assets/142.PNG" alt=""><figcaption></figcaption></figure>
 

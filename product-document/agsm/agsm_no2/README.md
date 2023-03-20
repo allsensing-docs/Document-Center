@@ -1,6 +1,6 @@
 # AGSM NO2
 
-<figure><img src="../../../.gitbook/assets/AGSM_NO2_main_pic (1) (1) (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/AGSM_NO2_main_pic (1) (1) (2).jpg" alt=""><figcaption></figcaption></figure>
 
 ## **모듈 사양**
 
@@ -27,7 +27,7 @@
 * Connector(default): Molex 53261, Yeonho 12505WR
 * Pin header(option): 2.54 pitch(V:VCC, G:GND, R: RXD, T: TXD)
 
-<figure><img src="../../../.gitbook/assets/AGSM_C0_pin.png" alt=""><figcaption><p>AGSM CO PIN Connection</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>AGSM CO PIN Connection</p></figcaption></figure>
 
 ### 모듈 크기
 
@@ -35,7 +35,7 @@
 * 높이: 11.8mm(센서 소켓 적용, 표준 제품), 8mm(센서 소켓 미적용, 사용자 요청)
 * 2mm기구 홀: 4EA
 
-<figure><img src="../../../.gitbook/assets/AGSM_C0_size.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/agsm/AGSM_CO/AGSM_C0_size.png" alt=""><figcaption></figcaption></figure>
 
 ## **통신 프로토콜**
 
@@ -108,9 +108,9 @@ LED ON
 
 ## **Arduino Example**
 
-<figure><img src="../../../.gitbook/assets/AGSM_C0_arduino.png" alt=""><figcaption><p>Arduino Connection</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Arduino Connection</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/AGSM_C0_실사.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### Arduino Code
 
@@ -160,10 +160,10 @@ void loop()
 
 ### **Serial Monitor**
 
-<figure><img src="../../../.gitbook/assets/AGSM_NO2_serial.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/agsm/AGSM_NO2/AGSM_NO2_serial.jpg" alt=""><figcaption></figcaption></figure>
 
 ## **ThingSpeak Live Graph Link**
 
-<figure><img src="../../../.gitbook/assets/AGSM_NO2_thingspeak.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/agsm/AGSM_NO2/AGSM_NO2_thingspeak.PNG" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://thingspeak.com/channels/1756371" %}
