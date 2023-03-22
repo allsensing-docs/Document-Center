@@ -13,16 +13,4 @@
 |  TX |      13     |    RX    |
 |  RX |      12     |    TX    |
 
-{% tabs %}
-{% tab title="ES8266" %}
-<figure><img src="../../../.gitbook/assets/cozir_lp2_with_ESP8266.PNG" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="ESP32" %}
-<figure><img src="../../../.gitbook/assets/CozIR-LP2_with_ESP32.PNG" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="ARDUINO MKR" %}
-<figure><img src="../../../.gitbook/assets/cozir_lp2_arduino_uno_2.PNG" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
+<figure><img src="../../../.gitbook/assets/explorir-m_with_arudino.PNG" alt=""><figcaption></figcaption></figure>
