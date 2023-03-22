@@ -13,4 +13,16 @@
 |  TX |      13     |    RX    |
 |  RX |      12     |    TX    |
 
+<div>
+
 <figure><img src="../../../.gitbook/assets/explorir-m_with_arudino.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../.gitbook/assets/cozir_lp2_with_ESP8266.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../.gitbook/assets/CozIR-LP2_with_ESP32.PNG" alt=""><figcaption></figcaption></figure>
+
+</div>
