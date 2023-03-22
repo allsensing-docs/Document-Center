@@ -17,7 +17,6 @@
       * [모드 설정 및 CO2 값 읽기](product-document/gss/undefined/co2.md)
       * [인터페이스 유형별(UART,I2C) CO2값 읽기](product-document/gss/undefined/uart-i2c-co2.md)
       * [Digital filter](product-document/gss/undefined/digital-filter.md)
-      * [UART Command](product-document/gss/undefined/uart-command.md)
   * [CozIR-LP3](product-document/gss/cozir-lp3.md)
     * [디바이스 연결 방법](product-document/gss/cozir-lp3/undefined.md)
     * [통신 프로토콜](product-document/gss/cozir-lp3/undefined-1/README.md)

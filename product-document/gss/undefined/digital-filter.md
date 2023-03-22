@@ -64,7 +64,7 @@ void loop()
      tx_ready = 0;
      rx_ready = 0;
   }
-}++
+}
 ```
 
 * 시리얼 모니터

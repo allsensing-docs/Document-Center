@@ -12,27 +12,25 @@
 
 * I2C
 
-|  항목 | Arduino Uno | Cozir-Series |
-| :-: | :---------: | :----------: |
-| VCC |  5V or 3.3V |      VCC     |
-| GND |     GND     |      GND     |
-|  TX |      A5     |      SCL     |
-|  RX |      A4     |      SDA     |
+|  항목 | Arduino Uno | Cozir-LP2 |
+| :-: | :---------: | :-------: |
+| VCC |  5V or 3.3V |    VCC    |
+| GND |     GND     |    GND    |
+|  TX |      A5     |    SCL    |
+|  RX |      A4     |    SDA    |
 
 <figure><img src="../../../.gitbook/assets/Cozir_series_i2c_connection_with_arduino.PNG" alt=""><figcaption></figcaption></figure>
 
 * UART
 
-|  항목 | Arduino Uno | Cozir-Series |
-| :-: | :---------: | :----------: |
-| VCC |  5V or 3.3V |      VCC     |
-| GND |     GND     |      GND     |
-|  TX |      13     |      RX      |
-|  RX |      12     |      TX      |
+|  항목 | Arduino Uno | Cozir-LP2 |
+| :-: | :---------: | :-------: |
+| VCC |  5V or 3.3V |    VCC    |
+| GND |     GND     |    GND    |
+|  TX |      13     |     RX    |
+|  RX |      12     |     TX    |
 
 <figure><img src="../../../.gitbook/assets/Cozir_series_uart_connection_with_arduino_uno.PNG" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/cozir_lp3_i2c_실제사진.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Arduino MKR와 Cozir-LP2 연결
 
