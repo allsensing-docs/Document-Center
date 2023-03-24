@@ -10,20 +10,6 @@
 
 ###
 
-{% tabs %}
-{% tab title="아두이노우노 uart" %}
-<figure><img src="../../../.gitbook/assets/cozir_lp2_arduino_uno_2.PNG" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="아두우노 우노   i2c" %}
-<figure><img src="../../../.gitbook/assets/CozIR-LP2_with_ESP32.PNG" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Untitled" %}
-<figure><img src="../../../.gitbook/assets/cozir_lp2_with_ESP8266.PNG" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
-
 ### Arduino Uno와 Cozir-LP2 연결
 
 * I2C
