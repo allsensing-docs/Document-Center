@@ -46,7 +46,7 @@
 * [EC-Sens](product-document/ec-sens/README.md)
   * [TB600 CO 100](product-document/ec-sens/TB600\_CO\_100/README.md)
 * [SST](product-document/SST/README.md)
-  * [LOX\_02\_S](product-document/sst/lox\_o2\_s/README.md)
+  * [LOX\_02\_S](product-document/SST/lox\_o2\_s/README.md)
     * [디바이스 연결 방법](product-document/sst/lox\_o2\_s/undefined.md)
     * [통신 프로토콜](product-document/sst/lox\_o2\_s/undefined-1/README.md)
       * [모드 설정 및 O₂ 값 읽기](product-document/sst/lox\_o2\_s/undefined-1/o.md)
