@@ -59,3 +59,4 @@
       * [온·습도 Resolution 읽기 및 쓰기](product-document/temp\_humi/eth\_01d/undefined/resolution.md)
       * [Sensor ID 읽기](product-document/temp\_humi/eth\_01d/undefined/sensor\_id.md)
       * [Address 읽기 및 쓰기](product-document/temp\_humi/eth\_01d/undefined/address.md)
+    * [Thingspeak 활용방법](product-document/temp\_humi/eth\_01d/thingspeak.md)

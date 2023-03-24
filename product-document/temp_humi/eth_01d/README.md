@@ -100,3 +100,9 @@ description: Digital Sensor
 * Sensor Address 요청 Command
 * Sensor Address 응답
 * Sensor Address 쓰기 Command
+
+## Thingspeka 활용 방법
+
+{% content-ref url="thingspeak.md" %}
+[thingspeak.md](thingspeak.md)
+{% endcontent-ref %}
