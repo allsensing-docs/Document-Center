@@ -1,10 +1,8 @@
-# Thingspeak
+# Thingspeak 활용 방법
 
-## ESP32 ThingSpeak에 ETH-01D 값 게시
+{% embed url="https://thingspeak.com/channels/1614699" %}
 
-![thingspeak](https://user-images.githubusercontent.com/94042419/223014238-48ea2103-d546-46a6-95e0-c674838b5108.PNG)
 
-{% embed url="https://thingspeak.com/channels/2051642" %}
 
 Step1. 아두이노 IDE에 Thingspeak 라이브러리 추가
 
@@ -23,68 +21,43 @@ Step3. Thingpeak channelnumber 및 api key 확인
 
 {% tabs %}
 {% tab title="Thingspeak" %}
-```
+```cpp
 #include <Arduino.h>
 #include "ThingSpeak.h"
 #include <Wire.h>
 #include <WiFi.h>
-#define slave_address 0x44
-#define Sensor_power_port 6 // Arduino uno, Arduino mkr 1010, esp32
-// #define Sensor_power_port 16 // esp8266
-#define Power_enable digitalWrite(Sensor_power_port, HIGH)
-#define Power_disable digitalWrite(Sensor_power_port, LOW)
+const char* Poll_mode = "M 01\r\n";
+const char* O2_Read = "%\r\n";
 const char* ssid = "your network SSID";   // your network SSID (name) 
 const char* password = "your network password";   // your network password
 WiFiClient  client;
 unsigned long myChannelNumber = your channel number;
 const char * myWriteAPIKey = "your channel api key";
 // Timer variables
+String str;
 unsigned long lastTime = 0;
 unsigned long timerDelay = 10000;
-float Temp_value[2]={0.00};
-float Humi_value[2]={0.00};
 void setup()
 {
-// Wire.begin();// arduino uno, Arduino mkr 1010
-Wire.begin(7,8, 50000 ); //esp32
-//Wire.begin(4,5,50000); //esp8266
-Serial.begin(115200);
-pinMode(Sensor_power_port, OUTPUT);
-Power_enable;
+Serial.begin(9600);
   WiFi.mode(WIFI_STA);   
   ThingSpeak.begin(client);  // Initialize ThingSpeak
 }
 void loop()
 {
-    int HumidH;
-    int HumidL;
-    int TemperH;
-    int TemperL;
-    double RealH;
-    double RealT;
-    Wire.beginTransmission(slave_address);
-    Wire.endTransmission();
-    delay(34);
-    Wire.requestFrom(slave_address, 4);
-    if(Wire.available())
-    {
-        HumidH = Wire.read();
-        HumidL = Wire.read();
-        TemperH = Wire.read();
-        TemperL = Wire.read();
-        HumidH = HumidH & 0x3f; // Don't care bit mask
-        // *********** Humidity & Temperature calculation code changed ***************************
-        RealH = (double)((HumidH * 256 ) + HumidL ) * 100/16383;
-        RealT = (double)(((TemperH * 256) + TemperL)/4) * 165/16383 - 40;
-        Humi_value[0] = RealH;
-        Humi_value[0] = floor(Humi_value[0]*100)/100;
-        Temp_value[0] = RealT;
-        Temp_value[0] = floor(Temp_value[0]*100)/100;
-        Serial.print("T : "); Serial.print(RealT, 2);
-        Serial.print(" , ");
-        Serial.print("RH : "); Serial.println(RealH, 2);
-        delay(1000);
-    }
+float o2_value_to;
+  Serial1.print(O2_Read);
+  delay(1000);
+   if(Serial1.available()>0) 
+   { 
+    str = "";
+    str = Serial1.readStringUntil('\n'); 
+    Serial.println(str);
+    int o2_length  = str.length();
+    String value_o2 = str.substring(o2_length-6, o2_length);
+    o2_value_to = value_o2 .tofloat();
+   }
+
     if ((millis() - lastTime) > timerDelay) 
     {
         // Connect or reconnect to WiFi
@@ -98,8 +71,7 @@ void loop()
         Serial.println("\nConnected.");
         }
         // pieces of information in a channel.  Here, we write to field 1.
-        ThingSpeak.setField(1, Humi_value[0]);
-        ThingSpeak.setField(2, Temp_value[0]);
+        ThingSpeak.setField(1, o2_value_to);
         int x = ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
         if(x == 200){
         Serial.println("Channel update successful.");
