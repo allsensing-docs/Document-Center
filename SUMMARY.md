@@ -60,3 +60,6 @@
       * [Sensor ID 읽기](product-document/temp\_humi/eth\_01d/undefined/sensor\_id.md)
       * [Address 읽기 및 쓰기](product-document/temp\_humi/eth\_01d/undefined/address.md)
     * [Thingspeak 활용방법](product-document/temp\_humi/eth\_01d/thingspeak.md)
+* [Plantower](product-document/plantower/README.md)
+  * [디바이스 연결 방법](product-document/plantower/undefined.md)
+  * [통신 프로토콜](product-document/plantower/undefined-1.md)

@@ -67,8 +67,8 @@ description: Ultra - LOW Power CO2 Sensor
 
 ## 디바이스 연결 방법
 
-{% content-ref url="cozir-blink/undefined.md" %}
-[undefined.md](cozir-blink/undefined.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## 통신 프로토콜

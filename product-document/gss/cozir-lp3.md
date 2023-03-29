@@ -86,8 +86,8 @@ Response: ### = 170 - Sensor error
 
 ## 디바이스 연결 방법
 
-{% content-ref url="cozir-lp3/undefined.md" %}
-[undefined.md](cozir-lp3/undefined.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## 통신 프로토콜
