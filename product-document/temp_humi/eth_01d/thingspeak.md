@@ -22,7 +22,7 @@ Step3. Thingpeak channelnumber 및 api key 확인
 * Thingspeak -> channel -> my channel -> Api keys -> Write Api key -> key 확인 후 code 변경
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Thingspeak" %}
 ```cpp
 #include <Arduino.h>
 #include "ThingSpeak.h"
@@ -110,9 +110,5 @@ void loop()
         lastTime = millis();
    }
 ```
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
 {% endtab %}
 {% endtabs %}
