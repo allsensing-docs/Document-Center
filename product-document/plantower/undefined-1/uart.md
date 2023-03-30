@@ -47,6 +47,7 @@ _적용 모델: PMS A003A, PMS A003C, PMS 7003, PMS 7003M, PMS 5003, PMS 9003M_
 ## 모드 설정 및 미세먼지 농도 읽기&#x20;
 
 * 사용 라이브러리: SoftwareSerial, PMS
+* PMS7003을 사용하여 예제 code 작성
 
 <figure><img src="../../../.gitbook/assets/PMS_Arduino_libirary.PNG" alt=""><figcaption></figcaption></figure>
 
