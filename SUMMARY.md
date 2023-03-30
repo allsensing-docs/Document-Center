@@ -62,4 +62,6 @@
     * [Thingspeak 활용방법](product-document/temp\_humi/eth\_01d/thingspeak.md)
 * [Plantower](product-document/plantower/README.md)
   * [디바이스 연결 방법](product-document/plantower/undefined.md)
-  * [통신 프로토콜](product-document/plantower/undefined-1.md)
+  * [통신 프로토콜](product-document/plantower/undefined-1/README.md)
+    * [UART](product-document/plantower/undefined-1/uart.md)
+    * [I2C](product-document/plantower/undefined-1/i2c.md)

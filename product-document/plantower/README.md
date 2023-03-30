@@ -1,6 +1,6 @@
 # Plantower
 
-* 공기 질 센서의 R\&D, 생산 및 판매에 주력하는 하이테크 기업
+* [디바이스 연결 방법](https://app.gitbook.com/o/Kf02NeqxuSI0LF2rYZKc/s/8USAZVpjShlBinaURjim/\~/changes/41/product-document/plantower/undefined)공기 질 센서의 R\&D, 생산 및 판매에 주력하는 하이테크 기업
 * 2014년 베이징에 설립되었으며 정부 투자 유치로 2018년 장시성 난창으로 이전
 * 수많은 혁신과 특허 및 전문적인 최고 R\&D 팀을 통해 Plantower 시리즈 센서는 이미 높은 정확도와 안정적인 특성으로 국내외 고객 사이에서 큰 관심과 인정을 받음
 * Plantower 시리즈 센서는 공기질, 환경 모니터링, 자동차 전자 제품, 스마트 홈 등에 널리 사용됨
@@ -106,7 +106,25 @@
 
 ## 디바이스 연결 방법
 
-
+{% content-ref url="undefined.md" %}
+[undefined.md](undefined.md)
+{% endcontent-ref %}
 
 ## 통신 프로토콜
+
+## UART
+
+{% content-ref url="undefined-1/uart.md" %}
+[uart.md](undefined-1/uart.md)
+{% endcontent-ref %}
+
+## I2C
+
+{% content-ref url="undefined-1/i2c.md" %}
+[i2c.md](undefined-1/i2c.md)
+{% endcontent-ref %}
+
+
+
+
 
