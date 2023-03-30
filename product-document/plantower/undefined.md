@@ -18,19 +18,44 @@
 
 {% tabs %}
 {% tab title="Arudino Uno" %}
+<figure><img src="../../.gitbook/assets/PMSA003A_with_Arudino.PNG" alt=""><figcaption></figcaption></figure>
 
+| 항목  | Arduino Uno | PMSA003A |
+| --- | ----------- | -------- |
+| VCC | 5V          | VCC      |
+| GND | GND         | GND      |
+| TX  | 12          | RX       |
+| RX  | 13          | TX       |
 {% endtab %}
 
 {% tab title="Arudino MKR" %}
+<figure><img src="../../.gitbook/assets/PMSA003A_with_Arudino_mkr.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| TX  | 14  | RX  |
+| RX  | 13  | TX  |
 {% endtab %}
 
 {% tab title="ESP32" %}
+<figure><img src="../../.gitbook/assets/PMSA003A_with_esp32.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| TX  | 17  | RX  |
+| RX  | 18  | TX  |
 {% endtab %}
 
 {% tab title="ESP8266" %}
+<figure><img src="../../.gitbook/assets/PMSA003A_with_esp8266.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| TX  | 13  | RX  |
+| RX  | 15  | TX  |
 {% endtab %}
 {% endtabs %}
 
@@ -42,19 +67,43 @@
 
 {% tabs %}
 {% tab title="Arudino Uno" %}
+<figure><img src="../../.gitbook/assets/PMS5003_with_Arudino.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| TX  | 12  | RX  |
+| RX  | 13  | TX  |
 {% endtab %}
 
 {% tab title="Arudino MKR" %}
+<figure><img src="../../.gitbook/assets/PMS5003_with_Arudino_mkr.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| TX  | 14  | RX  |
+| RX  | 13  | TX  |
 {% endtab %}
 
 {% tab title="ESP32" %}
+<figure><img src="../../.gitbook/assets/PMS5003_with_ESP32.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| TX  | 17  | RX  |
+| RX  | 18  | TX  |
 {% endtab %}
 
 {% tab title="ESP8266" %}
+<figure><img src="../../.gitbook/assets/PMS5003_with_ESP8266.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| TX  | 13  | RX  |
+| RX  | 15  | TX  |
 {% endtab %}
 {% endtabs %}
 
@@ -62,19 +111,43 @@
 
 {% tabs %}
 {% tab title="Arudino Uno" %}
+<figure><img src="../../.gitbook/assets/PMS_5003IB_with-Arudino.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| SDA | A4  | SDA |
+| SCL | A5  | SCL |
 {% endtab %}
 
 {% tab title="Arudino MKR" %}
+<figure><img src="../../.gitbook/assets/PMS_5003IB_with-Arudino_MKR.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| SDA | D12 | SDA |
+| SCL | D11 | SCL |
 {% endtab %}
 
 {% tab title="ESP32" %}
+<figure><img src="../../.gitbook/assets/PMS_5003IB_with-ESP32.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| SDA | 12  | SDA |
+| SCL | 13  | SCL |
 {% endtab %}
 
 {% tab title="ESP8266" %}
+<figure><img src="../../.gitbook/assets/PMS_5003IB_with-ESP8266.PNG" alt=""><figcaption></figcaption></figure>
 
+| VCC | 5V  | VCC |
+| --- | --- | --- |
+| GND | GND | GND |
+| SDA | D6  | SDA |
+| RX  | D5  | SCL |
 {% endtab %}
 {% endtabs %}
 
