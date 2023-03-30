@@ -16,28 +16,28 @@
 * 측정 방식: 레이저 산란 방식
 * 입력 전압: 5V
 * 측정범위(PM): 0.3\~1.0㎛, 1.0\~2.5㎛, 2.5\~10㎛
-* _통신 레벨: TTL (3.3 Level)_
-* _통신 프로토콜 (PMS 5003IB 제외)_
+* 통신 레벨: TTL (3.3 Level)
+* 통신 프로토콜 (PMS 5003IB 제외)
 
 #### 차이점
 
-<figure><img src="../../.gitbook/assets/Plantower_goods_difference.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PMS_Plantower_goods_difference.PNG" alt=""><figcaption></figcaption></figure>
 
-|       Pin Pitch      |                     센 서                     |
-| :------------------: | :-----------------------------------------: |
-|     1.27mm Pitch     | _PMS A003A, PMS A003C, PMS 7003, PMS 7003M_ |
-|   1.25 mm Pitch (F)  |                  _PMS 5003_                 |
-| 1.25 mm Pitch (M, F) |           _PMS 5003IB, PMS 9003M_           |
+|     Pin Pitch     |                     센 서                     |
+| :---------------: | :-----------------------------------------: |
+|    1.25mm Pitch   | _PMS A003A, PMS A003C, PMS 7003, PMS 7003M_ |
+| 1.27 mm Pitch (A) |                  _PMS 5003_                 |
+| 1.27 mm Pitch (B) |           _PMS 5003IB, PMS 9003M_           |
 
-&#x20;                                                                                                                                      M: Male, F: Female
+
 
 ※ 올센싱에서 먼지센서 구입시 센서 항목에 따라 커넥터나 케이블을 함께 보내 드립니다.
 
 <figure><img src="../../.gitbook/assets/1.24mmconnector.png" alt=""><figcaption><p>커넥터 1.27mm Pitch</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/1.27mm_f_cable.png" alt=""><figcaption><p>케이블 1.25mm Pitch(F)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1.27mm_f_cable.png" alt=""><figcaption><p>케이블 1.25mm Pitch(A)</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/1.27mm_m_f_cable.png" alt=""><figcaption><p>케이블 1.25mm Pitch(M, F)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1.27mm_m_f_cable.png" alt=""><figcaption><p>케이블 1.25mm Pitch(B)</p></figcaption></figure>
 
 #### Datasheet
 
