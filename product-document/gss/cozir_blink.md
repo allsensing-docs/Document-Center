@@ -4,7 +4,7 @@ description: LOW Power CO2 Sensor
 
 # CozIR-LP2
 
-![](<../../.gitbook/assets/gss/cozir\_lp2 (1) (1).jpg>)
+![](../../.gitbook/assets/cozir\_blink\_main\_pic.jpg)
 
 ## 특징
 
