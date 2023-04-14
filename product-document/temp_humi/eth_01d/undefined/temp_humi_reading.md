@@ -2,7 +2,7 @@
 
 ### 온·습도 읽기 <a href="#_toc127806959" id="_toc127806959"></a>
 
-<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/temp_humi_reading/eth_01d_i2c temp_humi.PNG" alt=""><figcaption><p>&#x3C; ETH-01D 온 습도 읽기 ></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/eth_01d_i2c temp_humi.PNG" alt=""><figcaption><p>&#x3C; ETH-01D 온 습도 읽기 ></p></figcaption></figure>
 
 `i2c Address는 0x44(7bit), Write bit는 0, Read bit는 1`
 
@@ -12,7 +12,7 @@
 
 * Device에서 i2c Address(0x44)를 ETH-01D로 전송
 
-<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_address (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_address (6).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2-1. 습도 데이터 응답**
 
@@ -25,7 +25,7 @@
 * Data 상위 1Byte + Data 하위 1Byte = 0xe00+0xc0 = 0xec0 = 3,776
 * 습도 값 = 23.04 %RH
 
-<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/temp_humi_reading/eth_01d_i2c_ humi.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_ humi.png" alt=""><figcaption></figcaption></figure>
 
 **Step 2-2. 온도 데이터 응답**
 
@@ -40,7 +40,7 @@
 * Data 상위 1Byte + Data 하위 7\~2번째 데이터 = 0x66ec >>2(Don’t care bit 수만큼 이동) = 19BB = 6587
 * 온도 = 26.34°C
 
-<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d-i2c/temp_humi_reading/eth_01d_i2c_temp.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/eth_01d_i2c_temp.png" alt=""><figcaption></figcaption></figure>
 
 ## 소스 코드
 
@@ -95,4 +95,4 @@ delay(1000);
 
 * 온·습도 읽기 시리얼 모니터
 
-<figure><img src="../../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d_temp_humi_serial.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/eth-01d_temp_humi_serial.png" alt=""><figcaption></figcaption></figure>

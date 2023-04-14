@@ -4,7 +4,7 @@ description: Wide Range
 
 # ExplorIR
 
-<figure><img src="../../.gitbook/assets/ExplorIR-M_Main_pic.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ExplorIR-M_Main_pic_400_400.jpg" alt=""><figcaption></figcaption></figure>
 
 ## 특징
 

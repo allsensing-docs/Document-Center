@@ -12,20 +12,20 @@
 
 
 
-{% content-ref url="co2.md" %}
-[co2.md](co2.md)
+{% content-ref url="../../cozir-lp3/undefined-1/co2.md" %}
+[co2.md](../../cozir-lp3/undefined-1/co2.md)
 {% endcontent-ref %}
 
-{% content-ref url="uart-i2c-co2.md" %}
-[uart-i2c-co2.md](uart-i2c-co2.md)
+{% content-ref url="../../cozir-lp3/undefined-1/uart-i2c-co2.md" %}
+[uart-i2c-co2.md](../../cozir-lp3/undefined-1/uart-i2c-co2.md)
 {% endcontent-ref %}
 
 {% content-ref url="digital-filter.md" %}
 [digital-filter.md](digital-filter.md)
 {% endcontent-ref %}
 
-{% content-ref url="uart-command.md" %}
-[uart-command.md](uart-command.md)
+{% content-ref url="../../co-explorir/undefined-1/uart-command.md" %}
+[uart-command.md](../../co-explorir/undefined-1/uart-command.md)
 {% endcontent-ref %}
 
 

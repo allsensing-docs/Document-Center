@@ -18,7 +18,7 @@
 [digital-filter.md](digital-filter.md)
 {% endcontent-ref %}
 
-{% content-ref url="uart-command.md" %}
-[uart-command.md](uart-command.md)
+{% content-ref url="../../cozir-lp3/undefined-1/uart-command.md" %}
+[uart-command.md](../../cozir-lp3/undefined-1/uart-command.md)
 {% endcontent-ref %}
 

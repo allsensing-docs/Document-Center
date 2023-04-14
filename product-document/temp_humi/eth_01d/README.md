@@ -4,7 +4,7 @@ description: Digital Sensor
 
 # ETH-01D
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d_main_pic.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/eth-01d_main_pic.jpg" alt=""><figcaption></figcaption></figure>
 
 ## 특징
 
@@ -42,19 +42,19 @@ description: Digital Sensor
 
 ## 제품 크기 및 핀 특성 <a href="#_toc127806956" id="_toc127806956"></a>
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_Main_spec.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 ## 온·습도 정확도 허용 오차 범위 <a href="#_toc127806957" id="_toc127806957"></a>
 
 * 온도 0\~70°C 범위에서 ETH-01D의 온도의 정확도는 일반적으로 ±0.3°C , 최대 ±0.5°C 오차 허용
 * 온도 0\~-40°C 범위를 제외한 나머지 범위에서는 정확도 허용 오차 범위가 증가합니다.(최대 2°C)
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d_temp_graph.PNG" alt=""><figcaption><p>&#x3C; 온도 정확도 허용 오차 범위 그래프></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/eth-01d_temp_graph.PNG" alt=""><figcaption><p>&#x3C; 온도 정확도 허용 오차 범위 그래프></p></figcaption></figure>
 
 * 습도 20\~80%RH 범위에서 ETH-01D의 습도의 정확도는 일반적으로 3.5% RH , 최대 RH오차 허용
 * 습도 20\~80%RH 범위를 제외한 나머지 범위에서는 정확도 허용 오차 범위가 증가함 최대 RH오차 허용
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01D/eth-01d_humi_graph.PNG" alt=""><figcaption><p>&#x3C; 상대 습도 허용 오차 범위 ></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/eth-01d_humi_graph.PNG" alt=""><figcaption><p>&#x3C; 상대 습도 허용 오차 범위 ></p></figcaption></figure>
 
 ## 통신 프로토콜
 

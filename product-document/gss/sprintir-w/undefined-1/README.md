@@ -10,8 +10,8 @@
 |       Stop Bits       |   1  |        |
 | Hardware Flow Control | None |        |
 
-{% content-ref url="co2.md" %}
-[co2.md](co2.md)
+{% content-ref url="../../cozir-blink/undefined-1/co2.md" %}
+[co2.md](../../cozir-blink/undefined-1/co2.md)
 {% endcontent-ref %}
 
 {% content-ref url="digital-filter.md" %}

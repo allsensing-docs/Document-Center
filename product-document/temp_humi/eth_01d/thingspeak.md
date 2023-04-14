@@ -10,7 +10,7 @@
 
 Step1. 아두이노 IDE에 Thingspeak 라이브러리 추가
 
-<figure><img src="../../../.gitbook/assets/thingspeak_ide_library.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/eth-01d_thingspeak.PNG" alt=""><figcaption></figcaption></figure>
 
 Step2. Wi-Fi ssid, pass 확인 및 변경
 

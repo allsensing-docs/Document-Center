@@ -46,7 +46,7 @@ GSS는 광범위한 고체 NDIR CO₂ 가스 센서를 설계, 개발 및 제조
 [sprintir-w.md](sprintir-w.md)
 {% endcontent-ref %}
 
-****
+
 
 **Explain**
 

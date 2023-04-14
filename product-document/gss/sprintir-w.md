@@ -4,7 +4,7 @@ description: High Speed
 
 # SprintIR 6S
 
-![](../../.gitbook/assets/SprintIR\_main\_pic.jpg)
+![](<../../.gitbook/assets/SprintIR\_main\_pic (1).jpg>)
 
 ## 특징
 

@@ -4,7 +4,7 @@ description: Analog sensor
 
 # ETH-01DV
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_Main_pic.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 ## 특징
 
@@ -39,17 +39,17 @@ description: Analog sensor
 
 ## **제품 크기 및 핀 특성**
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_Main_spec.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 ## 특성 그래프
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_temp_humi_spec_graph.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 ## 온습도 특징
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_humi_spec.PNG" alt=""><figcaption><p>&#x3C;습도></p></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption><p>&#x3C;습도></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_temp_spec.PNG" alt=""><figcaption><p>&#x3C;온도></p></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption><p>&#x3C;온도></p></figcaption></figure>
 
 **출력 값 계산 식**
 
@@ -62,15 +62,15 @@ description: Analog sensor
 
 * Arduino uno와 ETH-01D 연결
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_adruino_connect.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 * Arduino MKR 1010와 ETH-01D 연결
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_adruino_mkr_connect.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 * ESP32와 ETH-01DV 연결
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_esp32.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 ## 소스코드
 
@@ -121,4 +121,4 @@ void loop() {
 
 **Serial Monitor**
 
-<figure><img src="../../../.gitbook/assets/temp&#x26;humi/ETH-01DV/eth_01dv_serial_monitor.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>

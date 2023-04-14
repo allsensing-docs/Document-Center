@@ -2,7 +2,7 @@
 
 AGSM은 IoT(사물인터넷)와 연동되는 디바이스에 간편 적용이 가능하며 센서 값 및 환경 변화 상태를 모니터링 할 수 있는 쉬운 방법을 제공합니다.
 
-<figure><img src="../../.gitbook/assets/agsm_main_pic (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/agsm_main_pic (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="agsm_co/" %}
 [agsm\_co](agsm\_co/)
