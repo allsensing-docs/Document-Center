@@ -15,7 +15,7 @@
 * 센서에 따른 감도가 차이가 있기 때문에 회로를 구성한 이후 개별 가스 교정이 필요(교정 Cap 필요)
 * 가스 교정설비가 없을 경우, 모듈 type의 센서를 사용 권장
 
-<figure><img src="../../.gitbook/assets/ecsense_flow_cap.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Socket_and_flowcap.PNG" alt=""><figcaption></figcaption></figure>
 
 ## ES1, ES4, EC4(전기화학식 센서)
 
