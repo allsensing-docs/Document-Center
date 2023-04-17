@@ -108,7 +108,7 @@ LED ON
 
 ## **Arduino Example**
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Arduino Connection</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Arduino Connection</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
@@ -164,6 +164,6 @@ void loop()
 
 ## **ThingSpeak Live Graph Link**
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://thingspeak.com/channels/1756371" %}
