@@ -42,7 +42,112 @@ Ex) - 0B 24 : 0x0B(11\*256=2816) + 0x24(36) = 2852 / 100 => 28.52 ℃ (온도)
 
 
 
+{% tabs %}
+{% tab title="Passive mode에서 센서 값 읽기" %}
+```cpp
+#include <SoftwareSerial.h>
+SoftwareSerial mySerial(12, 13); //Uno Rx Tx (13 12) = mySerial
+byte Passive_mode[9] = {0xFF, 0x01, 0x78, 0x41, 0x00, 0x00, 0x00, 0x00, 0x46};  
+byte Gas_value_request[9] = {0xFF, 0x01, 0x86, 0x00, 0x00, 0x00, 0x00, 0x00, 0x79}; // 가스 값 요청 
+void setup() {
+  Serial.begin(9600); //시리얼 통신 초기화
+  delay(1000); 
+  while(!mySerial){} //시리얼 통신 포트가 연결되기 전까지 대기
+  mySerial.begin(9600);  
+  mySerial.write(Passive_mode, 9); // mode set
+  delay(100); 
+}
+void loop() 
+{
+  unsigned char receive_data[9] = { 0x00, }; //모든 수를 양수로 값을 저장(0x00~0xFF)
+  mySerial.write(Gas_value_request, 9); //데이터 요청 패킷 송신
+  delay(500); 
+  int packetIndex = 0; //packetIndex 0으로 초기화
+  while(mySerial.available()>0){ //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면 코드수행
+    int ch = mySerial.read(); //시리얼 데이터를 정수형 ch에 저장
+    receive_data[packetIndex] = ch;
+//    Serial.print(ch, HEX); //시리얼 모니터에 입력받은 데이터 출력
+//    Serial.print(' ');
+    packetIndex += 1;
+  }
+  // 패킷을 모두 수신 후 체크섬을 이용하여 데이터의 유효성을 체크
+  // 응답 ex) FF 86 2C 88 3 E8 27 10 A4, 0x2710 = 10000  
+  /*  - 예제에 사용된 센서 TB600C-CO-1000 */
+  if( (packetIndex == 9) &&(1 + (0xFF ^ (byte)(receive_data[1] + re-ceive_data[2] + receive_data[3] 
+  + receive_data[4] + receive_data[5] + receive_data[6] + re-ceive_data[7]))) == receive_data[8]) 
+  //체크섬=1~7자리 데이터를 더하여 8비트 데이터를 생성하고 각 비트를 반전시키고 끝에 1을 더함
+    {
+       //Serial.println(receive_data[6],HEX); //CO High byte
+       //Serial.println(receive_data[7],HEX); //CO Low  byte
+       Serial.println(' ');
+      int CO_value = ((receive_data[6] * 256) + receive_data[7])/10; 
+      // /10은 센서의 종류나 측정범위에 따라 달라질 수 있으니 모듈 정보 읽기에서 자리수 확인 하는 것을 권장  
+      Serial.print("CO : ");
+      Serial.print(CO_value);
+      Serial.println("ppm"); // 단위는 모듈 정보 읽기 (0xD7) 커맨드로 확인 할 수 있음
+      delay(500); 
+    }
+}
+```
 
+시리얼 모니터
+
+<figure><img src="../../../../../.gitbook/assets/tb600_tb200_passive_mode_serial.PNG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Active mode에서 센서 값 읽기" %}
+```cpp
+#include <SoftwareSerial.h>
+SoftwareSerial mySerial(12, 13); //Uno Rx Tx (13 12) = mySerial
+byte Active_mode[9] = {0xFF, 0x01, 0x78, 0x40, 0x00, 0x00, 0x00, 0x00, 0x47};  
+byte Gas_value_request[9] = {0xFF, 0x01, 0x86, 0x00, 0x00, 0x00, 0x00, 0x00, 0x79}; // 가스 값 요청 
+void setup() {
+  Serial.begin(9600); //시리얼 통신 초기화
+  delay(1000); 
+  while(!mySerial){} //시리얼 통신 포트가 연결되기 전까지 대기
+  mySerial.begin(9600);  
+  mySerial.write(Active_mode, 9); // mode set
+  delay(100);
+}
+void loop() 
+{
+  unsigned char receive_data[9] = { 0x00, }; //모든 수를 양수로 값을 저장(0x00~0xFF)
+  int packetIndex = 0; //packetIndex 0으로 초기화
+  while(mySerial.available()>0){ //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면 코드수행
+    int ch = mySerial.read(); //시리얼 데이터를 정수형 ch에 저장
+    receive_data[packetIndex] = ch;
+//    Serial.print(ch, HEX); //시리얼 모니터에 입력받은 데이터 출력
+//    Serial.print(' ');
+    packetIndex += 1;
+  }
+  // 패킷을 모두 수신 후 체크섬을 이용하여 데이터의 유효성을 체크
+  // 응답 ex) FF 86 2C 88 3 E8 27 10 A4, 0x2710 = 10000  
+  /*  - 예제에 사용된 센서 TB600C-CO-1000 */
+  if( (packetIndex == 9) &&(1 + (0xFF ^ (byte)(receive_data[1] + re-ceive_data[2] + receive_data[3] 
+  + receive_data[4] + receive_data[5] + receive_data[6] + re-ceive_data[7]))) == receive_data[8]) 
+  //체크섬=1~7자리 데이터를 더하여 8비트 데이터를 생성하고 각 비트를 반전시키고 끝에 1을 더함
+    {
+       //Serial.println(receive_data[6],HEX); //CO High byte
+       //Serial.println(receive_data[7],HEX); //CO Low  byte
+       Serial.println(' ');
+      int CO_value = ((receive_data[6] * 256) + receive_data[7])/10; 
+      
+      // /10은 센서의 종류나 측정범위에 따라 달라질 수 있으니 모듈 정보 읽기에서 자리수 확인 하는 것을 권장  
+      Serial.print("CO : ");
+      Serial.print(CO_value);
+      Serial.println("ppm"); // 단위는 모듈 정보 읽기 (0xD7) 커맨드로 확인 할 수 있음
+      delay(500); 
+    }
+    delay(500);
+}
+
+```
+
+시리얼 모니터
+
+<figure><img src="../../../../../.gitbook/assets/active_mode.PNG" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
 
 
 
