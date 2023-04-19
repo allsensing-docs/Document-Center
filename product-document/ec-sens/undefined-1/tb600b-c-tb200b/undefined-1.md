@@ -16,27 +16,19 @@
 
 <figure><img src="../../../../.gitbook/assets/all_uart_command.PNG" alt=""><figcaption></figcaption></figure>
 
-## &#x20;가스 센서 값 읽기
+## 모듈 정보 읽기
 
-* 가스 센서 값 읽기 응답:
+{% content-ref url="undefined-1/undefined.md" %}
+[undefined.md](undefined-1/undefined.md)
+{% endcontent-ref %}
 
-<figure><img src="../../../../.gitbook/assets/module_gas_value_response.PNG" alt=""><figcaption></figcaption></figure>
+## 모드 설정 및 가스 센서 값 읽기
 
-## 가스 센서 값 + 온습도 값 읽기
+{% content-ref url="undefined-1/undefined-1.md" %}
+[undefined-1.md](undefined-1/undefined-1.md)
+{% endcontent-ref %}
 
-| 기 능      | Command (HEX)              |
-| -------- | -------------------------- |
-| 가스+온도+습도 | FF 01 87 00 00 00 00 00 78 |
 
-* 가스 센서 값 + 온습도 값 읽기 응답:
-
-<figure><img src="../../../../.gitbook/assets/module_gas_value_and_temp_response.PNG" alt=""><figcaption></figcaption></figure>
-
-온도 습도 예제:
-
-Ex) - 0B 24 : 0x0B(11\*256=2816) + 0x24(36) = 2852 / 100 => 28.52 ℃ (온도)
-
-&#x20;\- 06 DB : 0x06(6\*256=1536) + 0xDB(219) = 1755 / 100 => 17.55 %RH (습도)
 
 ## &#x20;LED 제어
 
