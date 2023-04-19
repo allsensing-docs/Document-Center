@@ -31,3 +31,32 @@ Sleep Mode 나올 경우, 모듈 정상동작에 5초 소요 (5초 동안 data x
 | 가스+온도+습도 | FF 01 87 00 00 00 00 00 78 |
 
 가스 센서 값 + 온습도 값 읽기 응답:
+
+<figure><img src="../../../../../.gitbook/assets/module_gas_value_and_temp_response.PNG" alt=""><figcaption></figcaption></figure>
+
+온도 습도 예제:
+
+Ex) - 0B 24 : 0x0B(11\*256=2816) + 0x24(36) = 2852 / 100 => 28.52 ℃ (온도)
+
+&#x20;\- 06 DB : 0x06(6\*256=1536) + 0xDB(219) = 1755 / 100 => 17.55 %RH (습도)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

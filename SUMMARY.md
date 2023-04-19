@@ -48,7 +48,7 @@
   * [가스 센서 모듈](product-document/ec-sens/undefined-1.md)
     * [TB600B(C),TB200B](product-document/ec-sens/undefined-1/tb600b-c-tb200b/README.md)
       * [디바이스 연결 방법](product-document/ec-sens/undefined-1/tb600b-c-tb200b/undefined.md)
-      * [통신 프로토콜](product-document/ec-sens/undefined-1/tb600b-c-tb200b/undefined-1/README.md)
+      * [통신 프로토콜](product-document/ec-sens/undefined-1/tb600b-c-tb200b/undefined-1.md)
         * [모듈 정보 읽기](product-document/ec-sens/undefined-1/tb600b-c-tb200b/undefined-1/undefined.md)
         * [모드 설정 및 가스 센서 값 읽기](product-document/ec-sens/undefined-1/tb600b-c-tb200b/undefined-1/undefined-1.md)
     * [TB420](product-document/ec-sens/undefined-1/tb420.md)

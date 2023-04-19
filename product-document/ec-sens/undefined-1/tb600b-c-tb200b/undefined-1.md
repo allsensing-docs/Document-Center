@@ -14,13 +14,13 @@
 
 * Uart 전체 Command
 
-<figure><img src="../../../../../.gitbook/assets/all_uart_command.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/all_uart_command.PNG" alt=""><figcaption></figcaption></figure>
 
 ## &#x20;가스 센서 값 읽기
 
 * 가스 센서 값 읽기 응답:
 
-<figure><img src="../../../../../.gitbook/assets/module_gas_value_response.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/module_gas_value_response.PNG" alt=""><figcaption></figcaption></figure>
 
 ## 가스 센서 값 + 온습도 값 읽기
 
@@ -30,7 +30,7 @@
 
 * 가스 센서 값 + 온습도 값 읽기 응답:
 
-<figure><img src="../../../../../.gitbook/assets/module_gas_value_and_temp_response.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/module_gas_value_and_temp_response.PNG" alt=""><figcaption></figcaption></figure>
 
 온도 습도 예제:
 
@@ -51,7 +51,7 @@ Ex) - 0B 24 : 0x0B(11\*256=2816) + 0x24(36) = 2852 / 100 => 28.52 ℃ (온도)
 
 &#x20;
 
-<figure><img src="../../../../../.gitbook/assets/checksum_one.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/checksum_one.PNG" alt=""><figcaption></figcaption></figure>
 
 Data 1\~7 byte 값을 전부 더 하고 1의 보수를 취하고 1을 더함
 
@@ -62,7 +62,7 @@ Ex.1)
 
 &#x20;
 
-<figure><img src="../../../../../.gitbook/assets/checksum_two.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/checksum_two.PNG" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
