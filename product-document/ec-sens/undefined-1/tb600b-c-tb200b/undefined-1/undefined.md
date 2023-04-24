@@ -42,8 +42,7 @@ Ex) 31
 {% tab title="모듈 정보 읽기" %}
 ```cpp
 #include <SoftwareSerial.h>
-SoftwareSerial mySerial(12, 13); //Uno Rx Tx (13 12) = mySerial
-char Modlue_information_request = 0xD7;
+SoftwareSerial mySerial(12, 13); //Uno Rx Tx (13 12) = mySerial 
 void setup() {
   Serial.begin(9600); //시리얼 통신 초기화
   delay(1000); 
@@ -53,22 +52,39 @@ void setup() {
 void loop() 
 {
   unsigned char receive_data[9] = { 0x00, }; //모든 수를 양수로 값을 저장(0x00~0xFF)
+  char Modlue_information_request = 0xD7;
   mySerial.write(Modlue_information_request); //데이터 요청 패킷 송신
   delay(500); //0.5초 지연
   int packetIndex = 0; //packetIndex 0으로 초기화
   while(mySerial.available()>0){ //수신받은 데이터가 0 초과, 즉 데이터가 존재한다면 코드수행
     int ch = mySerial.read(); //시리얼 데이터를 정수형 ch에 저장
+        Serial.print(ch, HEX); //시리얼 모니터에 입력받은 데이터 출력
+        Serial.print(' ');
     receive_data[packetIndex] = ch;
     packetIndex += 1;
   }
   // 패킷을 모두 수신 후 체크섬을 이용하여 데이터의 유효성을 체크
   if( (packetIndex == 9) &&
-      (1 + (0xFF ^ (byte)(receive_data[1] + receive_data[2] + receive_data[3] 
-      + receive_data[4] + receive_data[5] + receive_data[6] + re-ceive_data[7]))) == receive_data[8]) 
-      //체크섬=1~7자리 데이터를 더하여 8비트 데이터를 생성하고 각 비트를 반전시키고 끝에 1을 더함
-     {
+      (1 + (0xFF ^ (byte)(receive_data[1] + receive_data[2] + receive_data[3] + receive_data[4] + receive_data[5] + receive_data[6] + receive_data[7]))) == receive_data[8]) 
+     { //체크섬=1~7자리 데이터를 더하여 8비트 데이터를 생성하고 각 비트를 반전시키고 끝에 1을 더함
+      Serial.println(" ");
        Serial.print(receive_data[2],HEX); // 가스 종류 ex) co = 0x19 ("가스 종류"별 인식 코드 표 참고)
-       Serial.println("  <---  gas type"); 
+     Serial.print("  <---  gas type : ");
+     unsigned char gas_type_flag = 0x00;
+     unsigned char gas_type_compare = 0x24; 
+     String gas_type = ""; 
+     gas_type_flag = gas_type_compare - receive_data[2]; 
+     switch (gas_type_flag){
+     case 13: gas_type =  "HCHO+"; break; case 12: gas_type =  "VOC"; break;
+     case 11: gas_type =  "CO"; break;    case 10: gas_type =  "CL2"; break;
+     case 9: gas_type =  "H2"; break;     case 8: gas_type =  "H2S"; break;
+     case 7: gas_type =  "HCL"; break;    case 6: gas_type =  "HCN"; break;
+     case 5: gas_type =  "HF"; break;     case 4: gas_type =  "NH3"; break;
+     case 3: gas_type =  "NO2"; break;    case 2: gas_type =  "O2"; break;
+     case 1: gas_type =  "O3"; break;     case 0: gas_type =  "SO2"; break;
+     default: break;
+     }
+       Serial.println(gas_type); // 측정 범위 상위 바이트 
        Serial.print(receive_data[3],HEX); // 측정 범위 상위 바이트 
        Serial.print(receive_data[4],HEX); // 측정 범위 하위 바이트
        Serial.print(" <---  measurement range : ");
@@ -85,9 +101,9 @@ void loop()
         switch (digits_check)
         {
         case 0: Serial.print(" gas value expressed as an integer , ");       break;
-        case 1: Serial.print(" gas val-ue/10,");                           break;
-        case 2: Serial.print(" gas val-ue/100,");                          break;
-        case 3: Serial.print(" gas val-ue/1000,");                         break;               
+        case 1: Serial.print(" gas value/10,");                           break;
+        case 2: Serial.print(" gas value/100,");                          break;
+        case 3: Serial.print(" gas value/1000,");                         break;               
         default: break;
         }
         char output_signs; 
@@ -103,7 +119,7 @@ void loop()
 
 시리얼 모니터
 
-<figure><img src="../../../../../.gitbook/assets/information_Serial_monitor_.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Serial_monitor_tb600b_information.PNG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
