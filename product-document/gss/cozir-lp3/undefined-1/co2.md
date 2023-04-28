@@ -14,11 +14,11 @@
 
 \- 센서 값 요청 시에만 응답, 센서 값 요청하지 않을 때에는 백그라운드에서 계속 측정을 수행함
 
-|    Mode   | Command |   Description   |  Response |
-| :-------: | :-----: | :-------------: | :-------: |
-|  Command  |  K 0\r  |   명령어 기다리는 상태   | K 00000\r |
-| Streaming |  K 1\r  |    연속적으로 값 측정   | K 00001\r |
-|  Polling  |  K 2\r  | 센서 값 요청 시 에만 응답 | K 00002\r |
+|    Mode   | Command |   Description   |   Response  |
+| :-------: | :-----: | :-------------: | :---------: |
+|  Command  | K 0\r\n |   명령어 기다리는 상태   | K 00000\r\n |
+| Streaming | K 1\r\n |    연속적으로 값 측정   | K 00001\r\n |
+|  Polling  | K 2\r\n | 센서 값 요청 시 에만 응답 | K 00002\r\n |
 
 ## 소스 코드
 
