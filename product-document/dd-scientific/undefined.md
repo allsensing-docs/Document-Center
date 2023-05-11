@@ -1,86 +1,38 @@
-# 애플리케이션
+# 배경지식
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt="" width="563"><figcaption></figcaption></figure>
+**전기화학식 센서:**
 
-## [배출량(Emissions)](https://www.ddscientific.com/uploads/5/7/1/3/57136893/emissions.pdf)
+* 측정된 가스와 화학 반응을 일으키고 기체 농도에 비례하는 전류를 발생시키게 되고 그 전류의 세기를 통해서 가스농도를 측정함
+* 출력 선형성, 저전력 소모, 우수한 분해능, 뛰어난 반복성 및 정확도
+* 가스와의 화학반응에 따른 전류 신호를 출력하며 사용할수록 소모되기 때문에 수명이 있음
 
-{% tabs %}
-{% tab title="GS +5 SERIES" %}
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
+&#x20;
 
-{% tab title="A,GS +2,7 SERIES" %}
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
+&#x20;**바이어스:**
 
-{% tab title="GS+4 SERIES" %}
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
+전압이나 전류의 동작점을 미리 결정하는 것(외부에서 직류 전압/전류 인가)
 
-## 산업(Industrial)
+* 전기화학식 가스 센서에는 바이어스 회로가 필요함, 일반적으로 바이어스 전압은 0mV이지만 일부 가스 센서에서 양수(positive) or 음수(negative) 바이어스가 요구됨
+* 바이어스 회로의 목적은 작업전극 전위를 기준전극에 대해 일정하게 유지시키는 것, 이 역할은 상대전극 전압을 조정하여 수행됨
+* 바이어스 식:   (작업(Working= sense)전극- 기준(Reference))
+* 바이어스 센서: 전위차 회로(WE, RE)가 필요한3개의 전극이 있는 센서
 
-[Multi gas](https://www.ddscientific.com/uploads/5/7/1/3/57136893/industries\_-\_multi\_gas.pdf)
-
-[Single gas](https://www.ddscientific.com/uploads/5/7/1/3/57136893/industries\_-\_single\_gas.pdf)
-
-[Fixed gas](https://www.ddscientific.com/uploads/5/7/1/3/57136893/industries\_-\_fixed\_gas.pdf)
-
-{% tabs %}
-{% tab title="Multi gas" %}
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Single gas" %}
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Fixed gas" %}
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
-
-## [의료(Medical)](https://www.ddscientific.com/uploads/5/7/1/3/57136893/medical.pdf)
-
-<figure><img src="../../.gitbook/assets/image (28).png" alt="" width="563"><figcaption></figcaption></figure>
-
-## [살균(Sterilization)](https://www.ddscientific.com/uploads/5/7/1/3/57136893/sterilization.pdf)
-
-<figure><img src="../../.gitbook/assets/image (45).png" alt="" width="563"><figcaption></figcaption></figure>
-
-## [주차장(Car Parks)](https://www.ddscientific.com/uploads/5/7/1/3/57136893/car\_parks\_n\_vent.pdf)
-
-<figure><img src="../../.gitbook/assets/image (16).png" alt="" width="563"><figcaption></figcaption></figure>
-
-## [주거(Residential)](https://www.ddscientific.com/uploads/5/7/1/3/57136893/residential.pdf)
-
-<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="563"><figcaption></figcaption></figure>
-
-## [냉장(Refrigeration)](https://www.ddscientific.com/uploads/5/7/1/3/57136893/refrigeration.pdf)
-
-{% tabs %}
-{% tab title="GS+4 SERIES" %}
+※     잘못된 바이어스 전압 공급 시 센서가 손상될 수 있음
 
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
 
-{% tab title="GS+7 SERIES" %}
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
+<figure><img src="../../.gitbook/assets/image (38).png" alt="출저-analog device" width="530"><figcaption><p>&#x3C;전기화학식 3전극 가스 센서 회로 다이어그램> 출처 - analog devices</p></figcaption></figure>
 
-{% tab title="SE SERIES" %}
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
+<figure><img src="../../.gitbook/assets/image (39).png" alt="" width="563"><figcaption><p>&#x3C;전기화학식 3전극 가스 센서 0mV 바이어스 회로> 출처 - SGX sensor</p></figcaption></figure>
 
-## [VOC/내부 공기질(VOC/Indoor air quality)](https://www.ddscientific.com/uploads/5/7/1/3/57136893/voc\_\_indoor\_air.pdf)
+<figure><img src="../../.gitbook/assets/image (21).png" alt="" width="563"><figcaption><p>&#x3C;전기화학식 3전극 가스 센서 +300mV 바이어스 회로 > 출처 - SGX sensor </p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt="" width="563"><figcaption></figcaption></figure>
+* Vout 극성 : 대부분의 가스 전자는 작업 전극으로 흐르지만(+V) 셀에서 환원되는 가스(ex) ClO2, CL2, NO2, O2)에 경우 전자의 방향이 달라짐(-V)
 
-## [다이빙(Diving)](https://www.ddscientific.com/uploads/5/7/1/3/57136893/diving.pdf)
+전기화학식 센서 주의사항
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt="" width="563"><figcaption></figcaption></figure>
+* 센서에 직접 Soldering 진행 시 내부의 패턴이 고온으로 끊어질 수 있으므로 전용 Socket을 사용 권장
+* 센서에 따른 감도가 차이가 있기 때문에 회로를 구성한 이후 개별 가스 교정이 필요(교정 Cap 필요)
+* 가스 교정설비가 없을 경우, 모듈 type의 센서를 사용하거나 가스 교정설비를 구입할 것을 권장함
 
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>&#x3C;전용 Socket></p></figcaption></figure>
