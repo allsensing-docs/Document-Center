@@ -27,7 +27,7 @@
 * Connector(default): Molex 53261, Yeonho 12505WR
 * Pin header(option): 2.54 pitch(V:VCC, G:GND, R: RXD, T: TXD)
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>AGSM CO PIN Connection</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>AGSM CO PIN Connection</p></figcaption></figure>
 
 ### 모듈 크기
 

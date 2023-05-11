@@ -35,4 +35,4 @@
 * 센서에 따른 감도가 차이가 있기 때문에 회로를 구성한 이후 개별 가스 교정이 필요(교정 Cap 필요)
 * 가스 교정설비가 없을 경우, 모듈 type의 센서를 사용하거나 가스 교정설비를 구입할 것을 권장함
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>&#x3C;전용 Socket></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Socket" alt=""><figcaption><p>&#x3C;전용 Socket></p></figcaption></figure>
