@@ -31,13 +31,13 @@ description: >-
 
 
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="출저-analog device" width="530"><figcaption><p>&#x3C;전기화학식 3전극 가스 센서 회로 다이어그램> 출처 - analog devices</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt="출저-analog device" width="530"><figcaption><p>&#x3C;전기화학식 3전극 가스 센서 회로 다이어그램> 출처 - analog devices</p></figcaption></figure>
 
 
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="563"><figcaption><p>&#x3C;전기화학식 3전극 가스 센서 0mV 바이어스 회로> 출처 - SGX sensor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt="" width="563"><figcaption><p>&#x3C;전기화학식 3전극 가스 센서 0mV 바이어스 회로> 출처 - SGX sensor</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="563"><figcaption><p>&#x3C;전기화학식 3전극 가스 센서 +300mV 바이어스 회로 > 출처 - SGX sensor </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt="" width="563"><figcaption><p>&#x3C;전기화학식 3전극 가스 센서 +300mV 바이어스 회로 > 출처 - SGX sensor </p></figcaption></figure>
 
 * Vout 극성 : 대부분의 가스 전자는 작업 전극으로 흐르지만(+V) 셀에서 환원되는 가스(ex) ClO2, CL2, NO2, O2)에 경우 전자의 방향이 달라짐(-V)
 
@@ -49,7 +49,7 @@ description: >-
 * 센서에 따른 감도가 차이가 있기 때문에 회로를 구성한 이후 개별 가스 교정이 필요(교정 Cap 필요)
 * 가스 교정설비가 없을 경우, 모듈 type의 센서를 사용하거나 가스 교정설비를 구입할 것을 권장함
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>&#x3C;전용 Socket></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>&#x3C;전용 Socket></p></figcaption></figure>
 
 
 
