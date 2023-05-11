@@ -74,3 +74,6 @@
   * [통신 프로토콜](product-document/plantower/undefined-1/README.md)
     * [UART](product-document/plantower/undefined-1/uart.md)
     * [I2C](product-document/plantower/undefined-1/i2c.md)
+* [DD Scientific](product-document/dd-scientific/README.md)
+  * [애플리케이션](product-document/dd-scientific/undefined.md)
+  * [Q\&A](product-document/dd-scientific/q-and-a.md)
