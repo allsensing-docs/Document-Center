@@ -12,6 +12,8 @@
 | :-------------: |
 | Dcel DT, GS+4DT |
 
+<figure><img src="../../../.gitbook/assets/DDS GS+4DT.jpeg" alt="" width="250"><figcaption><p>&#x3C;GS+4DT></p></figcaption></figure>
+
 <figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 * H2S CHANNEL SIGNAL OUT = Vref + ((Sensitivity \* gas concentration) \* R6)
