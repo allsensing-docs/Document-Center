@@ -39,6 +39,8 @@
 
 {% tab title="Fixed gas" %}
 <figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/DDS_Industrial (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

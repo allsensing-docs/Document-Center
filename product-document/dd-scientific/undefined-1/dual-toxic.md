@@ -14,6 +14,8 @@
 
 <figure><img src="../../../.gitbook/assets/DDS GS+4DT.jpeg" alt="" width="250"><figcaption><p>&#x3C;GS+4DT></p></figcaption></figure>
 
+## Reference 회로도
+
 <figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 * H2S CHANNEL SIGNAL OUT = Vref + ((Sensitivity \* gas concentration) \* R6)
