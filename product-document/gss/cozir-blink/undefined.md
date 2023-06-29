@@ -25,7 +25,12 @@
 {% tab title="Arduino Uno  I2C" %}
 <figure><img src="../../../.gitbook/assets/Cozir_series_i2c_connection_with_arduino.PNG" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="140" align="center">항목</th><th align="center">Arduino Uno</th><th align="center">Cozir-Blink</th></tr></thead><tbody><tr><td align="center">VCC</td><td align="center">5V or 3.3V</td><td align="center">VCC</td></tr><tr><td align="center">GND</td><td align="center">GND</td><td align="center">GND</td></tr><tr><td align="center">TX</td><td align="center">A5</td><td align="center">SCL</td></tr><tr><td align="center">RX</td><td align="center">A4</td><td align="center">SDA</td></tr></tbody></table>
+|  항목 | Arduino Uno | Cozir-Blink |
+| :-: | :---------: | :---------: |
+| VCC |  5V or 3.3V |     VCC     |
+| GND |     GND     |     GND     |
+|  TX |      A5     |     SCL     |
+|  RX |      A4     |     SDA     |
 {% endtab %}
 
 {% tab title="Arduino MKR Uart" %}
@@ -42,7 +47,12 @@
 {% tab title="Arduino MKR I2C" %}
 <figure><img src="../../../.gitbook/assets/CozIR-LP2_with_Arduino_MKR_i2c.png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="140" align="center">항목</th><th align="center">Arduino MKR</th><th align="center">Cozir-Blink</th></tr></thead><tbody><tr><td align="center">VCC</td><td align="center">5V or 3.3V</td><td align="center">VCC</td></tr><tr><td align="center">GND</td><td align="center">GND</td><td align="center">GND</td></tr><tr><td align="center">TX</td><td align="center">D11</td><td align="center">SCL</td></tr><tr><td align="center">RX</td><td align="center">D12</td><td align="center">SDA</td></tr></tbody></table>
+|  항목 | Arduino MKR | Cozir-Blink |
+| :-: | :---------: | :---------: |
+| VCC |  5V or 3.3V |     VCC     |
+| GND |     GND     |     GND     |
+|  TX |     D11     |     SCL     |
+|  RX |     D12     |     SDA     |
 {% endtab %}
 
 {% tab title="ESP32 Uart" %}
@@ -59,7 +69,12 @@
 {% tab title="Esp32 I2C" %}
 <figure><img src="../../../.gitbook/assets/cozirlp2_ESP32_I2C.png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="140" align="center">항목</th><th align="center">ESP32</th><th align="center">Cozir-Blink</th></tr></thead><tbody><tr><td align="center">VCC</td><td align="center">5V or 3.3V</td><td align="center">VCC</td></tr><tr><td align="center">GND</td><td align="center">GND</td><td align="center">GND</td></tr><tr><td align="center">TX</td><td align="center">13</td><td align="center">SCL</td></tr><tr><td align="center">RX</td><td align="center">12</td><td align="center">SDA</td></tr></tbody></table>
+|  항목 |    ESP32   | Cozir-Blink |
+| :-: | :--------: | :---------: |
+| VCC | 5V or 3.3V |     VCC     |
+| GND |     GND    |     GND     |
+|  TX |     13     |     SCL     |
+|  RX |     12     |     SDA     |
 {% endtab %}
 
 {% tab title="ESP8266 Uart" %}
@@ -76,7 +91,12 @@
 {% tab title="ESP8266 I2C" %}
 <figure><img src="../../../.gitbook/assets/CozIR-LP2_with_ESP8266_I2C.png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="140" align="center">항목</th><th align="center">ESP8266</th><th align="center">Cozir-Blink</th></tr></thead><tbody><tr><td align="center">VCC</td><td align="center">5V or 3.3V</td><td align="center">VCC</td></tr><tr><td align="center">GND</td><td align="center">GND</td><td align="center">GND</td></tr><tr><td align="center">TX</td><td align="center">D5</td><td align="center">SCL</td></tr><tr><td align="center">RX</td><td align="center">D6</td><td align="center">SDA</td></tr></tbody></table>
+|  항목 |   ESP8266  | Cozir-Blink |
+| :-: | :--------: | :---------: |
+| VCC | 5V or 3.3V |     VCC     |
+| GND |     GND    |     GND     |
+|  TX |     D5     |     SCL     |
+|  RX |     D6     |     SDA     |
 {% endtab %}
 {% endtabs %}
 

@@ -18,7 +18,10 @@ Digital filter 설정
 
 Digital filter Command
 
-<table><thead><tr><th width="159" align="center">Command</th><th width="205" align="center">Description</th><th width="148" align="center">Example</th><th align="center">Response</th></tr></thead><tbody><tr><td align="center">A ###\r\n</td><td align="center">CO2 필터 값 설정</td><td align="center">A 16\r\n</td><td align="center">A 00016\r\n</td></tr><tr><td align="center">a\r\n</td><td align="center">CO2 필터 값 확인</td><td align="center">a\r\n</td><td align="center">a 00016\r\n</td></tr></tbody></table>
+|  Command  | Description |  Example |   Response  |
+| :-------: | :---------: | :------: | :---------: |
+| A ###\r\n | CO2 필터 값 설정 | A 16\r\n | A 00016\r\n |
+|   a\r\n   | CO2 필터 값 확인 |   a\r\n  | a 00016\r\n |
 
 ## 소스코드
 

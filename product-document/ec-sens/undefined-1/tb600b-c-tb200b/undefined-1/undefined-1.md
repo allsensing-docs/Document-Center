@@ -5,7 +5,12 @@
 * 초기 Mode default 설정: Passive Mode
 * 전원 off 후에도 변경된 통신모드로 저장됨
 
-<table><thead><tr><th width="155">Mode</th><th>Command (HEX)</th><th width="200">Description</th><th>Response</th></tr></thead><tbody><tr><td>Passive(Q&#x26;A)</td><td>FF 01 78 40 00 00 00 00 47</td><td>센서 값 요청시에만 데이터 값 전송</td><td> </td></tr><tr><td>Active</td><td>FF 01 78 41 00 00 00 00 46</td><td>연속적으로 데이터 값을 전송</td><td> </td></tr><tr><td>Sleep 들어가기</td><td>AF 53 6C 65 65 70</td><td>Sleep mode 들어감</td><td>4F 4B</td></tr><tr><td>Sleep 나오기</td><td>AF 45 78 69 74</td><td>Sleep mode 나옴</td><td>4F 4B</td></tr></tbody></table>
+| Mode          | Command (HEX)              | Description         | Response |
+| ------------- | -------------------------- | ------------------- | -------- |
+| Passive(Q\&A) | FF 01 78 40 00 00 00 00 47 | 센서 값 요청시에만 데이터 값 전송 |          |
+| Active        | FF 01 78 41 00 00 00 00 46 | 연속적으로 데이터 값을 전송     |          |
+| Sleep 들어가기    | AF 53 6C 65 65 70          | Sleep mode 들어감      | 4F 4B    |
+| Sleep 나오기     | AF 45 78 69 74             | Sleep mode 나옴       | 4F 4B    |
 
 
 

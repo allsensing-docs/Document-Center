@@ -1,6 +1,10 @@
 # 모드 설정 및 O₂ 값 읽기
 
-<table><thead><tr><th width="133">Mode</th><th width="147">Command</th><th width="281">Description</th><th>Response</th></tr></thead><tbody><tr><td>Stream</td><td>M 0\r\n</td><td>약 1초에 한 번씩 데이터 값을 전송</td><td>K 00000\r\n</td></tr><tr><td>Poll</td><td>M 1\r\n</td><td>센서 값 요청시에만 데이터 값 전송</td><td>K 00001\r\n</td></tr><tr><td>Off</td><td>M 2\r\n</td><td>Sleep mode, 측정 X</td><td>K 00002\r\n</td></tr></tbody></table>
+| Mode   | Command | Description          | Response    |
+| ------ | ------- | -------------------- | ----------- |
+| Stream | M 0\r\n | 약 1초에 한 번씩 데이터 값을 전송 | K 00000\r\n |
+| Poll   | M 1\r\n | 센서 값 요청시에만 데이터 값 전송  | K 00001\r\n |
+| Off    | M 2\r\n | Sleep mode, 측정 X     | K 00002\r\n |
 
 
 
@@ -39,7 +43,7 @@ void loop()
 
 시리얼 모니터
 
-<figure><img src="../../../.gitbook/assets/LOX_O2_strean_serial.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/LOX_O2_strean_serial.png" alt=""><figcaption></figcaption></figure>
 
 Stream Mode(default)에서 O₂ 값 읽기 부연 설명
 
@@ -92,7 +96,7 @@ void loop()
 
 시리얼 모니터
 
-<figure><img src="../../../.gitbook/assets/LOX_O2_poll_serial.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/LOX_O2_poll_serial.png" alt=""><figcaption></figcaption></figure>
 
 
 {% endtab %}

@@ -84,10 +84,7 @@
     * [바이어스 센서](product-document/dd-scientific/undefined-1/undefined.md)
   * [애플리케이션](product-document/dd-scientific/undefined-2.md)
   * [Q\&A](product-document/dd-scientific/q-and-a.md)
-
-***
-
-* [Nevadanano](nevadanano/README.md)
-  * [디바이스 연결 방법](nevadanano/undefined.md)
-  * [통신프로토콜](nevadanano/undefined-1/README.md)
-    * [가스 농도 값 읽기](nevadanano/undefined-1/undefined.md)
+* [Nevadanano](product-document/nevadanano/README.md)
+  * [디바이스 연결 방법](product-document/nevadanano/undefined.md)
+  * [통신프로토콜](product-document/nevadanano/undefined-1/README.md)
+    * [가스 농도 값 읽기](product-document/nevadanano/undefined-1/undefined.md)
