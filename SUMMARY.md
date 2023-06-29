@@ -87,4 +87,7 @@
 
 ***
 
-* [Nevadanano](nevadanano.md)
+* [Nevadanano](nevadanano/README.md)
+  * [디바이스 연결 방법](nevadanano/undefined.md)
+  * [통신프로토콜](nevadanano/undefined-1/README.md)
+    * [가스 농도 값 읽기](nevadanano/undefined-1/undefined.md)
