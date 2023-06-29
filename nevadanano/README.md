@@ -32,7 +32,7 @@ Nevadanano는 공기 품질 변화에서 가스 경고 시스템에 이르기까
 
 ## 사양
 
-<figure><img src="../.gitbook/assets/MPS_사양.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/MPS_사양.PNG" alt="" width="563"><figcaption></figcaption></figure>
 
 #### 감지 가스 목록
 
@@ -52,7 +52,7 @@ Nevadanano는 공기 품질 변화에서 가스 경고 시스템에 이르기까
 
 #### MPS sensor ISO 10156 규격과, IEC 60079-20-1 규격
 
-※     MPS Gas sensor는 초기에 ISO 10156 기준으로 제조사에서 교정됨
+※     MPS Gas sensor는 초기에 ISO 10156 기준으로 제조사에서 교정됨(ISO defualt)
 
 ※     ISO (International Organization for Standardization) 국제 표준화 기구, IEC (International Electrotechnical Commission) 국제전기기술위원회
 
@@ -61,11 +61,23 @@ Nevadanano는 공기 품질 변화에서 가스 경고 시스템에 이르기까
 * 가연성 가스의 % Vol, % LEL, PPM 사이의 관계: 5.0 % VOL=100 % LEL=50000PPM
 * 메탄(methane)의 경우 ISO 10156 규격일 경우 100 %LEL일때 5.0 % VOL = 50000PPM, IEC 60079-20-1 규격일 경우 100 %LEL일때 4.4 % VOL = 약 44014PPM , 즉 ISO 규격과 IEC 규격의 차이는 약 1.136배수 차이가 발생함( 4.4% \* 1.136 = 4.9984 = 약 5%)
 
+ex) methane IEC, ISO 각각  50 %LEL 주입 시 농도 비교
+
+{% tabs %}
+{% tab title="ISO" %}
+<figure><img src="../.gitbook/assets/ISO_시리얼모니터.PNG" alt="" width="563"><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="IEC" %}
+<figure><img src="../.gitbook/assets/IEC_시리얼 모니터.PNG" alt="" width="548"><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
 
 
 #### 메탄(methane) 가스 정확도
 
-<figure><img src="../.gitbook/assets/Methane_주입가스농도.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Methane_주입가스농도.PNG" alt="" width="517"><figcaption></figcaption></figure>
 
 
 

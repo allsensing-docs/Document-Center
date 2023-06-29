@@ -16,7 +16,7 @@
 
 ### 가스 농도 값 읽기 응답 예시
 
-<figure><img src="../../.gitbook/assets/응답_커맨드_3.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/응답_커맨드_3.PNG" alt="" width="563"><figcaption></figcaption></figure>
 
 * Data Format 방식 : IEEE 754 Format ( 부동소수점), Little Endian 형식(최하위 바이트(LSB)가 먼저 전송)
 * 부동소수점: 컴퓨터에서 실수를 표현하는 방법 ( 2진수(0,1)로 표현)
