@@ -169,11 +169,11 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
 * Command 버전 정보 응답 예제
 
-<figure><img src="../../.gitbook/assets/응답 (1).PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/버전 정보 응답 예제.PNG" alt=""><figcaption></figcaption></figure>
 
-* Payload 설명
+* Payload 설명: 총 64 bit, S/W Version \[1:32],  H/W Version \[33:48], Protocol Version \[49:64] &#x20;
 
-<figure><img src="../../.gitbook/assets/payload 설명_re.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/payload 설명_re.PNG" alt=""><figcaption><p>&#x3C;버전 정보 응답표></p></figcaption></figure>
 
 * S/W Version: 3.1.0.1
 * H/W Version: 1.0
@@ -197,11 +197,11 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
 * 감지 가스 응답 예제
 
-<figure><img src="../../.gitbook/assets/응답_re.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/가스감지응답 예쩨.PNG" alt=""><figcaption></figcaption></figure>
 
 * 감지 가스 응답 Payload Packet 값: 0\~255&#x20;
 
-<figure><img src="../../.gitbook/assets/가스 감지 표.PNG" alt=""><figcaption><p>&#x3C; 응답 Payload 표></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/가스 감지 표.PNG" alt=""><figcaption><p>&#x3C; 감지 가스 응답  Payload 표></p></figcaption></figure>
 
 
 
