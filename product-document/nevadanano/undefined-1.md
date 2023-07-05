@@ -1,3 +1,7 @@
+---
+description: MPS Flammable Gas Sensor (3.0 Version)
+---
+
 # 통신프로토콜
 
 * UART 설정
@@ -18,7 +22,7 @@
 
 ### 전체 요청(Request) Command&#x20;
 
-<figure><img src="../../../.gitbook/assets/요청_커맨드_전체.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/요청_커맨드_전체.PNG" alt=""><figcaption></figcaption></figure>
 
 * Payload는 사용에 있어서 전송되는 데이터 자체를 의미함(Header, Checksum, parity bit, 등 제외)
 
@@ -26,31 +30,31 @@
 
 * 요청(Request) Command  Packet 구조
 
-<figure><img src="../../../.gitbook/assets/요청_커맨드_세부.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/요청_커맨드_세부.PNG" alt=""><figcaption></figcaption></figure>
 
 ex) 현재 센서 상태 요청 Command
 
-<figure><img src="../../../.gitbook/assets/요청_커맨드_예시.PNG" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/요청_커맨드_예시.PNG" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 응답(Reply) Command  Packet 구조
 
-<figure><img src="../../../.gitbook/assets/응답_프로토콜.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/응답_프로토콜.PNG" alt=""><figcaption></figcaption></figure>
 
 ex) 현재 센서 상태 응답(정상일 경우만)&#x20;
 
-<figure><img src="../../../.gitbook/assets/응답_커맨드_1.PNG" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/응답_커맨드_1.PNG" alt="" width="563"><figcaption></figcaption></figure>
 
 ex) 응답 Command 예시(정상일 경우만)&#x20;
 
-<figure><img src="../../../.gitbook/assets/응답_커맨드_2.PNG" alt="" width="563"><figcaption><p>&#x3C; 상태, 모드 설정, 가스 농도 응답 예시></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/응답_커맨드_2.PNG" alt="" width="563"><figcaption><p>&#x3C; 상태, 모드 설정, 가스 농도 응답 예시></p></figcaption></figure>
 
 * 센서 Status(상태)값이 변하면 Checksum값이 변함
 
 ### < Command rely Status 표 >
 
-<figure><img src="../../../.gitbook/assets/센서_상태_커맨드1.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/센서_상태_커맨드1.PNG" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/센서_상태_커맨드2.PNG" alt=""><figcaption><p>&#x3C; Command reply Status 표></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/센서_상태_커맨드2.PNG" alt=""><figcaption><p>&#x3C; Command reply Status 표></p></figcaption></figure>
 
 * 가장 빈번하게 발생하는 Command reply Status :
 
@@ -75,7 +79,7 @@ ex) 응답 Command 예시(정상일 경우만)&#x20;
 
 Ex) 현재 상태 응답 Checksum 계산
 
-<figure><img src="../../../.gitbook/assets/CRC_계산_사이트_예시.PNG" alt="" width="563"><figcaption><p>&#x3C; Checksum 계산 예시 > </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CRC_계산_사이트_예시.PNG" alt="" width="563"><figcaption><p>&#x3C; Checksum 계산 예시 > </p></figcaption></figure>
 
 Checksum 예제 코드
 
@@ -155,7 +159,7 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
 
 
-<figure><img src="../../../.gitbook/assets/동작_Sequence.PNG" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/동작_Sequence.PNG" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 가스 농도 값 읽기
 
@@ -169,16 +173,16 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
 
 
-<figure><img src="../../../.gitbook/assets/요청_커맨드_가스_농도_only.PNG" alt=""><figcaption><p>&#x3C; 요청 Command ( 상태 확인, 측정 모드 설정, 가스 농도 요청) ></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/요청_커맨드_가스_농도_only.PNG" alt=""><figcaption><p>&#x3C; 요청 Command ( 상태 확인, 측정 모드 설정, 가스 농도 요청) ></p></figcaption></figure>
 
 ### 가스 농도 값 읽기 응답 예시
 
-<figure><img src="../../../.gitbook/assets/응답_커맨드_3.PNG" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/응답_커맨드_3.PNG" alt="" width="563"><figcaption></figcaption></figure>
 
 * Data Format 방식 : IEEE 754 Format ( 부동소수점), Little Endian 형식(최하위 바이트(LSB)가 먼저 전송)
 * 부동소수점: 컴퓨터에서 실수를 표현하는 방법 ( 2진수(0,1)로 표현)
 
-<figure><img src="../../../.gitbook/assets/IEEE_754_Main_pic.PNG" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IEEE_754_Main_pic.PNG" alt="" width="563"><figcaption></figcaption></figure>
 
 * 부호: 양수일 때 0, 음수일때 1
 * 지수부: 8비트, 지수를 나타냄
@@ -320,11 +324,11 @@ void ch4_sensor_read()
 {% tab title="시리얼 모니터" %}
 
 
-<figure><img src="../../../.gitbook/assets/mps_시리얼_모니터1.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mps_시리얼_모니터1.PNG" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../../../.gitbook/assets/mps_시리얼_모니터2.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mps_시리얼_모니터2.PNG" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
