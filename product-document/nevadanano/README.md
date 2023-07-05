@@ -4,7 +4,7 @@
 
 Nevadanano는 공기 품질 변화에서 가스 경고 시스템에 이르기까지 광범위한 응용 분야를 위한 가스 센서 및 센서 모듈을 개발, 제조 및 배포하며, Allsensing은 DD-Scientific 및 다양한 환경센서를 고객들에게 유통하고 있으며 센서에 대한 올바른 이해와 사용법을 소개하고 있음
 
-
+MPS Flammable Gas Sensor (3.0 Version)
 
 <figure><img src="../../.gitbook/assets/MPS_Main_pic.PNG" alt=""><figcaption></figcaption></figure>
 
