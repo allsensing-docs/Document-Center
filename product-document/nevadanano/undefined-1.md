@@ -22,7 +22,7 @@ description: MPS Flammable Gas Sensor (3.0 Version)
 
 ### 전체 요청(Request) Command&#x20;
 
-<figure><img src="../../.gitbook/assets/요청_커맨드_전체.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/요청_커맨드_전체_re.PNG" alt=""><figcaption></figcaption></figure>
 
 * Payload는 사용에 있어서 전송되는 데이터 자체를 의미함(Header, Checksum, parity bit, 등 제외)
 
@@ -160,6 +160,50 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
 
 <figure><img src="../../.gitbook/assets/동작_Sequence.PNG" alt="" width="563"><figcaption></figcaption></figure>
+
+### 센서 버전 확인
+
+* Command 버전 정보 요청
+
+<figure><img src="../../.gitbook/assets/요청 (1).PNG" alt=""><figcaption></figcaption></figure>
+
+* Command 버전 정보 응답 예제
+
+<figure><img src="../../.gitbook/assets/응답 (1).PNG" alt=""><figcaption></figcaption></figure>
+
+* Payload 설명
+
+<figure><img src="../../.gitbook/assets/payload 설명_re.PNG" alt=""><figcaption></figcaption></figure>
+
+* S/W Version: 3.1.0.1
+* H/W Version: 1.0
+* Protocol  Version: 32.1
+
+
+
+* Nevadanano PC Serial program과 비교
+
+<figure><img src="../../.gitbook/assets/serial_프로그램비교.PNG" alt=""><figcaption></figcaption></figure>
+
+
+
+### 감지 가스 확인
+
+
+
+* 감지 가스 요청
+
+<figure><img src="../../.gitbook/assets/요청.PNG" alt=""><figcaption></figcaption></figure>
+
+* 감지 가스 응답 예제
+
+<figure><img src="../../.gitbook/assets/응답_re.PNG" alt=""><figcaption></figcaption></figure>
+
+* 감지 가스 응답 Payload Packet 값: 0\~255&#x20;
+
+<figure><img src="../../.gitbook/assets/가스 감지 표.PNG" alt=""><figcaption><p>&#x3C; 응답 Payload 표></p></figcaption></figure>
+
+
 
 ### 가스 농도 값 읽기
 

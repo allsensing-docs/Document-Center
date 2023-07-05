@@ -1,6 +1,8 @@
 # Nevadanano
 
-​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQCE5cN34KWHXj4MJcrQj%2Fuploads%2FgtBRsL6YPomijQgsJP7k%2Fimage.png?alt=media\&token=4d70276e-ec73-442d-84da-39cebae8e196)​
+* [Nevadanano main page](https://nevadanano.com/)
+
+{% embed url="https://nevadanano.com/downloads/v1/" %}
 
 Nevadanano는 공기 품질 변화에서 가스 경고 시스템에 이르기까지 광범위한 응용 분야를 위한 가스 센서 및 센서 모듈을 개발, 제조 및 배포하며, Allsensing은 DD-Scientific 및 다양한 환경센서를 고객들에게 유통하고 있으며 센서에 대한 올바른 이해와 사용법을 소개하고 있음
 
