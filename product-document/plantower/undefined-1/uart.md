@@ -30,13 +30,7 @@ _적용 모델: PMS A003A, PMS A003C, PMS 7003, PMS 7003M, PMS 5003, PMS 9003M_
 
 ## UART command
 
-| Command                                    | Data 1 | Data 2 | Data 3 | Data 4 | Data 5 | Data 6 | Data 7 |
-| ------------------------------------------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Active                                     | 0x42   | 0x4d   | 0xe1   | 0x00   | 0x01   | 0x01   | 0x71   |
-| Passive                                    | 0x42   | 0x4d   | 0xe1   | 0x00   | 0x00   | 0x01   | 0x70   |
-| <p>Data request</p><p>(Passive status)</p> | 0x42   | 0x4d   | 0xe2   | 0x00   | 0x00   | 0x01   | 0x71   |
-| sleep                                      | 0x42   | 0x4d   | 0xe4   | 0x00   | 0x00   | 0x01   | 0x73   |
-| Wake up                                    | 0x42   | 0x4d   | 0xe4   | 0x00   | 0x01   | 0x01   | 0x74   |
+<table><thead><tr><th width="175">Command</th><th>Data 1</th><th>Data 2</th><th>Data 3</th><th>Data 4</th><th>Data 5</th><th>Data 6</th><th>Data 7</th></tr></thead><tbody><tr><td>Active</td><td>0x42</td><td>0x4d</td><td>0xe1</td><td>0x00</td><td>0x01</td><td>0x01</td><td>0x71</td></tr><tr><td>Passive</td><td>0x42</td><td>0x4d</td><td>0xe1</td><td>0x00</td><td>0x00</td><td>0x01</td><td>0x70</td></tr><tr><td><p>Data request</p><p>(Passive status)</p></td><td>0x42</td><td>0x4d</td><td>0xe2</td><td>0x00</td><td>0x00</td><td>0x01</td><td>0x71</td></tr><tr><td>sleep</td><td>0x42</td><td>0x4d</td><td>0xe4</td><td>0x00</td><td>0x00</td><td>0x01</td><td>0x73</td></tr><tr><td>Wake up</td><td>0x42</td><td>0x4d</td><td>0xe4</td><td>0x00</td><td>0x01</td><td>0x01</td><td>0x74</td></tr></tbody></table>
 
 
 

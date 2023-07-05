@@ -34,7 +34,7 @@ int CO2_value = 0;
 }
 ```
 
-***
+
 
 * UART
 
@@ -79,7 +79,7 @@ void loop()
 }
 ```
 
-***
+
 
 **Serial Monitor**
 

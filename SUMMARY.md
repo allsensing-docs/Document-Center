@@ -86,5 +86,4 @@
   * [Q\&A](product-document/dd-scientific/q-and-a.md)
 * [Nevadanano](product-document/nevadanano/README.md)
   * [디바이스 연결 방법](product-document/nevadanano/undefined.md)
-  * [통신프로토콜](product-document/nevadanano/undefined-1/README.md)
-    * [가스 농도 값 읽기](product-document/nevadanano/undefined-1/undefined.md)
+  * [통신프로토콜](product-document/nevadanano/undefined-1.md)

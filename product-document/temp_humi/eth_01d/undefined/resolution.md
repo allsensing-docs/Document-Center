@@ -19,7 +19,7 @@ ETH-01D 비휘발성 메모리에 온·습도 Resolution, ID가 저장 되어있
 * Ex) VDD: 3.3V, 8bits resolution = 3.3V\_1.5µA = 4.95µW
 * 80.52µW - 4.95µW = 75.57µW
 
-***
+
 
 <figure><img src="../../../../.gitbook/assets/eth_01d_i2c_resolution (2).PNG" alt=""><figcaption></figcaption></figure>
 
