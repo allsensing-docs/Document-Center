@@ -83,23 +83,28 @@ ex) methane IEC, ISO 각각  50 %LEL 주입 시 농도 비교
 
 
 
+### Analog
+
+* 아날로그 값 범위:  0.01V\~2.9V
+* 가스 농도 값 범위: 0.4 V (0 %LEL) to 2.0 V (100 %LEL)
 
 
 
+<figure><img src="../../.gitbook/assets/가스_농도에따른 아날로그 output.PNG" alt=""><figcaption></figcaption></figure>
 
+* 센서 상테 에러
 
+<figure><img src="../../.gitbook/assets/센서_상태_에러.PNG" alt="" width="563"><figcaption></figcaption></figure>
 
+* 감지기(DETECTOR)와 MPS 센서의 아날로그 출력 연결
 
+<figure><img src="../../.gitbook/assets/연결방법.PNG" alt=""><figcaption></figcaption></figure>
 
+* Load resistance에 따른 출력 오차율
 
+<figure><img src="../../.gitbook/assets/출력오차율.PNG" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-
-
+* Figure 9에서 Resistance 100kΩ 일때 출력 오차율이 1%정도 발생, 100kΩ 이상이면 오차율이 1% 이하로 감소
 
 
 
