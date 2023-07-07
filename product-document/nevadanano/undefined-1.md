@@ -378,3 +378,30 @@ void ch4_sensor_read()
 
 
 
+## MPS Sensor 디버깅
+
+### Nevadanano 개발키트 이용
+
+* [MPS Flammable Gas Sensor Evaluation Unit User Manual](https://nevadanano.com/wp-content/uploads/2021/11/SM-UM-0001-06-Flammable-Gas-Sensor-Evaluation-Unit-User-Manual.pdf)
+
+<figure><img src="../../.gitbook/assets/개발키트_rere.PNG" alt="" width="563"><figcaption><p>그림 1</p></figcaption></figure>
+
+* 그림 1의 PCB에와 mps 센서 연결,  Micro usb 연결 후  Micro usb를 pc에 연결 한 뒤 Nevadanano interface Program 실행
+* [Download MPS Gas Sensor Interface Installer](https://nevadanano.com/wp-content/uploads/2022/03/MPS-Gas-Sensor-Interface.zip)
+
+<figure><img src="../../.gitbook/assets/시리얼_프로그램.PNG" alt="" width="563"><figcaption></figcaption></figure>
+
+### Nevadanano 개발키트 x
+
+1. MPS 센서와 FTDI FT230x series USB-to-serial converter 를 이용하여 Nevadanano interface Program 실행
+
+* [Sensor Testing Without the Evaluation Unit](https://nevadanano.com/wp-content/uploads/2020/06/SM-AN-0014-01-Sensor-Testing-without-the-NNTS-Evaluation-Kit.pdf)
+
+2. MPS 센서와  USB-to-serial converter를 이용하여 Serial Program으로 디버깅( 통신 Command는 [통신프로토콜](https://app.gitbook.com/o/Kf02NeqxuSI0LF2rYZKc/s/8USAZVpjShlBinaURjim/\~/changes/85/product-document/nevadanano/undefined-1) 참고)
+
+
+
+
+
+
+
