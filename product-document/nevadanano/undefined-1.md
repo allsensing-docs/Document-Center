@@ -397,7 +397,7 @@ void ch4_sensor_read()
 
 * [Sensor Testing Without the Evaluation Unit](https://nevadanano.com/wp-content/uploads/2020/06/SM-AN-0014-01-Sensor-Testing-without-the-NNTS-Evaluation-Kit.pdf)
 
-2. MPS 센서와  USB-to-serial converter를 이용하여 Serial Program으로 디버깅( 통신 Command는 [통신프로토콜](https://app.gitbook.com/o/Kf02NeqxuSI0LF2rYZKc/s/8USAZVpjShlBinaURjim/\~/changes/85/product-document/nevadanano/undefined-1) 참고)
+2. MPS 센서와  USB-to-serial converter를 이용하여 Serial Program으로 디버깅
 
 
 
