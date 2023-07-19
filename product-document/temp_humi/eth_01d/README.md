@@ -42,7 +42,7 @@ description: Digital Sensor
 
 ## 제품 크기 및 핀 특성 <a href="#_toc127806956" id="_toc127806956"></a>
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/eth-01d_pin.PNG" alt=""><figcaption></figcaption></figure>
 
 ## 온·습도 정확도 허용 오차 범위 <a href="#_toc127806957" id="_toc127806957"></a>
 
