@@ -11,7 +11,7 @@
 | 측정 한계(Low Detection Limit)   | 0.1ppm(100ppb)                                                                                          |
 | 분해능 (Resolution)             | 0.001ppm(1ppb)                                                                                          |
 | 정확도(Accuracy)                | <5% @ Full Range                                                                                        |
-| 응답 시간(T90 response time)     | <150 sec                                                                                                |
+| 응답 시간(T90 response time)     | <30 min                                                                                                 |
 | 통신 출력(Communication output)  | <p>UART(TTL 3.3V, 5.0V)<br>3.3VDC Power input: 3.3V TTL Level<br>5.0VDC Power input: 5.0V TTL Level</p> |
 | Expected Operating Life      | > 5 years (10 years @ 25± 10C; 60 ± 30% RH)                                                             |
 | 구동 전압(Input Voltage Range)   | DC 3.3V \~ 5.0V                                                                                         |
