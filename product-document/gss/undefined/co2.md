@@ -14,7 +14,7 @@
 
 \- 센서 값 요청 시에만 응답, 센서 값 요청하지 않을 때에는 백그라운드에서 계속 측정을 수행함
 
-<table><thead><tr><th align="center">Mode</th><th width="160" align="center">Command</th><th align="center">Description</th><th align="center">Response</th></tr></thead><tbody><tr><td align="center">Command</td><td align="center">K 0\r\n</td><td align="center">명령어 기다리는 상태</td><td align="center">K 00000\r\n</td></tr><tr><td align="center">Streaming</td><td align="center">K 1\r\n</td><td align="center">연속적으로 값 측정</td><td align="center">K 00001\r\n</td></tr><tr><td align="center">Polling</td><td align="center">K 2\r\n</td><td align="center">센서 값 요청 시 에만 응답</td><td align="center">K 00002\r\n</td></tr></tbody></table>
+<table><thead><tr><th align="center">Mode</th><th width="160" align="center">Command</th><th align="center">Description</th><th align="center">Response</th></tr></thead><tbody><tr><td align="center">Command</td><td align="center">K 0\r</td><td align="center">명령어 기다리는 상태</td><td align="center">K 00000\r</td></tr><tr><td align="center">Streaming</td><td align="center">K 1\r</td><td align="center">연속적으로 값 측정</td><td align="center">K 00001\r</td></tr><tr><td align="center">Polling</td><td align="center">K 2\r</td><td align="center">센서 값 요청 시 에만 응답</td><td align="center">K 00002\r</td></tr></tbody></table>
 
 ## 소스 코드
 

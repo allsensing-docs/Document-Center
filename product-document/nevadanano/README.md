@@ -2,7 +2,7 @@
 description: NevadaNano 제품에 대하여  사용 방법, 경험, 지식, 문제 해결 방법들을 공유하고있습니다.
 ---
 
-# NevadaNano
+# Nevadanano
 
 NevadaNano(NevadaNanotech Systems, Inc.)는 다양한 상업 및 정부 응용 제품을 위한 [**미세 전자 기계 시스템(MEMS) 기반 센서 모듈**](https://nevadanano.com/our-technology/) 및 하위 시스템을 개발 및 제조합니다. 당사의 제품은 시스템 통합업체 [파트너](https://nevadanano.com/partners/) 및 시스템 제조업체가 사용하는 이유는 센서의 고유한 특성, 즉 작은 크기, 저렴한 비용, 무인 작동 및 단일 표준 센서 구성으로 광범위한 위협을 탐지할 수 있는 기능의 이점을 누리기 때문입니다.
 
@@ -101,4 +101,4 @@ NevadaNano(NevadaNanotech Systems, Inc.)는 다양한 상업 및 정부 응용 �
 
 ⚠️ 센서의 손상을 방지 하기 위하여 소켓을 사용 하여 연결
 
-<figure><img src="image/p10.webp" alt="NevadaNano sensor arduino" width="563"><figcaption><p>NevadaNano sensor arduino</p></figcaption></figure>
+<figure><img src="image/p10 (1).webp" alt="NevadaNano sensor arduino" width="563"><figcaption><p>NevadaNano sensor arduino</p></figcaption></figure>
