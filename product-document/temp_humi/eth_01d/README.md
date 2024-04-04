@@ -24,7 +24,7 @@ description: Digital Sensor
 * 습도계
 * 자동차
 
-## 사양 <a href="#_toc127806955" id="_toc127806955"></a>
+## 사양 <a href="#toc127806955" id="toc127806955"></a>
 
 | 항목             | 내용                                          |
 | -------------- | ------------------------------------------- |
@@ -40,11 +40,11 @@ description: Digital Sensor
 | 통신 프로토콜        | I2C                                         |
 | 헤더 핀 크기        | 1.27mm                                      |
 
-## 제품 크기 및 핀 특성 <a href="#_toc127806956" id="_toc127806956"></a>
+## 제품 크기 및 핀 특성 <a href="#toc127806956" id="toc127806956"></a>
 
 <figure><img src="../../../.gitbook/assets/eth-01d_pin.PNG" alt=""><figcaption></figcaption></figure>
 
-## 온·습도 정확도 허용 오차 범위 <a href="#_toc127806957" id="_toc127806957"></a>
+## 온·습도 정확도 허용 오차 범위 <a href="#toc127806957" id="toc127806957"></a>
 
 * 온도 0\~70°C 범위에서 ETH-01D의 온도의 정확도는 일반적으로 ±0.3°C , 최대 ±0.5°C 오차 허용
 * 온도 0\~-40°C 범위를 제외한 나머지 범위에서는 정확도 허용 오차 범위가 증가합니다.(최대 2°C)
@@ -58,7 +58,7 @@ description: Digital Sensor
 
 ## 통신 프로토콜
 
-### A) [온·습도 읽기](https://app.gitbook.com/o/Kf02NeqxuSI0LF2rYZKc/s/8USAZVpjShlBinaURjim/\~/changes/13/product-document/temp\_humi/eth\_01d/undefined/temp\_humi\_reading)
+### A) [온·습도 읽기](undefined/temp\_humi\_reading.md)
 
 {% content-ref url="undefined/temp_humi_reading.md" %}
 [temp\_humi\_reading.md](undefined/temp\_humi\_reading.md)
@@ -67,7 +67,7 @@ description: Digital Sensor
 * 온·습도 데이터 요청 command
 * 온· 데이터 응답
 
-### B) [Address 읽기 및 쓰기](https://app.gitbook.com/o/Kf02NeqxuSI0LF2rYZKc/s/8USAZVpjShlBinaURjim/\~/changes/13/product-document/temp\_humi/eth\_01d/undefined/address)
+### B) [Address 읽기 및 쓰기](undefined/address.md)
 
 {% content-ref url="undefined/resolution.md" %}
 [resolution.md](undefined/resolution.md)

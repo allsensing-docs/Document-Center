@@ -1,8 +1,6 @@
 # 모드 설정 및 O₂ 값 읽기
 
-<table><thead><tr><th width="133">Mode</th><th width="147">Command</th><th width="281">Description</th><th>Response</th></tr></thead><tbody><tr><td>Stream</td><td>M 0\r\n</td><td>약 1초에 한 번씩 데이터 값을 전송</td><td>K 00000\r\n</td></tr><tr><td>Poll</td><td>M 1\r\n</td><td>센서 값 요청시에만 데이터 값 전송</td><td>K 00001\r\n</td></tr><tr><td>Off</td><td>M 2\r\n</td><td>Sleep mode, 측정 X</td><td>K 00002\r\n</td></tr></tbody></table>
-
-
+<table><thead><tr><th width="133">Mode</th><th width="147">Command</th><th width="281">Description</th><th>Response</th></tr></thead><tbody><tr><td>Stream</td><td>M 0\r</td><td>약 1초에 한 번씩 데이터 값을 전송</td><td>K 00000\r</td></tr><tr><td>Poll</td><td>M 1\r</td><td>센서 값 요청시에만 데이터 값 전송</td><td>K 00001\r</td></tr><tr><td>Off</td><td>M 2\r</td><td>Sleep mode, 측정 X</td><td>K 00002\r</td></tr></tbody></table>
 
 {% tabs %}
 {% tab title="Stream Mode(default)에서 O₂ 값 읽기" %}
@@ -45,7 +43,7 @@ Stream Mode(default)에서 O₂ 값 읽기 부연 설명
 
 \* O = 현재 산소분압(PPO₂)값 (mbar)
 
-&#x20;     \* T = 현재 온도값 °C
+\* T = 현재 온도값 °C
 
 \* P = 현재 기압값 (mbar)
 
@@ -93,28 +91,5 @@ void loop()
 시리얼 모니터
 
 <figure><img src="../../../.gitbook/assets/LOX_O2_poll_serial.png" alt=""><figcaption></figcaption></figure>
-
-
 {% endtab %}
 {% endtabs %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
