@@ -18,37 +18,37 @@ description: MPS Flammable Gas Sensor 통신 프로토콜 (3.0 Version)
 
 ## 전체 요청(Request) Command
 
-<figure><img src="p2_image/요청_커맨드_전체_re.webp" alt="요청_커맨드_전체" width="563" ><figcaption>요청_커맨드_전체</figcaption></figure>
+<figure><img src="p2_image/p01.webp" alt="요청_커맨드_전체" width="563" ><figcaption>요청_커맨드_전체</figcaption></figure>
 
 * Payload는 사용에 있어서 전송되는 데이터 자체를 의미함(Header, Checksum, parity bit, 등 제외)
 
 * 요청(Request) Command  Packet 구조
 
-<figure><img src="p2_image//요청_커맨드_세부.webp" alt="요청_커맨드_세부" width="563" ><figcaption>요청_커맨드_세부</figcaption></figure>
+<figure><img src="p2_image/p02.webp" alt="요청_커맨드_세부" width="563" ><figcaption>요청_커맨드_세부</figcaption></figure>
 
 + ex) 현재 센서 상태 요청 Command
 
-<figure><img src="p2_image//요청_커맨드_예시.webp" alt="요청_커맨드_예시" width="563" ><figcaption>요청_커맨드_예시</figcaption></figure>
+<figure><img src="p2_image/p03.webp" alt="요청_커맨드_예시" width="563" ><figcaption>요청_커맨드_예시</figcaption></figure>
 
 ## 응답(Reply) Command  Packet 구조
 
-<figure><img src="p2_image/응답_프로토콜.webp" alt="응답_프로토콜" width="563"><figcaption>응답_프로토콜</figcaption></figure>
+<figure><img src="p2_image/p04.webp" alt="응답_프로토콜" width="563"><figcaption>응답_프로토콜</figcaption></figure>
 
 + ex) 현재 센서 상태 응답(정상일 경우만)&#x20;
 
-<figure><img src="p2_image/응답_커맨드_1.webp" alt="응답_커맨드" width="563"><figcaption>응답_커맨드</figcaption></figure>
+<figure><img src="p2_image/p051.webp" alt="응답_커맨드" width="563"><figcaption>응답_커맨드</figcaption></figure>
 
 + ex) 응답 Command 예시(정상일 경우만)&#x20;
 
-<figure><img src="p2_image/응답_커맨드_2.webp" alt="응답_커맨드" width="563"><figcaption>응답_커맨드</figcaption></figure>
+<figure><img src="p2_image/p06.webp" alt="응답_커맨드" width="563"><figcaption>응답_커맨드</figcaption></figure>
 
 * 센서 Status(상태)값이 변하면 Checksum값이 변함
 
 ## Command rely Status 표
 
-<figure><img src="p2_image/센서_상태_커맨드1.webp" alt="센서_상태_커맨드" width="563"><figcaption>센서_상태_커맨드</figcaption></figure>
+<figure><img src="p2_image/p07.webp" alt="센서_상태_커맨드" width="563"><figcaption>센서_상태_커맨드</figcaption></figure>
 
-<figure><img src="p2_image/센서_상태_커맨드2.webp" alt="센서_상태_커맨드" width="563"><figcaption>센서_상태_커맨드</figcaption></figure>
+<figure><img src="p2_image/p08.webp" alt="센서_상태_커맨드" width="563"><figcaption>센서_상태_커맨드</figcaption></figure>
 
 * 가장 빈번하게 발생하는 Command reply Status :
 
@@ -69,7 +69,7 @@ description: MPS Flammable Gas Sensor 통신 프로토콜 (3.0 Version)
 
 + Ex) 현재 상태 응답 Checksum 계산
 
-<figure><img src="p2_image/CRC_계산_사이트_예시.webp" alt="CRC_계산_사이트_예시" width="563"><figcaption>CRC_계산_사이트_예시</figcaption></figure>
+<figure><img src="p2_image/p09.webp" alt="CRC_계산_사이트_예시" width="563"><figcaption>CRC_계산_사이트_예시</figcaption></figure>
 
 + Checksum 예제 코드
 
@@ -147,21 +147,21 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
   4\.     첫번째 측정이 완료될 때까지 2초 기다림
 
-<figure><img src="p2_image/동작_Sequence.webp" alt="동작_Sequence" width="563"><figcaption>동작_Sequence</figcaption></figure>
+<figure><img src="p2_image/p10.webp" alt="동작_Sequence" width="563"><figcaption>동작_Sequence</figcaption></figure>
 
 ## 센서 버전 확인
 
 * Command 버전 정보 요청
 
-<figure><img src="p2_image/요청 (1).webp" alt="요청" width="563"><figcaption>요청</figcaption></figure>
+<figure><img src="p2_image/p11.webp" alt="요청" width="563"><figcaption>요청</figcaption></figure>
 
 * Command 버전 정보 응답 예제
 
-<figure><img src="p2_image/버전 정보 응답 예제.webp" alt="버전 정보 응답 예제" width="563"><figcaption>버전 정보 응답 예제</figcaption></figure>
+<figure><img src="p2_image/p12.webp" alt="버전 정보 응답 예제" width="563"><figcaption>버전 정보 응답 예제</figcaption></figure>
 
 * Payload 설명: 총 64 bit, S/W Version \[1:32],  H/W Version \[33:48], Protocol Version \[49:64] &#x20;
 
-<figure><img src="p2_image/payload 설명_re.webp" alt="payload 설명" width="563"><figcaption>payload 설명</figcaption></figure>
+<figure><img src="p2_image/p13.webp" alt="payload 설명" width="563"><figcaption>payload 설명</figcaption></figure>
 
 * S/W Version: 3.1.0.1
 * H/W Version: 1.0
@@ -169,21 +169,21 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
 * Nevadanano PC Serial program과 비교
 
-<figure><img src="p2_image/serial_프로그램비교.webp" alt="serial_프로그램비교" width="563"><figcaption>serial_프로그램비교</figcaption></figure>
+<figure><img src="p2_image/p14.webp" alt="serial_프로그램비교" width="563"><figcaption>serial_프로그램비교</figcaption></figure>
 
 ## 감지 가스 확인
 
 * 감지 가스 요청
 
-<figure><img src="p2_image/요청.webp" alt="요청" width="563"><figcaption>요청</figcaption></figure>
+<figure><img src="p2_image/p15.webp" alt="요청" width="563"><figcaption>요청</figcaption></figure>
 
 * 감지 가스 응답 예제
 
-<figure><img src="p2_image/가스감지응답 예쩨.webp" alt="가스감지응답예제" width="563"><figcaption>가스감지응답예제</figcaption></figure>
+<figure><img src="p2_image/p16.webp" alt="가스감지응답예제" width="563"><figcaption>가스감지응답예제</figcaption></figure>
 
 * 감지 가스 응답 Payload Packet 값: 0\~255&#x20;
 
-<figure><img src="p2_image/가스 감지 표.webp" alt="스 감지 표" width="563"><figcaption>감지 가스 응답  Payload 표</figcaption></figure>
+<figure><img src="p2_image/p17.webp" alt="가스 감지 표" width="563"><figcaption>감지 가스 응답  Payload 표</figcaption></figure>
 
 ## 가스 농도 값 읽기
 
@@ -195,16 +195,16 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
   4\. 가스 농도 값 요청(0x03 Command)
 
-<figure><img src="p2_image/요청_커맨드_가스_농도_only.webp" alt="요청 Command" width="563"><figcaption>요청 Command ( 상태 확인, 측정 모드 설정, 가스 농도 요청) </figcaption></figure>
+<figure><img src="p2_image/p18.webp" alt="요청 Command" width="563"><figcaption>요청 Command ( 상태 확인, 측정 모드 설정, 가스 농도 요청) </figcaption></figure>
 
 ## 가스 농도 값 읽기 응답 예시
 
-<figure><img src="p2_image/응답_커맨드_3.webp" alt="응답_커맨드" width="563"><figcaption>응답_커맨드</figcaption></figure>
+<figure><img src="p2_image/p19.webp" alt="응답_커맨드" width="563"><figcaption>응답_커맨드</figcaption></figure>
 
 * Data Format 방식 : IEEE 754 Format ( 부동소수점), Little Endian 형식(최하위 바이트(LSB)가 먼저 전송)
 * 부동소수점: 컴퓨터에서 실수를 표현하는 방법 ( 2진수(0,1)로 표현)
 
-<figure><img src="p2_image/IEEE_754_Main_pic.webp" alt="IEEE_754_Main" width="563"><figcaption>IEEE_754_Main</figcaption></figure>
+<figure><img src="p2_image/p20.webp" alt="IEEE_754_Main" width="563"><figcaption>IEEE_754_Main</figcaption></figure>
 
 * 부호: 양수일 때 0, 음수일때 1
 * 지수부: 8비트, 지수를 나타냄
@@ -342,9 +342,9 @@ void ch4_sensor_read()
 
 {% tab title="시리얼 모니터" %}
 
-<figure><img src="p2_image/mps_시리얼_모니터1.webp" alt="시리얼_모니터" width="563"><figcaption>시리얼_모니터</figcaption></figure>
+<figure><img src="p2_image/p21.webp" alt="시리얼_모니터" width="563"><figcaption>시리얼_모니터</figcaption></figure>
 
-<figure><img src="p2_image/mps_시리얼_모니터2.webp" alt="시리얼_모니터" width="563"><figcaption>시리얼_모니터</figcaption></figure>
+<figure><img src="p2_image/p22.webp" alt="시리얼_모니터" width="563"><figcaption>시리얼_모니터</figcaption></figure>
 
 {% endtab %}
 {% endtabs %}
@@ -355,12 +355,12 @@ void ch4_sensor_read()
 
 * [MPS Flammable Gas Sensor Evaluation Unit User Manual](https://nevadanano.com/wp-content/uploads/2021/11/SM-UM-0001-06-Flammable-Gas-Sensor-Evaluation-Unit-User-Manual.pdf)
 
-<figure><img src="p2_image/개발키트_rere.webp" alt="개발키트" width="563"><figcaption>개발키트</figcaption></figure>
+<figure><img src="p2_image/p23.webp" alt="개발키트" width="563"><figcaption>개발키트</figcaption></figure>
 
 * 그림 1의 PCB에와 mps 센서 연결,  Micro usb 연결 후  Micro usb를 pc에 연결 한 뒤 Nevadanano interface Program 실행
 * [Download MPS Gas Sensor Interface Installer](https://nevadanano.com/wp-content/uploads/2022/03/MPS-Gas-Sensor-Interface.zip)
 
-<figure><img src="p2_image/시리얼_프로그램.webp" alt="개발키트" width="563"><figcaption>개발키트</figcaption></figure>
+<figure><img src="p2_image/p24.webp" alt="개발키트" width="563"><figcaption>개발키트</figcaption></figure>
 
 ### Nevadanano 개발키트
 
