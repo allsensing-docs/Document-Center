@@ -147,7 +147,7 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
   4\.     첫번째 측정이 완료될 때까지 2초 기다림
 
-<figure><img src="p2_image/동작_Sequence.webp" alt="동작_Sequence" width="563"><figcaption>동작_Sequence</figcaption></figure>
+<figure><img src="README.md동작_Sequence.webp" alt="동작_Sequence" width="563"><figcaption>동작_Sequence</figcaption></figure>
 
 ## 센서 버전 확인
 
