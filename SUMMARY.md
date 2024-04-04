@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [올센싱 기술 문서](README.md)
 
 ## 📑 Product Document
 
