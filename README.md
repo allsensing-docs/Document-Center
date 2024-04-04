@@ -1,30 +1,14 @@
-# Introduction
+---
+description: >-
+  올센싱 기술 문서는 사용자의 지식과 창의성을 발휘할 수 있는 공간입니다. 이곳에서는 센싱에서 판매되는 제품에 대한 기본 정보와 사양을 제공하는 포괄적인 문서를 찾을 수 있습니다.
+---
 
-## Introduction
+# 올센싱 기술 문서
 
-<figure><img src=".gitbook/assets/allsensing_logo.jpg" alt=""><figcaption></figcaption></figure>
+## 환영합니다!
 
-{% embed url="https://www.youtube.com/watch?ab_channel=%ED%95%9C%EB%A7%8C%EC%9A%B1&feature=youtu.be&v=NmmLH5Uee8w" %}
+* 제공되는 문서에는 빠른 시작 가이드와 예제 코드가 포함되어 있으며 장치의 핵심 기능에 초점을 맞추고, 설치 및 배포에 필요한 간결한 지침을 제공합니다.
+* Allsensing은 다양한 환경 센서를 고객에게 소개해 왔으며, 이를 통해 많은 경험을 축적하였습니다. 이 경험을 바탕으로 센서에 대한 올바른 이해와 사용 방법을 소개하고, 적시에 공급할 수 있는 공급망을 구축하는 새로운 목표를 세우고 있습니다.
+* 올센싱  기술 문서는 전문적인 센서를 이용하여 일상적인 요구 사항에 창의성을 구현하는 데 도움이 되는 필수 문서를 제공하기 위해 최선을 다해 지원하겠습니다. 감사합니다.
 
-### Welcome!
-
-Allsensing Documents Center는 여러분의 지식과 창의성을 발휘할 수 있는 장소입니다. 당사의 제품을 기본사항과 사양을 제공하는 포괄적인 문서세트가 있습니다.
-
-#### Allsensing Documentation Center
-
-파일은 장치별로 정렬되며 다음 문서가 포함됩니다.
-
-* **빠른 시작 가이드**: 핵심 기능만 염두에 두고 장치를 설치 및 배포하는 데 필요한 간결한 지침 세트
-* **데이터시트**: 기술 및 특정, 특성과 함께 장치 구성 요소 및 기능에 대한 포괄적인 정보
-
-모바일, 자동차, 가전, 의료, 일반 산업 등 거의 모든 분야에서 그동안 인간의 오감을 통해 감각적으로 느껴왔던 많은 아날로그 신호들이 무수히 많은 센서의 의해 측정되고, 계량화되면서 축적된 정보들은 클라우드에 저장되고 인터넷 망으로 연결되어 점점 우리 개개인의 삶을 보다 편리하고 풍요롭게 그리고, 더욱 안전하게 만들어 나가고 있습니다.
-
-Allsensing은 설립 이래 다양한 환경센서를 고객들에게 소개해 왔으며, 적지 않은 경험을 축적하게 되었습니다. 저희의 경험을 기반으로 센서에 대한 올바를 이해와 사용 방법을 소개하고, 더 나아가 적시에 공급할 수 있는 공급망을 구축하는 새로운 목표를 세우고 있습니다. Allsensing Documents Center에서 전문적인 센서로 일상적인 요구 사항에 여러분의 창의성을 구현하는 데 도움이 되는 필수 문서를 제공하기 위해 최선을 다하겠습니다.
-
-| AGSM                                                                  | GSS                                                                                                                                 |
-| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| ![agsm\_main\_pic](<.gitbook/assets/agsm\_main\_pic (1) (1) (1).png>) | [![GSS](<.gitbook/assets/cozir\_lp2\_main\_pic (1).jpg>)](https://docs.allsensing.co.kr/allsensing.docs.co.kr/product-document/gss) |
-
-| EC-Sens                                                                                                      | LuminOx-O2                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![EC-Sens](broken-reference)](https://docs.allsensing.co.kr/allsensing.docs.co.kr/product-document/ec-sens) | [![LuminOx-02](.gitbook/assets/LOX\_O2\_S\_main\_pic.jpg)](https://docs.allsensing.co.kr/allsensing.docs.co.kr/product-document/luminox-o2) |
+<figure><img src=".gitbook/assets/logo_wide.webp" alt="allsensing logo"><figcaption><p>Allsensing logo</p></figcaption></figure>
