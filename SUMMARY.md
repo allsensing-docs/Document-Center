@@ -2,7 +2,7 @@
 
 * [올센싱 기술 문서](README.md)
 
-## 📑 Product Document
+## 제품 기술 문서
 
 * [Allsensing](product-document/allsensing/README.md)
   * [AGSM 사용 설명서](product-document/allsensing/agsm.md)
