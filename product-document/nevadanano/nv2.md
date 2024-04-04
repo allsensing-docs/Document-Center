@@ -14,42 +14,37 @@ description: MPS Flammable Gas Sensor 통신 프로토콜 (3.0 Version)
 |     Stop Bits     |     1     |
 |    Flow Control   |    None   |
 
-
-
 * MPS Sensor Data Format 방식 : IEEE 754 Format ( 부동소수점), Little Endian 형식(최하위 바이트(LSB)가 먼저 전송)
 
-
-
-## 전체 요청(Request) Command&#x20;
+## 전체 요청(Request) Command
 
 <figure><img src="p2_image/요청_커맨드_전체_re.webp" alt="요청_커맨드_전체" width="563" ><figcaption>요청_커맨드_전체</figcaption></figure>
 
 * Payload는 사용에 있어서 전송되는 데이터 자체를 의미함(Header, Checksum, parity bit, 등 제외)
 
-
 * 요청(Request) Command  Packet 구조
 
 <figure><img src="p2_image//요청_커맨드_세부.webp" alt="요청_커맨드_세부" width="563" ><figcaption>요청_커맨드_세부</figcaption></figure>
 
-ex) 현재 센서 상태 요청 Command
++ ex) 현재 센서 상태 요청 Command
 
 <figure><img src="p2_image//요청_커맨드_예시.webp" alt="요청_커맨드_예시" width="563" ><figcaption>요청_커맨드_예시</figcaption></figure>
 
-### 응답(Reply) Command  Packet 구조
+## 응답(Reply) Command  Packet 구조
 
 <figure><img src="p2_image/응답_프로토콜.webp" alt="응답_프로토콜" width="563"><figcaption>응답_프로토콜</figcaption></figure>
 
-ex) 현재 센서 상태 응답(정상일 경우만)&#x20;
++ ex) 현재 센서 상태 응답(정상일 경우만)&#x20;
 
 <figure><img src="p2_image/응답_커맨드_1.webp" alt="응답_커맨드" width="563"><figcaption>응답_커맨드</figcaption></figure>
 
-ex) 응답 Command 예시(정상일 경우만)&#x20;
++ ex) 응답 Command 예시(정상일 경우만)&#x20;
 
 <figure><img src="p2_image/응답_커맨드_2.webp" alt="응답_커맨드" width="563"><figcaption>응답_커맨드</figcaption></figure>
 
 * 센서 Status(상태)값이 변하면 Checksum값이 변함
 
-## Command rely Status 표 
+## Command rely Status 표
 
 <figure><img src="p2_image/센서_상태_커맨드1.webp" alt="센서_상태_커맨드" width="563"><figcaption>센서_상태_커맨드</figcaption></figure>
 
@@ -57,30 +52,26 @@ ex) 응답 Command 예시(정상일 경우만)&#x20;
 
 * 가장 빈번하게 발생하는 Command reply Status :
 
-1\.     0x26(센서 초기화): 센서 초기화 시간 최대 20초까지 나타남
++ 1\.     0x26(센서 초기화): 센서 초기화 시간 최대 20초까지 나타남
 
-2\.     0x35( 호흡 or 습도 급증): 센서를 사람의 호흡이나 습도가 급증하는 환경에 노출되면 센서 값이 정확하게 나오지 않을 수 있음
-
-
++ 2\.     0x35( 호흡 or 습도 급증): 센서를 사람의 호흡이나 습도가 급증하는 환경에 노출되면 센서 값이 정확하게 나오지 않을 수 있음
 
 ## Checksum 알고리즘: 16bit CRC CCITT 알고리즘
 
--  Checksum이란 데이터의 오류를 검사하는데 사용되는 일련의 숫자와 문자
+* Checksum이란 데이터의 오류를 검사하는데 사용되는 일련의 숫자와 문자
 
 * 다항식 0x1021 (x^(16)+x^(12)+x^5+x )
 * 시작 바이트 : 0Xffff
 * 전체 패킷(헤더 및 페이로드)에 대해 계산됨, 페이로드가 없으면 헤더만으로 계산
 * Checksum을 계산하기 전에 Checksum값은 0x00으로 초기화
 
-참고: Checksum 계산하는 [사이트](http://www.sunshine2k.de/coding/javascript/crc/crc\_js.html)
++ 참고: Checksum 계산하는 [사이트](http://www.sunshine2k.de/coding/javascript/crc/crc\_js.html)
 
-
-
-Ex) 현재 상태 응답 Checksum 계산
++ Ex) 현재 상태 응답 Checksum 계산
 
 <figure><img src="p2_image/CRC_계산_사이트_예시.webp" alt="CRC_계산_사이트_예시" width="563"><figcaption>CRC_계산_사이트_예시</figcaption></figure>
 
-Checksum 예제 코드
++ Checksum 예제 코드
 
 > [Sample code 다운로드](https://nevadanano.com/wp-content/uploads/2022/10/EN-TN-0002-04-MPS-Flammable-Gas-Sensor-Sample-Code.tar.gz)
 
@@ -148,15 +139,13 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
 ## 초기화 및 측정 Sequence
 
-1\.     센서 전원은 켠 후 센서가 부팅될 때까지 기다림(\~3초)
+  1\.     센서 전원은 켠 후 센서가 부팅될 때까지 기다림(\~3초)
 
-2\.     센서 상태 확인(0x41 Command) – 초기화 완료(0x00)
+  2\.     센서 상태 확인(0x41 Command) – 초기화 완료(0x00)
 
-3\.     센서 상태 확인이 완료되면 연속 측정 모드로 설정(0x61 Command ISO 규격 권장)
+  3\.     센서 상태 확인이 완료되면 연속 측정 모드로 설정(0x61 Command ISO 규격 권장)
 
-4\.     첫번째 측정이 완료될 때까지 2초 기다림
-
-
+  4\.     첫번째 측정이 완료될 때까지 2초 기다림
 
 <figure><img src="p2_image/동작_Sequence.webp" alt="동작_Sequence" width="563"><figcaption>동작_Sequence</figcaption></figure>
 
@@ -178,16 +167,11 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 * H/W Version: 1.0
 * Protocol  Version: 32.1
 
-
-
 * Nevadanano PC Serial program과 비교
 
 <figure><img src="p2_image/serial_프로그램비교.webp" alt="serial_프로그램비교" width="563"><figcaption>serial_프로그램비교</figcaption></figure>
 
-
-
 ## 감지 가스 확인
-
 
 * 감지 가스 요청
 
@@ -201,19 +185,15 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
 <figure><img src="p2_image/가스 감지 표.webp" alt="스 감지 표" width="563"><figcaption>감지 가스 응답  Payload 표</figcaption></figure>
 
-
-
 ## 가스 농도 값 읽기
 
-1\. 센서 전원은 켠 후 센서가 부팅될 때까지 기다림(\~3초)
+  1\. 센서 전원은 켠 후 센서가 부팅될 때까지 기다림(\~3초)
 
-2\. 센서 상태 확인(0x41 Command) – 초기화 완료(0x00)
+  2\. 센서 상태 확인(0x41 Command) – 초기화 완료(0x00)
 
-3\. 연속 측정 모드로 설정(0x61 Command)
+  3\. 연속 측정 모드로 설정(0x61 Command)
 
-4\. 가스 농도 값 요청(0x03 Command)
-
-
+  4\. 가스 농도 값 요청(0x03 Command)
 
 <figure><img src="p2_image/요청_커맨드_가스_농도_only.webp" alt="요청 Command" width="563"><figcaption>요청 Command ( 상태 확인, 측정 모드 설정, 가스 농도 요청) </figcaption></figure>
 
@@ -230,7 +210,7 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 * 지수부: 8비트, 지수를 나타냄
 * 가수부: 23비트, 가수를 나타냄
 
-### 가스 농도값 부동 소수점 -> 실수 변환 예시
+## 가스 농도값 부동 소수점 -> 실수 변환 예시
 
 1\.     Variable Payload = 가스 농도 값  = 0x33, 0x33, 0x33, 0x42
 
@@ -244,20 +224,16 @@ uint16_t crc_generate(uint8_t *buffer, size_t length, uint16_t startValue ) {
 
 5\.       1.01100110011001100110011(2) × 2^5 = 101100.110011001100110011(2) = 44.79999923706055
 
-&#x20;
 
-* &#x20;IEEE 754 부동소수점 변환 [사이트](https://t.hi098123.com/IEEE-754)
+* IEEE 754 부동소수점 변환 [사이트](https://t.hi098123.com/IEEE-754)
 
++ 가스 농도 읽기 code (Arduino uno)
 
-
-가스 농도 읽기 code (Arduino uno)
-
-※     아래의 Code는 Sensor의 간단한 통신 Test 목적으로 작성하였음
-
-
++ ※     아래의 Code는 Sensor의 간단한 통신 Test 목적으로 작성하였음
 
 {% tabs %}
 {% tab title="가스 농도 읽기" %}
+
 ```cpp
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(12, 13); //Uno Rx Tx (13 12) = mySerial
@@ -361,19 +337,17 @@ void ch4_sensor_read()
     Serial.println(" % LEL ");
 }
 ```
+
 {% endtab %}
 
 {% tab title="시리얼 모니터" %}
 
 <figure><img src="p2_image/mps_시리얼_모니터1.webp" alt="시리얼_모니터" width="563"><figcaption>시리얼_모니터</figcaption></figure>
 
-
 <figure><img src="p2_image/mps_시리얼_모니터2.webp" alt="시리얼_모니터" width="563"><figcaption>시리얼_모니터</figcaption></figure>
 
 {% endtab %}
 {% endtabs %}
-
-
 
 ## MPS Sensor 디버깅
 
@@ -390,15 +364,8 @@ void ch4_sensor_read()
 
 ### Nevadanano 개발키트
 
-1. MPS 센서와 FTDI FT230x series USB-to-serial converter 를 이용하여 Nevadanano interface Program 실행
+  + MPS 센서와 FTDI FT230x series USB-to-serial converter 를 이용하여 Nevadanano interface Program 실행
 
-* [Sensor Testing Without the Evaluation Unit](https://nevadanano.com/wp-content/uploads/2020/06/SM-AN-0014-01-Sensor-Testing-without-the-NNTS-Evaluation-Kit.pdf)
+  + [Sensor Testing Without the Evaluation Unit](https://nevadanano.com/wp-content/uploads/2020/06/SM-AN-0014-01-Sensor-Testing-without-the-NNTS-Evaluation-Kit.pdf)
 
-2. MPS 센서와  USB-to-serial converter를 이용하여 Serial Program으로 디버깅
-
-
-
-
-
-
-
+  + MPS 센서와  USB-to-serial converter를 이용하여 Serial Program으로 디버깅
